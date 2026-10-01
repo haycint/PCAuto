@@ -1,0 +1,1194 @@
+==================================================================
+### <module>  (line 1, args=())
+  co_names: ('__doc__', 'os', 'sys', 'json', 're', 'time', 'threading', 'urllib.request', 'urllib', 'urllib.parse', 'urllib.error', 'base64', 'tkinter', 'tk', 'messagebox', 'ttk', 'datetime', 'urlparse', 'parse_qs', '_get_base_dir', 'path', 'join', 'CONFIG_FILE', 'FEISHU_TOKEN_URL', 'FEISHU_BITABLE_BASE', 'SYNC_INTERVAL_MINUTES', 'ConfigManager', 'FeishuBitableClient', 'JiraHtmlClient', 'SyncManager', 'JiraFeishuSyncApp', '__name__', 'app', 'run')
+  co_consts:
+    '\nJira ↔ 飞书多维表格同步工具（网页抓取版）\n功能：\n  1. Jira网页登录，下载筛选器HTML页面\n  2. 解析HTML提取表格数据（与网页显示的列完全一致）\n  3. 重建飞书多维表格字段（与Jira网页列名一致）\n  4. 写入数据到飞书\n  5. 支持定时自动同步（每10分钟）\n  6. 配置自动保存，下次启动自动填充\n用法：python jira_feishu_sync.py\n打包：pyinstaller --onefile --windowed jira_feishu_sync.py\n'
+    0
+    None
+    ('messagebox', 'ttk')
+    ('datetime')
+    ('urlparse', 'parse_qs')
+    <code _get_base_dir>
+    'jira_feishu_sync_config.json'
+    'https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal'
+    'https://open.feishu.cn/open-apis/bitable/v1'
+    5
+    <code ConfigManager>
+    'ConfigManager'
+    <code FeishuBitableClient>
+    'FeishuBitableClient'
+    <code JiraHtmlClient>
+    'JiraHtmlClient'
+    <code SyncManager>
+    'SyncManager'
+    <code JiraFeishuSyncApp>
+    'JiraFeishuSyncApp'
+    '__main__'
+==================================================================
+### <module>._get_base_dir  (line 31, args=())
+  co_names: ('getattr', 'sys', 'os', 'path', 'dirname', 'executable', 'abspath', '__file__')
+  co_consts:
+    '获取程序运行目录（兼容脚本和exe模式）'
+    'frozen'
+    False
+==================================================================
+### <module>.ConfigManager  (line 45, args=())
+  co_names: ('__name__', '__module__', '__qualname__', '__doc__', 'staticmethod', 'load', 'save')
+  co_consts:
+    'ConfigManager'
+    '配置管理：保存/读取用户配置'
+    <code load>
+    <code save>
+    None
+==================================================================
+### <module>.ConfigManager.load  (line 48, args=())
+  co_names: ('os', 'path', 'exists', 'CONFIG_FILE', 'open', 'json', 'load', 'Exception')
+  co_consts:
+    None
+    'r'
+    'utf-8'
+    ('encoding')
+==================================================================
+### <module>.ConfigManager.save  (line 58, args=('config',))
+  co_names: ('open', 'CONFIG_FILE', 'json', 'dump')
+  co_consts:
+    None
+    'w'
+    'utf-8'
+    ('encoding')
+    False
+    2
+    ('ensure_ascii', 'indent')
+==================================================================
+### <module>.FeishuBitableClient  (line 64, args=())
+  co_names: ('__name__', '__module__', '__qualname__', '__doc__', '__init__', '_request', 'get_access_token', 'list_tables', 'create_table', 'list_fields', 'add_field', 'delete_field', 'rename_field', 'list_records', 'get_all_records', 'create_record', 'batch_create_records', 'batch_delete_records', 'update_record', 'batch_update_records')
+  co_consts:
+    'FeishuBitableClient'
+    '飞书多维表格（Bitable）API客户端'
+    <code __init__>
+    None
+    <code _request>
+    <code get_access_token>
+    <code list_tables>
+    <code create_table>
+    <code list_fields>
+    <code add_field>
+    <code delete_field>
+    <code rename_field>
+    <code list_records>
+    <code get_all_records>
+    <code create_record>
+    <code batch_create_records>
+    <code batch_delete_records>
+    <code update_record>
+    <code batch_update_records>
+    (None, None)
+    ('')
+    (1)
+    (500, None)
+==================================================================
+### <module>.FeishuBitableClient.__init__  (line 67, args=('self', 'app_id', 'app_secret'))
+  co_names: ('app_id', 'app_secret', 'token')
+  co_consts:
+    None
+==================================================================
+### <module>.FeishuBitableClient._request  (line 72, args=('self', 'method', 'url', 'data', 'headers'))
+  co_names: ('token', 'json', 'dumps', 'encode', 'urllib', 'request', 'Request', 'urlopen', 'loads', 'read', 'decode', 'error', 'HTTPError', 'get', 'code', 'str', 'Exception')
+  co_consts:
+    '发送HTTP请求'
+    'Bearer '
+    'Authorization'
+    None
+    'application/json; charset=utf-8'
+    'Content-Type'
+    'utf-8'
+    ('data', 'headers', 'method')
+    30
+    ('timeout')
+    'code'
+    'msg'
+    ('code', 'msg', 'data')
+    -1
+==================================================================
+### <module>.FeishuBitableClient.get_access_token  (line 98, args=('self',))
+  co_names: ('app_id', 'app_secret', '_request', 'FEISHU_TOKEN_URL', 'get', 'token')
+  co_consts:
+    '获取 tenant_access_token'
+    ('app_id', 'app_secret')
+    'POST'
+    'code'
+    0
+    'tenant_access_token'
+    True
+    False
+    'msg'
+    '获取token失败'
+==================================================================
+### <module>.FeishuBitableClient.list_tables  (line 107, args=('self', 'app_token'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '列出多维表格中的所有数据表'
+    '/apps/'
+    '/tables'
+    'GET'
+    'code'
+    0
+    'data'
+    'items'
+    True
+    False
+    'msg'
+    '列出表格失败'
+==================================================================
+### <module>.FeishuBitableClient.create_table  (line 116, args=('self', 'app_token', 'table_name', 'description'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '创建新的数据表（只创建表格，不预定义字段）'
+    '/apps/'
+    '/tables'
+    'table'
+    ('name', 'description')
+    'POST'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '创建表格失败'
+==================================================================
+### <module>.FeishuBitableClient.list_fields  (line 130, args=('self', 'app_token', 'table_id'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '列出数据表中的所有字段'
+    '/apps/'
+    '/tables/'
+    '/fields'
+    'GET'
+    'code'
+    0
+    'data'
+    'items'
+    True
+    False
+    'msg'
+    '列出字段失败'
+==================================================================
+### <module>.FeishuBitableClient.add_field  (line 139, args=('self', 'app_token', 'table_id', 'field_name', 'field_type'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '添加字段到数据表'
+    '/apps/'
+    '/tables/'
+    '/fields'
+    ('field_name', 'type')
+    'POST'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '添加字段失败'
+==================================================================
+### <module>.FeishuBitableClient.delete_field  (line 151, args=('self', 'app_token', 'table_id', 'field_id'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '删除字段'
+    '/apps/'
+    '/tables/'
+    '/fields/'
+    'DELETE'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '删除字段失败'
+==================================================================
+### <module>.FeishuBitableClient.rename_field  (line 159, args=('self', 'app_token', 'table_id', 'field_id', 'new_name'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '重命名字段'
+    '/apps/'
+    '/tables/'
+    '/fields/'
+    1
+    ('field_name', 'type')
+    'PUT'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '重命名字段失败'
+==================================================================
+### <module>.FeishuBitableClient.list_records  (line 171, args=('self', 'app_token', 'table_id', 'page_size', 'page_token'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '列出数据表中的所有记录'
+    '/apps/'
+    '/tables/'
+    '/records?page_size='
+    '&page_token='
+    'GET'
+    'code'
+    0
+    'data'
+    'items'
+    'page_token'
+    True
+    False
+    'msg'
+    '获取记录失败'
+    None
+==================================================================
+### <module>.FeishuBitableClient.get_all_records  (line 184, args=('self', 'app_token', 'table_id'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get', 'extend')
+  co_consts:
+    '获取所有记录（分页）'
+    None
+    True
+    '/apps/'
+    '/tables/'
+    '/records?page_size=500'
+    '&page_token='
+    'GET'
+    'code'
+    0
+    False
+    'msg'
+    '获取记录失败'
+    'data'
+    'items'
+    'has_more'
+    'page_token'
+==================================================================
+### <module>.FeishuBitableClient.create_record  (line 208, args=('self', 'app_token', 'table_id', 'fields'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '单条创建记录'
+    '/apps/'
+    '/tables/'
+    '/records'
+    'fields'
+    'POST'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '创建记录失败'
+==================================================================
+### <module>.FeishuBitableClient.batch_create_records  (line 217, args=('self', 'app_token', 'table_id', 'records'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '批量创建记录'
+    '/apps/'
+    '/tables/'
+    '/records/batch_create'
+    'records'
+    'POST'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '批量创建记录失败'
+==================================================================
+### <module>.FeishuBitableClient.batch_delete_records  (line 226, args=('self', 'app_token', 'table_id', 'record_ids'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '批量删除记录'
+    '/apps/'
+    '/tables/'
+    '/records/batch_delete'
+    'records'
+    'POST'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '删除记录失败'
+==================================================================
+### <module>.FeishuBitableClient.update_record  (line 235, args=('self', 'app_token', 'table_id', 'record_id', 'fields'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '更新单条记录'
+    '/apps/'
+    '/tables/'
+    '/records/'
+    'fields'
+    'PUT'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '更新记录失败'
+==================================================================
+### <module>.FeishuBitableClient.batch_update_records  (line 244, args=('self', 'app_token', 'table_id', 'records'))
+  co_names: ('FEISHU_BITABLE_BASE', '_request', 'get')
+  co_consts:
+    '批量更新记录'
+    '/apps/'
+    '/tables/'
+    '/records/batch_update'
+    'records'
+    'PATCH'
+    'code'
+    0
+    True
+    'data'
+    False
+    'msg'
+    '批量更新记录失败'
+==================================================================
+### <module>.JiraHtmlClient  (line 254, args=())
+  co_names: ('__name__', '__module__', '__qualname__', '__doc__', '__init__', 'login', 'fetch_filter_html', 'staticmethod', 'parse_html', 'parse_html_alternative')
+  co_consts:
+    'JiraHtmlClient'
+    'Jira 网页客户端（通过HTML抓取获取数据）'
+    <code __init__>
+    <code login>
+    <code fetch_filter_html>
+    <code parse_html>
+    <code parse_html_alternative>
+    None
+==================================================================
+### <module>.JiraHtmlClient.__init__  (line 257, args=('self', 'base_url', 'username', 'password'))
+  co_names: ('rstrip', 'base_url', 'username', 'password', 'session')
+  co_consts:
+    None
+    '/'
+==================================================================
+### <module>.JiraHtmlClient.login  (line 263, args=('self',))
+  co_names: ('http.cookiejar', 'urllib.request', 'cookiejar', 'CookieJar', 'request', 'build_opener', 'HTTPCookieProcessor', 'base_url', 'username', 'password', 'parse', 'urlencode', 'encode', 'Request', 'add_header', 'open', 'read', 'decode', 'lower', 'geturl', 'session', 'Exception')
+  co_consts:
+    '登录Jira，获取session'
+    0
+    None
+    '/login.jsp'
+    ''
+    'Log In'
+    ('os_username', 'os_password', 'os_destination', 'user_role', 'atl_token', 'login')
+    'utf-8'
+    'POST'
+    ('data', 'method')
+    'Content-Type'
+    'application/x-www-form-urlencoded'
+    30
+    ('timeout')
+    'Log Out'
+    'log out'
+    True
+    'dashboard'
+    False
+==================================================================
+### <module>.JiraHtmlClient.fetch_filter_html  (line 305, args=('self', 'filter_url'))
+  co_names: ('session', 'urllib', 'request', 'Request', 'open', 'read', 'decode', 'Exception')
+  co_consts:
+    '下载筛选器HTML页面'
+    None
+    'GET'
+    ('method')
+    60
+    ('timeout')
+    'utf-8'
+==================================================================
+### <module>.JiraHtmlClient.parse_html  (line 317, args=('html_content',))
+  co_names: ('re', 'search', 'DOTALL', 'IGNORECASE', 'group', 'findall', 'sub', 'strip', 'append', 'html', 'unescape')
+  co_consts:
+    '解析Jira HTML，提取表头和数据行'
+    '<thead[^>]*>(.*?)</thead>'
+    1
+    '<th[^>]*>(.*?)</th>'
+    '<[^>]+>'
+    ''
+    '<tr[^>]*>(.*?)</tr>'
+    '<td[^>]*>(.*?)</td>'
+    '<tr[^>]*class="[^"]*issuerow[^"]*"[^>]*>(.*?)</tr>'
+    0
+    None
+==================================================================
+### <module>.JiraHtmlClient.parse_html_alternative  (line 382, args=('html_content',))
+  co_names: ('re', 'search', 'DOTALL', 'IGNORECASE', 'group', 'findall', 'sub', 'strip', 'append', 'html', 'unescape')
+  co_consts:
+    '备用解析方法，尝试从 issue-table 中提取'
+    '<table[^>]*id="issuetable"[^>]*>(.*?)</table>'
+    '<table[^>]*class="[^"]*issue[^"]*"[^>]*>(.*?)</table>'
+    1
+    '<thead[^>]*>(.*?)</thead>'
+    '<th[^>]*>(.*?)</th>'
+    '<[^>]+>'
+    ''
+    '<tr[^>]*class="[^"]*issuerow[^"]*"[^>]*>(.*?)</tr>'
+    '<td[^>]*>(.*?)</td>'
+    0
+    None
+==================================================================
+### <module>.SyncManager  (line 431, args=())
+  co_names: ('__name__', '__module__', '__qualname__', '__doc__', 'staticmethod', 'parse_feishu_url', 'parse_jira_filter_url', 'rebuild_table_fields', 'clear_all_records', 'sync_incremental', 'write_records')
+  co_consts:
+    'SyncManager'
+    '同步管理器'
+    <code parse_feishu_url>
+    <code parse_jira_filter_url>
+    None
+    <code rebuild_table_fields>
+    <code clear_all_records>
+    <code sync_incremental>
+    <code write_records>
+    (None)
+==================================================================
+### <module>.SyncManager.parse_feishu_url  (line 434, args=('url',))
+  co_names: ('strip', 're', 'search', 'group', 'urlparse', 'parse_qs', 'query', 'get', 'urllib', 'parse', 'unquote')
+  co_consts:
+    '解析飞书多维表格URL，提取app_token和可选的table_id'
+    ('/base/([^/?&#\\s]+)', '/wiki/([^/?&#\\s]+)')
+    1
+    'table'
+    None
+    0
+    (None, None)
+==================================================================
+### <module>.SyncManager.parse_jira_filter_url  (line 469, args=('url',))
+  co_names: ('re', 'search', 'group')
+  co_consts:
+    '解析Jira筛选器URL，提取filter ID'
+    '[?&](?:filter|requestId)=(\\d+)'
+    1
+    None
+==================================================================
+### <module>.SyncManager.rebuild_table_fields  (line 480, args=('feishu_client', 'app_token', 'table_id', 'column_names', 'log_callback'))
+  co_names: ('list_fields', 'get', 'append', 'rename_field', 'time', 'sleep', 'len', 'delete_field', 'add_field')
+  co_consts:
+    '重建表格字段，与Jira网页列名保持一致（全量重建，保证顺序）'
+    '正在检查飞书表格字段...'
+    '获取现有字段失败: '
+    False
+    None
+    'is_primary'
+    'field_name'
+    ''
+    'Issue Key'
+    True
+    '字段无变化，跳过重建'
+    '字段有变化，执行全量重建...'
+    'field_id'
+    0.3
+    '删除 '
+    ' 个现有字段...'
+    '按Jira顺序创建 '
+    ' 个字段...'
+    1
+    "  创建字段 '"
+    "' 失败: "
+    '字段重建完成'
+==================================================================
+### <module>.SyncManager.clear_all_records  (line 554, args=('feishu_client', 'app_token', 'table_id', 'log_callback'))
+  co_names: ('get_all_records', 'get', 'range', 'len', 'batch_delete_records', 'time', 'sleep')
+  co_consts:
+    '清空表格中的所有记录'
+    '正在清空现有记录...'
+    '获取记录失败: '
+    False
+    '表格为空，无需清理'
+    True
+    'record_id'
+    500
+    0
+    0.5
+    '已删除 '
+    ' 条记录'
+==================================================================
+### <module>.SyncManager.sync_incremental  (line 583, args=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback'))
+  co_names: ('get_all_records', 'get', 'items', 'append', 'enumerate', 'len', 'str', 'strip', 'range', 'batch_create_records', 'time', 'sleep', 'batch_update_records', 'batch_delete_records')
+  co_consts:
+    '增量同步：对比差异并更新/新增/删除记录\n        \n        Args:\n            feishu_client: 飞书客户端\n            app_token: 应用token\n            table_id: 表格ID\n            headers: Jira表头列表\n            rows: Jira数据行列表\n            log_callback: 日志回调函数\n        \n        Returns:\n            (success, stats): 成功标志和统计信息字典\n        '
+    '开始增量同步...'
+    '获取飞书记录失败: '
+    (False, None)
+    'record_id'
+    'fields'
+    0
+    ''
+    ('record_id', 'fields')
+    ('to_create', 'to_update', 'to_delete')
+    'to_create'
+    False
+    True
+    'to_update'
+    ('record_id', 'row')
+    'to_delete'
+    '差异分析完成: 需新增 '
+    ' 条, 需更新 '
+    ' 条, 需删除 '
+    ' 条'
+    '正在新增 '
+    ' 条记录...'
+    500
+    '  批量创建失败: '
+    0.5
+    '正在更新 '
+    'row'
+    '  批量更新失败: '
+    '正在删除 '
+    '增量同步完成！'
+==================================================================
+### <module>.SyncManager.write_records  (line 730, args=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback'))
+  co_names: ('len', 'range', 'enumerate', 'append', 'batch_create_records', 'create_record', 'min')
+  co_consts:
+    '将数据写入飞书表格'
+    '没有数据需要写入'
+    True
+    '正在写入 '
+    ' 条记录...'
+    500
+    0
+    ''
+    'fields'
+    '  批量创建失败('
+    ')，尝试逐条创建...'
+    1
+    '  逐条创建失败('
+    '/'
+    '): '
+    '  已写入 '
+    ' 条'
+    '写入完成！成功: '
+==================================================================
+### <module>.JiraFeishuSyncApp  (line 781, args=())
+  co_names: ('__name__', '__module__', '__qualname__', '__doc__', '__init__', '_build_ui', '_log', '_save_config', '_get_config_values', '_sync_once', '_do_sync', '_auto_start_sync', '_toggle_auto_sync', '_start_timer', 'run')
+  co_consts:
+    'JiraFeishuSyncApp'
+    '主应用'
+    <code __init__>
+    <code _build_ui>
+    <code _log>
+    <code _save_config>
+    <code _get_config_values>
+    <code _sync_once>
+    <code _do_sync>
+    <code _auto_start_sync>
+    <code _toggle_auto_sync>
+    <code _start_timer>
+    <code run>
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp.__init__  (line 784, args=('self',))
+  co_names: ('tk', 'Tk', 'root', 'title', 'geometry', 'resizable', 'ConfigManager', 'load', 'config', 'sync_thread', 'sync_running', 'next_sync_time', 'timer_thread', '_build_ui', 'after', '_auto_start_sync')
+  co_consts:
+    None
+    'Jira ↔ 飞书多维表格同步工具'
+    '700x650'
+    True
+    False
+    1000
+==================================================================
+### <module>.JiraFeishuSyncApp._build_ui  (line 802, args=('self',))
+  co_names: ('ttk', 'Frame', 'root', 'pack', 'tk', 'BOTH', 'LabelFrame', 'X', 'Label', 'grid', 'Entry', 'entry_feishu_url', 'insert', 'config', 'get', 'entry_app_id', 'entry_app_secret', 'entry_jira_filter', 'entry_jira_user', 'entry_jira_pass', 'Button', '_sync_once', 'btn_sync_once', 'LEFT', '_toggle_auto_sync', 'btn_auto_sync', '_save_config', 'btn_save', 'lbl_status', 'lbl_next_sync', 'RIGHT', 'Text', 'WORD', 'DISABLED', 'txt_log', 'Scrollbar', 'yview', 'Y', 'set')
+  co_consts:
+    '构建UI界面'
+    '20'
+    ('padding')
+    True
+    ('fill', 'expand')
+    '飞书多维表格配置'
+    '10'
+    ('text', 'padding')
+    5
+    ('fill', 'pady')
+    '多维表格地址:'
+    ('text')
+    0
+    'w'
+    ('row', 'column', 'sticky', 'pady')
+    60
+    ('width')
+    1
+    ('row', 'column', 'padx', 'pady')
+    'feishu_url'
+    ''
+    'App ID:'
+    'app_id'
+    'App Secret:'
+    2
+    '*'
+    ('width', 'show')
+    'app_secret'
+    'Jira 配置'
+    '筛选器地址:'
+    'jira_filter_url'
+    '用户名:'
+    'jira_username'
+    '密码:'
+    'jira_password'
+    10
+    '立即同步'
+    ('text', 'command')
+    ('side', 'padx')
+    '开始定时同步'
+    '保存配置'
+    '就绪'
+    'gray'
+    ('text', 'foreground')
+    ('side')
+    'blue'
+    '同步日志'
+    '5'
+    ('fill', 'expand', 'pady')
+    20
+    ('height', 'wrap', 'state')
+    ('fill', 'expand', 'side')
+    ('command')
+    ('fill', 'side')
+    ('yscrollcommand')
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._log  (line 880, args=('self', 'message'))
+  co_names: ('datetime', 'now', 'strftime', 'txt_log', 'config', 'tk', 'NORMAL', 'insert', 'END', 'see', 'DISABLED')
+  co_consts:
+    '添加日志'
+    '%Y-%m-%d %H:%M:%S'
+    '['
+    '] '
+    '\n'
+    ('state')
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._save_config  (line 890, args=('self',))
+  co_names: ('entry_feishu_url', 'get', 'strip', 'entry_app_id', 'entry_app_secret', 'entry_jira_filter', 'entry_jira_user', 'entry_jira_pass', 'ConfigManager', 'save', 'config', '_log', 'messagebox', 'showinfo')
+  co_consts:
+    '保存配置'
+    ('feishu_url', 'app_id', 'app_secret', 'jira_filter_url', 'jira_username', 'jira_password')
+    '配置已保存'
+    '配置已成功保存！'
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._get_config_values  (line 905, args=('self',))
+  co_names: ('entry_feishu_url', 'get', 'strip', 'entry_app_id', 'entry_app_secret', 'entry_jira_filter', 'entry_jira_user', 'entry_jira_pass')
+  co_consts:
+    '获取当前配置值'
+    ('feishu_url', 'app_id', 'app_secret', 'jira_filter_url', 'jira_username', 'jira_password')
+==================================================================
+### <module>.JiraFeishuSyncApp._sync_once  (line 916, args=('self',))
+  co_names: ('_get_config_values', 'all', 'messagebox', 'showerror', 'threading', 'Thread', '_do_sync', 'start')
+  co_consts:
+    '执行一次同步'
+    'feishu_url'
+    'app_id'
+    'app_secret'
+    'jira_filter_url'
+    'jira_username'
+    'jira_password'
+    '错误'
+    '请填写所有必填项！'
+    None
+    True
+    ('target', 'args', 'daemon')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync  (line 929, args=('self', 'config'))
+  co_names: ('root', 'after', 'SyncManager', 'parse_feishu_url', 'parse_jira_filter_url', 'FeishuBitableClient', 'get_access_token', 'list_tables', 'get', 'create_table', 'JiraHtmlClient', 'login', 'fetch_filter_html', 'parse_html', 'parse_html_alternative', 'rebuild_table_fields', 'clear_all_records', 'write_records', 'Exception', 'traceback', 'str', 'format_exc')
+  co_consts:
+    '执行同步的核心逻辑'
+    0
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    'feishu_url'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    None
+    <code <lambda>>
+    'jira_filter_url'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    'app_id'
+    'app_secret'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    'name'
+    'jira-tickets'
+    <code <lambda>>
+    'Jira Tickets同步'
+    <code <lambda>>
+    <code <lambda>>
+    'table_id'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    'http://jira.z-onesoftware.com:8080'
+    'jira_username'
+    'jira_password'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    'Issue Key'
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    ('log_callback')
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    <code <lambda>>
+    '同步异常: '
+    '\n'
+    <code <lambda>>
+    <code <lambda>>
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 932, args=())
+  co_names: ('btn_sync_once', 'config', 'tk', 'DISABLED')
+  co_consts:
+    None
+    ('state')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 933, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '=================================================='
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 934, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '开始同步...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 935, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步中...'
+    'orange'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 938, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '输入的飞书地址: '
+    'feishu_url'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 941, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '错误: 无法解析飞书多维表格地址'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 942, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1082, args=())
+  co_names: ('btn_sync_once', 'config', 'tk', 'NORMAL')
+  co_consts:
+    None
+    ('state')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 945, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '飞书 App Token: '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 950, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '错误: 无法解析Jira筛选器地址'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 951, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 954, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    'Jira Filter ID: '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 960, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '飞书认证失败: '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 961, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 964, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '飞书认证成功'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 969, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '获取表格列表失败: '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 970, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 981, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '数据表 "jira-tickets" 不存在，正在创建...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 984, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '创建表格失败: '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 985, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 988, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '已创建数据表 "jira-tickets" (ID: '
+    ')'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 991, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '找到数据表 "jira-tickets" (ID: '
+    ')'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 994, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '正在连接Jira...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1002, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '正在登录Jira...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1005, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    'Jira登录失败'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1006, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1009, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    'Jira登录成功'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1012, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '正在下载筛选器页面...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1015, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '下载筛选器页面失败'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1016, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1019, args=())
+  co_names: ('_log', 'len')
+  co_consts:
+    None
+    'HTML页面大小: '
+    ' 字节'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1022, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '正在解析HTML...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1027, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '尝试备用解析方法...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1031, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '错误: 无法从HTML中解析出表头'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1032, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1039, args=())
+  co_names: ('_log', 'len', 'join')
+  co_consts:
+    None
+    '解析到 '
+    ' 列: '
+    ', '
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1040, args=())
+  co_names: ('_log', 'len')
+  co_consts:
+    None
+    '解析到 '
+    ' 行数据'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1043, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '正在检查并重建飞书表格字段...'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1047, args=('msg',))
+  co_names: ('root', 'after')
+  co_consts:
+    None
+    0
+    <code <lambda>>
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>.<lambda>  (line 1047, args=('m',))
+  co_names: ('_log',)
+  co_consts:
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1050, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '重建表格字段失败'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1051, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1057, args=('msg',))
+  co_names: ('root', 'after')
+  co_consts:
+    None
+    0
+    <code <lambda>>
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>.<lambda>  (line 1057, args=('m',))
+  co_names: ('_log',)
+  co_consts:
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1060, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '清空记录失败'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1061, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1066, args=('msg',))
+  co_names: ('root', 'after')
+  co_consts:
+    None
+    0
+    <code <lambda>>
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>.<lambda>  (line 1066, args=('m',))
+  co_names: ('_log',)
+  co_consts:
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1069, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+    '写入记录失败'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1070, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步失败'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1073, args=())
+  co_names: ('_log', 'len')
+  co_consts:
+    None
+    '总计: '
+    ' 行数据, '
+    ' 列'
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1074, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步完成'
+    'green'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1079, args=())
+  co_names: ('_log',)
+  co_consts:
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._do_sync.<lambda>  (line 1080, args=())
+  co_names: ('lbl_status', 'config')
+  co_consts:
+    None
+    '同步异常'
+    'red'
+    ('text', 'foreground')
+==================================================================
+### <module>.JiraFeishuSyncApp._auto_start_sync  (line 1084, args=('self',))
+  co_names: ('_get_config_values', 'all', '_log', 'sync_running', 'btn_auto_sync', 'config', 'lbl_status', 'SYNC_INTERVAL_MINUTES', '_sync_once', '_start_timer')
+  co_consts:
+    '启动时自动开始定时同步'
+    'feishu_url'
+    'app_id'
+    'app_secret'
+    'jira_filter_url'
+    'jira_username'
+    'jira_password'
+    '配置已加载，自动启动定时同步...'
+    True
+    '停止定时同步'
+    ('text')
+    '定时同步中'
+    'blue'
+    ('text', 'foreground')
+    '定时同步已启动，每 '
+    ' 分钟同步一次'
+    '配置不完整，请填写所有配置项后手动启动定时同步'
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._toggle_auto_sync  (line 1103, args=('self',))
+  co_names: ('sync_running', 'btn_auto_sync', 'config', 'lbl_status', 'lbl_next_sync', '_log', '_save_config', 'SYNC_INTERVAL_MINUTES', '_sync_once', '_start_timer')
+  co_consts:
+    '切换定时同步状态'
+    False
+    '开始定时同步'
+    ('text')
+    '已停止'
+    'gray'
+    ('text', 'foreground')
+    ''
+    '定时同步已停止'
+    True
+    '停止定时同步'
+    '定时同步中'
+    'blue'
+    '定时同步已启动，每 '
+    ' 分钟同步一次'
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._start_timer  (line 1126, args=('self',))
+  co_names: ('threading', 'Thread', 'timer_thread', 'start')
+  co_consts:
+    '启动定时器'
+    <code timer_loop>
+    True
+    ('target', 'daemon')
+    None
+==================================================================
+### <module>.JiraFeishuSyncApp._start_timer.timer_loop  (line 1128, args=())
+  co_names: ('sync_running', 'range', 'SYNC_INTERVAL_MINUTES', 'time', 'sleep', 'root', 'after', '_sync_once')
+  co_consts:
+    None
+    60
+    1
+    0
+==================================================================
+### <module>.JiraFeishuSyncApp.run  (line 1145, args=('self',))
+  co_names: ('root', 'mainloop')
+  co_consts:
+    '运行应用'
+    None

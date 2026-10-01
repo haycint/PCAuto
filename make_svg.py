@@ -1,0 +1,94 @@
+# -*- coding: utf-8 -*-
+# Generate static SVG architecture diagram for the sync tool
+svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="900" height="620" fill="#F4F3EE"/>
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-size="19" font-weight="600" fill="#1A1B1C">Jira ↔ 飞书多维表格同步工具 · 架构与数据流（静态还原）</text>
+  <text x="450" y="54" text-anchor="middle" font-size="11.5" fill="#6B7280">Python 3.12 · Tkinter · PyInstaller onefile · 网页抓取版（未执行，纯静态分析）</text>
+
+  <!-- ============ Left: Jira side ============ -->
+  <rect x="30" y="76" width="400" height="470" rx="12" fill="#FFFFFF" stroke="#E4E3DD" stroke-width="1"/>
+  <text x="230" y="100" text-anchor="middle" font-size="14" font-weight="600" fill="#1A1B1C">Jira 侧（数据源）</text>
+  <text x="230" y="116" text-anchor="middle" font-size="10.5" fill="#6B7280">http://jira.z-onesoftware.com:8080（硬编码）</text>
+
+  <!-- login box -->
+  <rect x="60" y="132" width="340" height="92" rx="8" fill="#F3F6FF" stroke="#9BBBF4" stroke-width="1.2"/>
+  <text x="74" y="152" font-size="12" font-weight="600" fill="#1A1B1C">1. 表单登录 login.jsp</text>
+  <text x="74" y="170" font-size="10.5" fill="#444">POST os_username / os_password</text>
+  <text x="74" y="186" font-size="10.5" fill="#444">/ os_destination / user_role / atl_token / login</text>
+  <text x="74" y="202" font-size="10.5" fill="#444">CookieJar 维持会话 · 判定含 "Log Out" 即成功</text>
+  <text x="74" y="218" font-size="10.5" fill="#888">timeout=30 · Content-Type: x-www-form-urlencoded</text>
+
+  <!-- fetch box -->
+  <rect x="60" y="238" width="340" height="66" rx="8" fill="#F3F6FF" stroke="#9BBBF4" stroke-width="1.2"/>
+  <text x="74" y="258" font-size="12" font-weight="600" fill="#1A1B1C">2. GET 筛选器页面（用户填写的 URL）</text>
+  <text x="74" y="276" font-size="10.5" fill="#444">带会话 Cookie 抓取 · timeout=60</text>
+  <text x="74" y="292" font-size="10.5" fill="#444">filter ID 正则: [?&amp;](?:filter|requestId)=(\\d+)</text>
+
+  <!-- parse box -->
+  <rect x="60" y="318" width="340" height="104" rx="8" fill="#F3F6FF" stroke="#9BBBF4" stroke-width="1.2"/>
+  <text x="74" y="338" font-size="12" font-weight="600" fill="#1A1B1C">3. 正则解析 HTML 表格</text>
+  <text x="74" y="356" font-size="10.5" fill="#444">表头: &lt;thead&gt; → &lt;th&gt; 文本（去标签 + unescape）</text>
+  <text x="74" y="372" font-size="10.5" fill="#444">行: &lt;tr class="issuerow"&gt; → 各 &lt;td&gt; 文本</text>
+  <text x="74" y="388" font-size="10.5" fill="#444">备用: id="issuetable" / class*="issue" 表格</text>
+  <text x="74" y="404" font-size="10.5" fill="#888">产出: headers[] + rows[][]（与网页列一致）</text>
+
+  <!-- output -->
+  <rect x="60" y="436" width="340" height="94" rx="8" fill="#EFF7F1" stroke="#A2DDAA" stroke-width="1.2"/>
+  <text x="74" y="456" font-size="12" font-weight="600" fill="#1A1B1C">导出形态</text>
+  <text x="74" y="474" font-size="10.5" fill="#444">二维文本表格（无 JSON/CSV 中间格式）</text>
+  <text x="74" y="490" font-size="10.5" fill="#444">第一列 Issue Key = 记录唯一键 / 飞书主键</text>
+  <text x="74" y="506" font-size="10.5" fill="#444">列名 = Jira 网页 th 原样文本</text>
+
+  <!-- ============ Right: Feishu side ============ -->
+  <rect x="470" y="76" width="400" height="470" rx="12" fill="#FFFFFF" stroke="#E4E3DD" stroke-width="1"/>
+  <text x="670" y="100" text-anchor="middle" font-size="14" font-weight="600" fill="#1A1B1C">飞书侧（写入目标）</text>
+  <text x="670" y="116" text-anchor="middle" font-size="10.5" fill="#6B7280">open.feishu.cn 开放平台 + Bitable v1</text>
+
+  <!-- auth box -->
+  <rect x="500" y="132" width="340" height="66" rx="8" fill="#FDF6F0" stroke="#F4B393" stroke-width="1.2"/>
+  <text x="514" y="152" font-size="12" font-weight="600" fill="#1A1B1C">4. tenant_access_token 认证</text>
+  <text x="514" y="170" font-size="10.5" fill="#444">POST /auth/v3/tenant_access_token/internal</text>
+  <text x="514" y="186" font-size="10.5" fill="#444">body: {app_id, app_secret} → Bearer token</text>
+
+  <!-- table box -->
+  <rect x="500" y="212" width="340" height="80" rx="8" fill="#FDF6F0" stroke="#F4B393" stroke-width="1.2"/>
+  <text x="514" y="232" font-size="12" font-weight="600" fill="#1A1B1C">5. 定位 / 创建数据表</text>
+  <text x="514" y="250" font-size="10.5" fill="#444">从用户 URL 解析 app_token（/base/ 或 /wiki/）</text>
+  <text x="514" y="266" font-size="10.5" fill="#444">查找表 "jira-tickets"，缺失则创建（描述: Jira Tickets同步）</text>
+  <text x="514" y="282" font-size="10.5" fill="#888">API: /bitable/v1/apps/{token}/tables</text>
+
+  <!-- rebuild -->
+  <rect x="500" y="306" width="340" height="92" rx="8" fill="#FDF6F0" stroke="#F4B393" stroke-width="1.2"/>
+  <text x="514" y="326" font-size="12" font-weight="600" fill="#1A1B1C">6. 字段全量重建（与 Jira 列名一致）</text>
+  <text x="514" y="344" font-size="10.5" fill="#444">现有字段无变化 → 跳过</text>
+  <text x="514" y="360" font-size="10.5" fill="#444">有变化 → 先删光全部字段，再按 Jira 顺序重建</text>
+  <text x="514" y="376" font-size="10.5" fill="#444">字段类型 type=1（文本），Issue Key 设为主键</text>
+  <text x="514" y="392" font-size="10.5" fill="#888">DELETE/POST /fields · 间隔 0.3s</text>
+
+  <!-- records -->
+  <rect x="500" y="412" width="340" height="118" rx="8" fill="#FDF6F0" stroke="#F4B393" stroke-width="1.2"/>
+  <text x="514" y="432" font-size="12" font-weight="600" fill="#1A1B1C">7. 记录写入（全量覆盖）</text>
+  <text x="514" y="450" font-size="10.5" fill="#444">清空旧记录: 分页 500 拉取 → 每批 500 batch_delete</text>
+  <text x="514" y="466" font-size="10.5" fill="#444">写入新数据: 每批 500 batch_create</text>
+  <text x="514" y="482" font-size="10.5" fill="#444">批量失败 → 逐条 create 重试（打印序号）</text>
+  <text x="514" y="500" font-size="10.5" fill="#888">另含增量逻辑(按 Issue Key 增/改/删)未接入主流程</text>
+  <text x="514" y="516" font-size="10.5" fill="#888">API: /records/batch_create · batch_update · batch_delete</text>
+
+  <!-- arrows left->right -->
+  <line x1="370" y1="483" x2="500" y2="483" stroke="#6B7280" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="435" y="475" text-anchor="middle" font-size="10" fill="#6B7280">headers[]</text>
+  <text x="435" y="495" text-anchor="middle" font-size="10" fill="#6B7280">rows[][]</text>
+
+  <!-- bottom bar -->
+  <rect x="30" y="556" width="840" height="52" rx="8" fill="#1A1B1C"/>
+  <text x="450" y="576" text-anchor="middle" font-size="11.5" fill="#F4F3EE">GUI: 立即同步 / 定时同步(5分钟) / 保存配置 · 日志回刷 · 配置存 jira_feishu_sync_config.json（明文）</text>
+  <text x="450" y="596" text-anchor="middle" font-size="11" fill="#E1B98F">注意: Jira 为 HTTP 明文 + 经典表单登录，Jira 升级 SSO 后本工具失效</text>
+</svg>'''
+open(r'C:\Users\TianYifan\.doubao\lark-chats\2026-10-01\new-chat\re_work\架构图.svg','w',encoding='utf-8').write(svg)
+print('svg written', len(svg))

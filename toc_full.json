@@ -1,0 +1,9542 @@
+[
+ {
+  "pos": 10921167,
+  "off": 0,
+  "size": 233,
+  "uncomp": 289,
+  "comp": 1,
+  "type": "m",
+  "name": "struct",
+  "end": 10921188
+ },
+ {
+  "pos": 10921199,
+  "off": 233,
+  "size": 2778,
+  "uncomp": 4826,
+  "comp": 1,
+  "type": "m",
+  "name": "pyimod01_archive",
+  "end": 10921230
+ },
+ {
+  "pos": 10921247,
+  "off": 3011,
+  "size": 13580,
+  "uncomp": 32114,
+  "comp": 1,
+  "type": "m",
+  "name": "pyimod02_importers",
+  "end": 10921280
+ },
+ {
+  "pos": 10921295,
+  "off": 16591,
+  "size": 2722,
+  "uncomp": 6130,
+  "comp": 1,
+  "type": "m",
+  "name": "pyimod03_ctypes",
+  "end": 10921325
+ },
+ {
+  "pos": 10921343,
+  "off": 19313,
+  "size": 917,
+  "uncomp": 1614,
+  "comp": 1,
+  "type": "m",
+  "name": "pyimod04_pywin32",
+  "end": 10921374
+ },
+ {
+  "pos": 10921391,
+  "off": 20230,
+  "size": 1013,
+  "uncomp": 1809,
+  "comp": 1,
+  "type": "s",
+  "name": "pyiboot01_bootstrap",
+  "end": 10921425
+ },
+ {
+  "pos": 10921439,
+  "off": 21243,
+  "size": 1432,
+  "uncomp": 2700,
+  "comp": 1,
+  "type": "s",
+  "name": "pyi_rth_inspect",
+  "end": 10921469
+ },
+ {
+  "pos": 10921487,
+  "off": 22675,
+  "size": 627,
+  "uncomp": 1079,
+  "comp": 1,
+  "type": "s",
+  "name": "pyi_rth__tkinter",
+  "end": 10921518
+ },
+ {
+  "pos": 10921535,
+  "off": 23302,
+  "size": 22825,
+  "uncomp": 67301,
+  "comp": 1,
+  "type": "s",
+  "name": "jira_feishu_sync",
+  "end": 10921566
+ },
+ {
+  "pos": 10921583,
+  "off": 46127,
+  "size": 59650,
+  "uncomp": 120400,
+  "comp": 1,
+  "type": "b",
+  "name": "VCRUNTIME140.dll",
+  "end": 10921614
+ },
+ {
+  "pos": 10921631,
+  "off": 105777,
+  "size": 46636,
+  "uncomp": 86896,
+  "comp": 1,
+  "type": "b",
+  "name": "_bz2.pyd",
+  "end": 10921654
+ },
+ {
+  "pos": 10921663,
+  "off": 152413,
+  "size": 125538,
+  "uncomp": 262000,
+  "comp": 1,
+  "type": "b",
+  "name": "_decimal.pyd",
+  "end": 10921690
+ },
+ {
+  "pos": 10921695,
+  "off": 277951,
+  "size": 31479,
+  "uncomp": 68976,
+  "comp": 1,
+  "type": "b",
+  "name": "_hashlib.pyd",
+  "end": 10921722
+ },
+ {
+  "pos": 10921727,
+  "off": 309430,
+  "size": 89893,
+  "uncomp": 161136,
+  "comp": 1,
+  "type": "b",
+  "name": "_lzma.pyd",
+  "end": 10921751
+ },
+ {
+  "pos": 10921759,
+  "off": 399323,
+  "size": 40952,
+  "uncomp": 85496,
+  "comp": 1,
+  "type": "b",
+  "name": "_socket.pyd",
+  "end": 10921785
+ },
+ {
+  "pos": 10921791,
+  "off": 440275,
+  "size": 71856,
+  "uncomp": 179432,
+  "comp": 1,
+  "type": "b",
+  "name": "_ssl.pyd",
+  "end": 10921814
+ },
+ {
+  "pos": 10921823,
+  "off": 512131,
+  "size": 6679,
+  "uncomp": 21578,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\auto.tcl",
+  "end": 10921856
+ },
+ {
+  "pos": 10921871,
+  "off": 518810,
+  "size": 30259,
+  "uncomp": 133009,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\clock.tcl",
+  "end": 10921905
+ },
+ {
+  "pos": 10921919,
+  "off": 549069,
+  "size": 301,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\ascii.enc",
+  "end": 10921962
+ },
+ {
+  "pos": 10921967,
+  "off": 549370,
+  "size": 32229,
+  "uncomp": 94389,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\big5.enc",
+  "end": 10922009
+ },
+ {
+  "pos": 10922015,
+  "off": 581599,
+  "size": 20938,
+  "uncomp": 98634,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cns11643.enc",
+  "end": 10922061
+ },
+ {
+  "pos": 10922079,
+  "off": 602537,
+  "size": 553,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1250.enc",
+  "end": 10922123
+ },
+ {
+  "pos": 10922127,
+  "off": 603090,
+  "size": 545,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1251.enc",
+  "end": 10922171
+ },
+ {
+  "pos": 10922175,
+  "off": 603635,
+  "size": 532,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1252.enc",
+  "end": 10922219
+ },
+ {
+  "pos": 10922223,
+  "off": 604167,
+  "size": 535,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1253.enc",
+  "end": 10922267
+ },
+ {
+  "pos": 10922271,
+  "off": 604702,
+  "size": 537,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1254.enc",
+  "end": 10922315
+ },
+ {
+  "pos": 10922319,
+  "off": 605239,
+  "size": 529,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1255.enc",
+  "end": 10922363
+ },
+ {
+  "pos": 10922367,
+  "off": 605768,
+  "size": 557,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1256.enc",
+  "end": 10922411
+ },
+ {
+  "pos": 10922415,
+  "off": 606325,
+  "size": 551,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1257.enc",
+  "end": 10922459
+ },
+ {
+  "pos": 10922463,
+  "off": 606876,
+  "size": 544,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp1258.enc",
+  "end": 10922507
+ },
+ {
+  "pos": 10922511,
+  "off": 607420,
+  "size": 543,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp437.enc",
+  "end": 10922554
+ },
+ {
+  "pos": 10922559,
+  "off": 607963,
+  "size": 535,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp737.enc",
+  "end": 10922602
+ },
+ {
+  "pos": 10922607,
+  "off": 608498,
+  "size": 550,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp775.enc",
+  "end": 10922650
+ },
+ {
+  "pos": 10922655,
+  "off": 609048,
+  "size": 544,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp850.enc",
+  "end": 10922698
+ },
+ {
+  "pos": 10922703,
+  "off": 609592,
+  "size": 550,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp852.enc",
+  "end": 10922746
+ },
+ {
+  "pos": 10922751,
+  "off": 610142,
+  "size": 555,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp855.enc",
+  "end": 10922794
+ },
+ {
+  "pos": 10922799,
+  "off": 610697,
+  "size": 546,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp857.enc",
+  "end": 10922842
+ },
+ {
+  "pos": 10922847,
+  "off": 611243,
+  "size": 544,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp860.enc",
+  "end": 10922890
+ },
+ {
+  "pos": 10922895,
+  "off": 611787,
+  "size": 548,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp861.enc",
+  "end": 10922938
+ },
+ {
+  "pos": 10922943,
+  "off": 612335,
+  "size": 535,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp862.enc",
+  "end": 10922986
+ },
+ {
+  "pos": 10922991,
+  "off": 612870,
+  "size": 545,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp863.enc",
+  "end": 10923034
+ },
+ {
+  "pos": 10923039,
+  "off": 613415,
+  "size": 552,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp864.enc",
+  "end": 10923082
+ },
+ {
+  "pos": 10923087,
+  "off": 613967,
+  "size": 543,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp865.enc",
+  "end": 10923130
+ },
+ {
+  "pos": 10923135,
+  "off": 614510,
+  "size": 543,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp866.enc",
+  "end": 10923178
+ },
+ {
+  "pos": 10923183,
+  "off": 615053,
+  "size": 541,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp869.enc",
+  "end": 10923226
+ },
+ {
+  "pos": 10923231,
+  "off": 615594,
+  "size": 528,
+  "uncomp": 1110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp874.enc",
+  "end": 10923274
+ },
+ {
+  "pos": 10923279,
+  "off": 616122,
+  "size": 18489,
+  "uncomp": 49008,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp932.enc",
+  "end": 10923322
+ },
+ {
+  "pos": 10923327,
+  "off": 634611,
+  "size": 51529,
+  "uncomp": 134671,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp936.enc",
+  "end": 10923370
+ },
+ {
+  "pos": 10923375,
+  "off": 686140,
+  "size": 40836,
+  "uncomp": 132551,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp949.enc",
+  "end": 10923418
+ },
+ {
+  "pos": 10923423,
+  "off": 726976,
+  "size": 31779,
+  "uncomp": 93330,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\cp950.enc",
+  "end": 10923466
+ },
+ {
+  "pos": 10923471,
+  "off": 758755,
+  "size": 540,
+  "uncomp": 1113,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\dingbats.enc",
+  "end": 10923517
+ },
+ {
+  "pos": 10923535,
+  "off": 759295,
+  "size": 503,
+  "uncomp": 1073,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\ebcdic.enc",
+  "end": 10923579
+ },
+ {
+  "pos": 10923583,
+  "off": 759798,
+  "size": 18649,
+  "uncomp": 86971,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\euc-cn.enc",
+  "end": 10923627
+ },
+ {
+  "pos": 10923631,
+  "off": 778447,
+  "size": 17543,
+  "uncomp": 83890,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\euc-jp.enc",
+  "end": 10923675
+ },
+ {
+  "pos": 10923679,
+  "off": 795990,
+  "size": 20599,
+  "uncomp": 95451,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\euc-kr.enc",
+  "end": 10923723
+ },
+ {
+  "pos": 10923727,
+  "off": 816589,
+  "size": 18747,
+  "uncomp": 88033,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\gb12345.enc",
+  "end": 10923772
+ },
+ {
+  "pos": 10923791,
+  "off": 835336,
+  "size": 450,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\gb1988.enc",
+  "end": 10923835
+ },
+ {
+  "pos": 10923839,
+  "off": 835786,
+  "size": 18340,
+  "uncomp": 85912,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\gb2312-raw.enc",
+  "end": 10923887
+ },
+ {
+  "pos": 10923903,
+  "off": 854126,
+  "size": 18649,
+  "uncomp": 86971,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\gb2312.enc",
+  "end": 10923947
+ },
+ {
+  "pos": 10923951,
+  "off": 872775,
+  "size": 146,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso2022-jp.enc",
+  "end": 10923999
+ },
+ {
+  "pos": 10924015,
+  "off": 872921,
+  "size": 117,
+  "uncomp": 122,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso2022-kr.enc",
+  "end": 10924063
+ },
+ {
+  "pos": 10924079,
+  "off": 873038,
+  "size": 159,
+  "uncomp": 240,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso2022.enc",
+  "end": 10924124
+ },
+ {
+  "pos": 10924143,
+  "off": 873197,
+  "size": 515,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-1.enc",
+  "end": 10924190
+ },
+ {
+  "pos": 10924207,
+  "off": 873712,
+  "size": 544,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-10.enc",
+  "end": 10924255
+ },
+ {
+  "pos": 10924271,
+  "off": 874256,
+  "size": 526,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-11.enc",
+  "end": 10924319
+ },
+ {
+  "pos": 10924335,
+  "off": 874782,
+  "size": 542,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-13.enc",
+  "end": 10924383
+ },
+ {
+  "pos": 10924399,
+  "off": 875324,
+  "size": 542,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-14.enc",
+  "end": 10924447
+ },
+ {
+  "pos": 10924463,
+  "off": 875866,
+  "size": 527,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-15.enc",
+  "end": 10924511
+ },
+ {
+  "pos": 10924527,
+  "off": 876393,
+  "size": 546,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-16.enc",
+  "end": 10924575
+ },
+ {
+  "pos": 10924591,
+  "off": 876939,
+  "size": 546,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-2.enc",
+  "end": 10924638
+ },
+ {
+  "pos": 10924655,
+  "off": 877485,
+  "size": 541,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-3.enc",
+  "end": 10924702
+ },
+ {
+  "pos": 10924719,
+  "off": 878026,
+  "size": 545,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-4.enc",
+  "end": 10924766
+ },
+ {
+  "pos": 10924783,
+  "off": 878571,
+  "size": 525,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-5.enc",
+  "end": 10924830
+ },
+ {
+  "pos": 10924847,
+  "off": 879096,
+  "size": 478,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-6.enc",
+  "end": 10924894
+ },
+ {
+  "pos": 10924911,
+  "off": 879574,
+  "size": 530,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-7.enc",
+  "end": 10924958
+ },
+ {
+  "pos": 10924975,
+  "off": 880104,
+  "size": 466,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-8.enc",
+  "end": 10925022
+ },
+ {
+  "pos": 10925039,
+  "off": 880570,
+  "size": 522,
+  "uncomp": 1114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\iso8859-9.enc",
+  "end": 10925086
+ },
+ {
+  "pos": 10925103,
+  "off": 881092,
+  "size": 450,
+  "uncomp": 1112,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\jis0201.enc",
+  "end": 10925148
+ },
+ {
+  "pos": 10925167,
+  "off": 881542,
+  "size": 17103,
+  "uncomp": 81772,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\jis0208.enc",
+  "end": 10925212
+ },
+ {
+  "pos": 10925231,
+  "off": 898645,
+  "size": 14202,
+  "uncomp": 72133,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\jis0212.enc",
+  "end": 10925276
+ },
+ {
+  "pos": 10925295,
+  "off": 912847,
+  "size": 542,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\koi8-r.enc",
+  "end": 10925339
+ },
+ {
+  "pos": 10925343,
+  "off": 913389,
+  "size": 540,
+  "uncomp": 1092,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\koi8-ru.enc",
+  "end": 10925388
+ },
+ {
+  "pos": 10925407,
+  "off": 913929,
+  "size": 526,
+  "uncomp": 1091,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\koi8-t.enc",
+  "end": 10925451
+ },
+ {
+  "pos": 10925455,
+  "off": 914455,
+  "size": 545,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\koi8-u.enc",
+  "end": 10925499
+ },
+ {
+  "pos": 10925503,
+  "off": 915000,
+  "size": 20286,
+  "uncomp": 94393,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\ksc5601.enc",
+  "end": 10925548
+ },
+ {
+  "pos": 10925567,
+  "off": 935286,
+  "size": 559,
+  "uncomp": 1116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macCentEuro.enc",
+  "end": 10925616
+ },
+ {
+  "pos": 10925631,
+  "off": 935845,
+  "size": 565,
+  "uncomp": 1116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macCroatian.enc",
+  "end": 10925680
+ },
+ {
+  "pos": 10925695,
+  "off": 936410,
+  "size": 562,
+  "uncomp": 1116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macCyrillic.enc",
+  "end": 10925744
+ },
+ {
+  "pos": 10925759,
+  "off": 936972,
+  "size": 546,
+  "uncomp": 1116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macDingbats.enc",
+  "end": 10925808
+ },
+ {
+  "pos": 10925823,
+  "off": 937518,
+  "size": 554,
+  "uncomp": 1113,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macGreek.enc",
+  "end": 10925869
+ },
+ {
+  "pos": 10925887,
+  "off": 938072,
+  "size": 564,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macIceland.enc",
+  "end": 10925935
+ },
+ {
+  "pos": 10925951,
+  "off": 938636,
+  "size": 17898,
+  "uncomp": 48813,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macJapan.enc",
+  "end": 10925997
+ },
+ {
+  "pos": 10926015,
+  "off": 956534,
+  "size": 565,
+  "uncomp": 1113,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macRoman.enc",
+  "end": 10926061
+ },
+ {
+  "pos": 10926079,
+  "off": 957099,
+  "size": 566,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macRomania.enc",
+  "end": 10926127
+ },
+ {
+  "pos": 10926143,
+  "off": 957665,
+  "size": 546,
+  "uncomp": 1112,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macThai.enc",
+  "end": 10926188
+ },
+ {
+  "pos": 10926207,
+  "off": 958211,
+  "size": 569,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macTurkish.enc",
+  "end": 10926255
+ },
+ {
+  "pos": 10926271,
+  "off": 958780,
+  "size": 562,
+  "uncomp": 1115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\macUkraine.enc",
+  "end": 10926319
+ },
+ {
+  "pos": 10926335,
+  "off": 959342,
+  "size": 17090,
+  "uncomp": 42552,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\shiftjis.enc",
+  "end": 10926381
+ },
+ {
+  "pos": 10926399,
+  "off": 976432,
+  "size": 568,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\symbol.enc",
+  "end": 10926443
+ },
+ {
+  "pos": 10926447,
+  "off": 977000,
+  "size": 478,
+  "uncomp": 1112,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\encoding\\tis-620.enc",
+  "end": 10926492
+ },
+ {
+  "pos": 10926511,
+  "off": 977478,
+  "size": 2613,
+  "uncomp": 8236,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\history.tcl",
+  "end": 10926547
+ },
+ {
+  "pos": 10926559,
+  "off": 980091,
+  "size": 3070,
+  "uncomp": 10052,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\http1.0\\http.tcl",
+  "end": 10926600
+ },
+ {
+  "pos": 10926607,
+  "off": 983161,
+  "size": 423,
+  "uncomp": 746,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\http1.0\\pkgIndex.tcl",
+  "end": 10926652
+ },
+ {
+  "pos": 10926671,
+  "off": 983584,
+  "size": 8118,
+  "uncomp": 25722,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\init.tcl",
+  "end": 10926704
+ },
+ {
+  "pos": 10926719,
+  "off": 991702,
+  "size": 322,
+  "uncomp": 1038,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\af.msg",
+  "end": 10926755
+ },
+ {
+  "pos": 10926767,
+  "off": 992024,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\af_za.msg",
+  "end": 10926806
+ },
+ {
+  "pos": 10926815,
+  "off": 992187,
+  "size": 451,
+  "uncomp": 2018,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ar.msg",
+  "end": 10926851
+ },
+ {
+  "pos": 10926863,
+  "off": 992638,
+  "size": 163,
+  "uncomp": 265,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ar_in.msg",
+  "end": 10926902
+ },
+ {
+  "pos": 10926911,
+  "off": 992801,
+  "size": 342,
+  "uncomp": 1851,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ar_jo.msg",
+  "end": 10926950
+ },
+ {
+  "pos": 10926959,
+  "off": 993143,
+  "size": 341,
+  "uncomp": 1851,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ar_lb.msg",
+  "end": 10926998
+ },
+ {
+  "pos": 10927007,
+  "off": 993484,
+  "size": 346,
+  "uncomp": 1851,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ar_sy.msg",
+  "end": 10927046
+ },
+ {
+  "pos": 10927055,
+  "off": 993830,
+  "size": 493,
+  "uncomp": 2157,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\be.msg",
+  "end": 10927091
+ },
+ {
+  "pos": 10927103,
+  "off": 994323,
+  "size": 450,
+  "uncomp": 1871,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\bg.msg",
+  "end": 10927139
+ },
+ {
+  "pos": 10927151,
+  "off": 994773,
+  "size": 414,
+  "uncomp": 2335,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\bn.msg",
+  "end": 10927187
+ },
+ {
+  "pos": 10927199,
+  "off": 995187,
+  "size": 164,
+  "uncomp": 265,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\bn_in.msg",
+  "end": 10927238
+ },
+ {
+  "pos": 10927247,
+  "off": 995351,
+  "size": 350,
+  "uncomp": 1152,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ca.msg",
+  "end": 10927283
+ },
+ {
+  "pos": 10927295,
+  "off": 995701,
+  "size": 405,
+  "uncomp": 1354,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\cs.msg",
+  "end": 10927331
+ },
+ {
+  "pos": 10927343,
+  "off": 996106,
+  "size": 363,
+  "uncomp": 1208,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\da.msg",
+  "end": 10927379
+ },
+ {
+  "pos": 10927391,
+  "off": 996469,
+  "size": 385,
+  "uncomp": 1276,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\de.msg",
+  "end": 10927427
+ },
+ {
+  "pos": 10927439,
+  "off": 996854,
+  "size": 295,
+  "uncomp": 847,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\de_at.msg",
+  "end": 10927478
+ },
+ {
+  "pos": 10927487,
+  "off": 997149,
+  "size": 381,
+  "uncomp": 1276,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\de_be.msg",
+  "end": 10927526
+ },
+ {
+  "pos": 10927535,
+  "off": 997530,
+  "size": 501,
+  "uncomp": 2304,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\el.msg",
+  "end": 10927571
+ },
+ {
+  "pos": 10927583,
+  "off": 998031,
+  "size": 170,
+  "uncomp": 307,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_au.msg",
+  "end": 10927622
+ },
+ {
+  "pos": 10927631,
+  "off": 998201,
+  "size": 174,
+  "uncomp": 312,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_be.msg",
+  "end": 10927670
+ },
+ {
+  "pos": 10927679,
+  "off": 998375,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_bw.msg",
+  "end": 10927718
+ },
+ {
+  "pos": 10927727,
+  "off": 998538,
+  "size": 169,
+  "uncomp": 295,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_ca.msg",
+  "end": 10927766
+ },
+ {
+  "pos": 10927775,
+  "off": 998707,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_gb.msg",
+  "end": 10927814
+ },
+ {
+  "pos": 10927823,
+  "off": 998869,
+  "size": 173,
+  "uncomp": 329,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_hk.msg",
+  "end": 10927862
+ },
+ {
+  "pos": 10927871,
+  "off": 999042,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_ie.msg",
+  "end": 10927910
+ },
+ {
+  "pos": 10927919,
+  "off": 999204,
+  "size": 166,
+  "uncomp": 318,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_in.msg",
+  "end": 10927958
+ },
+ {
+  "pos": 10927967,
+  "off": 999370,
+  "size": 171,
+  "uncomp": 307,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_nz.msg",
+  "end": 10928006
+ },
+ {
+  "pos": 10928015,
+  "off": 999541,
+  "size": 172,
+  "uncomp": 329,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_ph.msg",
+  "end": 10928054
+ },
+ {
+  "pos": 10928063,
+  "off": 999713,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_sg.msg",
+  "end": 10928102
+ },
+ {
+  "pos": 10928111,
+  "off": 999876,
+  "size": 161,
+  "uncomp": 251,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_za.msg",
+  "end": 10928150
+ },
+ {
+  "pos": 10928159,
+  "off": 1000037,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\en_zw.msg",
+  "end": 10928198
+ },
+ {
+  "pos": 10928207,
+  "off": 1000200,
+  "size": 392,
+  "uncomp": 1285,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\eo.msg",
+  "end": 10928243
+ },
+ {
+  "pos": 10928255,
+  "off": 1000592,
+  "size": 375,
+  "uncomp": 1232,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es.msg",
+  "end": 10928291
+ },
+ {
+  "pos": 10928303,
+  "off": 1000967,
+  "size": 157,
+  "uncomp": 248,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_ar.msg",
+  "end": 10928342
+ },
+ {
+  "pos": 10928351,
+  "off": 1001124,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_bo.msg",
+  "end": 10928390
+ },
+ {
+  "pos": 10928399,
+  "off": 1001287,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_cl.msg",
+  "end": 10928438
+ },
+ {
+  "pos": 10928447,
+  "off": 1001450,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_co.msg",
+  "end": 10928486
+ },
+ {
+  "pos": 10928495,
+  "off": 1001613,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_cr.msg",
+  "end": 10928534
+ },
+ {
+  "pos": 10928543,
+  "off": 1001776,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_do.msg",
+  "end": 10928582
+ },
+ {
+  "pos": 10928591,
+  "off": 1001939,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_ec.msg",
+  "end": 10928630
+ },
+ {
+  "pos": 10928639,
+  "off": 1002102,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_gt.msg",
+  "end": 10928678
+ },
+ {
+  "pos": 10928687,
+  "off": 1002265,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_hn.msg",
+  "end": 10928726
+ },
+ {
+  "pos": 10928735,
+  "off": 1002428,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_mx.msg",
+  "end": 10928774
+ },
+ {
+  "pos": 10928783,
+  "off": 1002591,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_ni.msg",
+  "end": 10928822
+ },
+ {
+  "pos": 10928831,
+  "off": 1002754,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_pa.msg",
+  "end": 10928870
+ },
+ {
+  "pos": 10928879,
+  "off": 1002917,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_pe.msg",
+  "end": 10928918
+ },
+ {
+  "pos": 10928927,
+  "off": 1003080,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_pr.msg",
+  "end": 10928966
+ },
+ {
+  "pos": 10928975,
+  "off": 1003243,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_py.msg",
+  "end": 10929014
+ },
+ {
+  "pos": 10929023,
+  "off": 1003406,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_sv.msg",
+  "end": 10929062
+ },
+ {
+  "pos": 10929071,
+  "off": 1003569,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_uy.msg",
+  "end": 10929110
+ },
+ {
+  "pos": 10929119,
+  "off": 1003732,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\es_ve.msg",
+  "end": 10929158
+ },
+ {
+  "pos": 10929167,
+  "off": 1003895,
+  "size": 381,
+  "uncomp": 1258,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\et.msg",
+  "end": 10929203
+ },
+ {
+  "pos": 10929215,
+  "off": 1004276,
+  "size": 299,
+  "uncomp": 1032,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\eu.msg",
+  "end": 10929251
+ },
+ {
+  "pos": 10929263,
+  "off": 1004575,
+  "size": 168,
+  "uncomp": 294,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\eu_es.msg",
+  "end": 10929302
+ },
+ {
+  "pos": 10929311,
+  "off": 1004743,
+  "size": 382,
+  "uncomp": 1711,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fa.msg",
+  "end": 10929347
+ },
+ {
+  "pos": 10929359,
+  "off": 1005125,
+  "size": 452,
+  "uncomp": 2009,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fa_in.msg",
+  "end": 10929398
+ },
+ {
+  "pos": 10929407,
+  "off": 1005577,
+  "size": 201,
+  "uncomp": 426,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fa_ir.msg",
+  "end": 10929446
+ },
+ {
+  "pos": 10929455,
+  "off": 1005778,
+  "size": 375,
+  "uncomp": 1195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fi.msg",
+  "end": 10929491
+ },
+ {
+  "pos": 10929503,
+  "off": 1006153,
+  "size": 328,
+  "uncomp": 1033,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fo.msg",
+  "end": 10929539
+ },
+ {
+  "pos": 10929551,
+  "off": 1006481,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fo_fo.msg",
+  "end": 10929590
+ },
+ {
+  "pos": 10929599,
+  "off": 1006643,
+  "size": 369,
+  "uncomp": 1257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fr.msg",
+  "end": 10929635
+ },
+ {
+  "pos": 10929647,
+  "off": 1007012,
+  "size": 163,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fr_be.msg",
+  "end": 10929686
+ },
+ {
+  "pos": 10929695,
+  "off": 1007175,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fr_ca.msg",
+  "end": 10929734
+ },
+ {
+  "pos": 10929743,
+  "off": 1007337,
+  "size": 164,
+  "uncomp": 288,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\fr_ch.msg",
+  "end": 10929782
+ },
+ {
+  "pos": 10929791,
+  "off": 1007501,
+  "size": 364,
+  "uncomp": 1188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ga.msg",
+  "end": 10929827
+ },
+ {
+  "pos": 10929839,
+  "off": 1007865,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ga_ie.msg",
+  "end": 10929878
+ },
+ {
+  "pos": 10929887,
+  "off": 1008027,
+  "size": 315,
+  "uncomp": 997,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\gl.msg",
+  "end": 10929923
+ },
+ {
+  "pos": 10929935,
+  "off": 1008342,
+  "size": 162,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\gl_es.msg",
+  "end": 10929974
+ },
+ {
+  "pos": 10929983,
+  "off": 1008504,
+  "size": 326,
+  "uncomp": 1084,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\gv.msg",
+  "end": 10930019
+ },
+ {
+  "pos": 10930031,
+  "off": 1008830,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\gv_gb.msg",
+  "end": 10930070
+ },
+ {
+  "pos": 10930079,
+  "off": 1008993,
+  "size": 426,
+  "uncomp": 1990,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\he.msg",
+  "end": 10930115
+ },
+ {
+  "pos": 10930127,
+  "off": 1009419,
+  "size": 365,
+  "uncomp": 1777,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\hi.msg",
+  "end": 10930163
+ },
+ {
+  "pos": 10930175,
+  "off": 1009784,
+  "size": 162,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\hi_in.msg",
+  "end": 10930214
+ },
+ {
+  "pos": 10930223,
+  "off": 1009946,
+  "size": 376,
+  "uncomp": 1171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\hr.msg",
+  "end": 10930259
+ },
+ {
+  "pos": 10930271,
+  "off": 1010322,
+  "size": 430,
+  "uncomp": 1381,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\hu.msg",
+  "end": 10930307
+ },
+ {
+  "pos": 10930319,
+  "off": 1010752,
+  "size": 294,
+  "uncomp": 961,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\id.msg",
+  "end": 10930355
+ },
+ {
+  "pos": 10930367,
+  "off": 1011046,
+  "size": 162,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\id_id.msg",
+  "end": 10930406
+ },
+ {
+  "pos": 10930415,
+  "off": 1011208,
+  "size": 391,
+  "uncomp": 1305,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\is.msg",
+  "end": 10930451
+ },
+ {
+  "pos": 10930463,
+  "off": 1011599,
+  "size": 384,
+  "uncomp": 1294,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\it.msg",
+  "end": 10930499
+ },
+ {
+  "pos": 10930511,
+  "off": 1011983,
+  "size": 157,
+  "uncomp": 250,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\it_ch.msg",
+  "end": 10930550
+ },
+ {
+  "pos": 10930559,
+  "off": 1012140,
+  "size": 536,
+  "uncomp": 1689,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ja.msg",
+  "end": 10930595
+ },
+ {
+  "pos": 10930607,
+  "off": 1012676,
+  "size": 322,
+  "uncomp": 1025,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kl.msg",
+  "end": 10930643
+ },
+ {
+  "pos": 10930655,
+  "off": 1012998,
+  "size": 160,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kl_gl.msg",
+  "end": 10930694
+ },
+ {
+  "pos": 10930703,
+  "off": 1013158,
+  "size": 393,
+  "uncomp": 1621,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ko.msg",
+  "end": 10930739
+ },
+ {
+  "pos": 10930751,
+  "off": 1013551,
+  "size": 193,
+  "uncomp": 354,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ko_kr.msg",
+  "end": 10930790
+ },
+ {
+  "pos": 10930799,
+  "off": 1013744,
+  "size": 403,
+  "uncomp": 1997,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kok.msg",
+  "end": 10930836
+ },
+ {
+  "pos": 10930847,
+  "off": 1014147,
+  "size": 163,
+  "uncomp": 260,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kok_in.msg",
+  "end": 10930887
+ },
+ {
+  "pos": 10930895,
+  "off": 1014310,
+  "size": 325,
+  "uncomp": 1013,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kw.msg",
+  "end": 10930931
+ },
+ {
+  "pos": 10930943,
+  "off": 1014635,
+  "size": 163,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\kw_gb.msg",
+  "end": 10930982
+ },
+ {
+  "pos": 10930991,
+  "off": 1014798,
+  "size": 416,
+  "uncomp": 1307,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\lt.msg",
+  "end": 10931027
+ },
+ {
+  "pos": 10931039,
+  "off": 1015214,
+  "size": 403,
+  "uncomp": 1271,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\lv.msg",
+  "end": 10931075
+ },
+ {
+  "pos": 10931087,
+  "off": 1015617,
+  "size": 468,
+  "uncomp": 2157,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\mk.msg",
+  "end": 10931123
+ },
+ {
+  "pos": 10931135,
+  "off": 1016085,
+  "size": 361,
+  "uncomp": 1846,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\mr.msg",
+  "end": 10931171
+ },
+ {
+  "pos": 10931183,
+  "off": 1016446,
+  "size": 162,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\mr_in.msg",
+  "end": 10931222
+ },
+ {
+  "pos": 10931231,
+  "off": 1016608,
+  "size": 293,
+  "uncomp": 957,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ms.msg",
+  "end": 10931267
+ },
+ {
+  "pos": 10931279,
+  "off": 1016901,
+  "size": 163,
+  "uncomp": 265,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ms_my.msg",
+  "end": 10931318
+ },
+ {
+  "pos": 10931327,
+  "off": 1017064,
+  "size": 291,
+  "uncomp": 717,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\mt.msg",
+  "end": 10931363
+ },
+ {
+  "pos": 10931375,
+  "off": 1017355,
+  "size": 362,
+  "uncomp": 1209,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\nb.msg",
+  "end": 10931411
+ },
+ {
+  "pos": 10931423,
+  "off": 1017717,
+  "size": 349,
+  "uncomp": 1129,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\nl.msg",
+  "end": 10931459
+ },
+ {
+  "pos": 10931471,
+  "off": 1018066,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\nl_be.msg",
+  "end": 10931510
+ },
+ {
+  "pos": 10931519,
+  "off": 1018228,
+  "size": 364,
+  "uncomp": 1200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\nn.msg",
+  "end": 10931555
+ },
+ {
+  "pos": 10931567,
+  "off": 1018592,
+  "size": 406,
+  "uncomp": 1263,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\pl.msg",
+  "end": 10931603
+ },
+ {
+  "pos": 10931615,
+  "off": 1018998,
+  "size": 370,
+  "uncomp": 1177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\pt.msg",
+  "end": 10931651
+ },
+ {
+  "pos": 10931663,
+  "off": 1019368,
+  "size": 162,
+  "uncomp": 286,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\pt_br.msg",
+  "end": 10931702
+ },
+ {
+  "pos": 10931711,
+  "off": 1019530,
+  "size": 394,
+  "uncomp": 1224,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ro.msg",
+  "end": 10931747
+ },
+ {
+  "pos": 10931759,
+  "off": 1019924,
+  "size": 498,
+  "uncomp": 2091,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ru.msg",
+  "end": 10931795
+ },
+ {
+  "pos": 10931807,
+  "off": 1020422,
+  "size": 157,
+  "uncomp": 248,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ru_ua.msg",
+  "end": 10931846
+ },
+ {
+  "pos": 10931855,
+  "off": 1020579,
+  "size": 373,
+  "uncomp": 1212,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sh.msg",
+  "end": 10931891
+ },
+ {
+  "pos": 10931903,
+  "off": 1020952,
+  "size": 388,
+  "uncomp": 1255,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sk.msg",
+  "end": 10931939
+ },
+ {
+  "pos": 10931951,
+  "off": 1021340,
+  "size": 381,
+  "uncomp": 1216,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sl.msg",
+  "end": 10931987
+ },
+ {
+  "pos": 10931999,
+  "off": 1021721,
+  "size": 409,
+  "uncomp": 1321,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sq.msg",
+  "end": 10932035
+ },
+ {
+  "pos": 10932047,
+  "off": 1022130,
+  "size": 468,
+  "uncomp": 2087,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sr.msg",
+  "end": 10932083
+ },
+ {
+  "pos": 10932095,
+  "off": 1022598,
+  "size": 371,
+  "uncomp": 1219,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sv.msg",
+  "end": 10932131
+ },
+ {
+  "pos": 10932143,
+  "off": 1022969,
+  "size": 319,
+  "uncomp": 1040,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\sw.msg",
+  "end": 10932179
+ },
+ {
+  "pos": 10932191,
+  "off": 1023288,
+  "size": 375,
+  "uncomp": 1874,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ta.msg",
+  "end": 10932227
+ },
+ {
+  "pos": 10932239,
+  "off": 1023663,
+  "size": 162,
+  "uncomp": 257,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\ta_in.msg",
+  "end": 10932278
+ },
+ {
+  "pos": 10932287,
+  "off": 1023825,
+  "size": 387,
+  "uncomp": 2149,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\te.msg",
+  "end": 10932323
+ },
+ {
+  "pos": 10932335,
+  "off": 1024212,
+  "size": 210,
+  "uncomp": 419,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\te_in.msg",
+  "end": 10932374
+ },
+ {
+  "pos": 10932383,
+  "off": 1024422,
+  "size": 546,
+  "uncomp": 2359,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\th.msg",
+  "end": 10932419
+ },
+ {
+  "pos": 10932431,
+  "off": 1024968,
+  "size": 379,
+  "uncomp": 1183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\tr.msg",
+  "end": 10932467
+ },
+ {
+  "pos": 10932479,
+  "off": 1025347,
+  "size": 485,
+  "uncomp": 2165,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\uk.msg",
+  "end": 10932515
+ },
+ {
+  "pos": 10932527,
+  "off": 1025832,
+  "size": 395,
+  "uncomp": 1471,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\vi.msg",
+  "end": 10932563
+ },
+ {
+  "pos": 10932575,
+  "off": 1026227,
+  "size": 694,
+  "uncomp": 3385,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\zh.msg",
+  "end": 10932611
+ },
+ {
+  "pos": 10932623,
+  "off": 1026921,
+  "size": 190,
+  "uncomp": 319,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\zh_cn.msg",
+  "end": 10932662
+ },
+ {
+  "pos": 10932671,
+  "off": 1027111,
+  "size": 288,
+  "uncomp": 780,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\zh_hk.msg",
+  "end": 10932710
+ },
+ {
+  "pos": 10932719,
+  "off": 1027399,
+  "size": 185,
+  "uncomp": 347,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\zh_sg.msg",
+  "end": 10932758
+ },
+ {
+  "pos": 10932767,
+  "off": 1027584,
+  "size": 191,
+  "uncomp": 354,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\msgs\\zh_tw.msg",
+  "end": 10932806
+ },
+ {
+  "pos": 10932815,
+  "off": 1027775,
+  "size": 9921,
+  "uncomp": 33781,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\opt0.4\\optparse.tcl",
+  "end": 10932859
+ },
+ {
+  "pos": 10932863,
+  "off": 1037696,
+  "size": 385,
+  "uncomp": 636,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\opt0.4\\pkgIndex.tcl",
+  "end": 10932907
+ },
+ {
+  "pos": 10932911,
+  "off": 1038081,
+  "size": 7187,
+  "uncomp": 23983,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\package.tcl",
+  "end": 10932947
+ },
+ {
+  "pos": 10932959,
+  "off": 1045268,
+  "size": 456,
+  "uncomp": 844,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\parray.tcl",
+  "end": 10932994
+ },
+ {
+  "pos": 10933007,
+  "off": 1045724,
+  "size": 12808,
+  "uncomp": 42328,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\safe.tcl",
+  "end": 10933040
+ },
+ {
+  "pos": 10933055,
+  "off": 1058532,
+  "size": 916,
+  "uncomp": 7432,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tclIndex",
+  "end": 10933088
+ },
+ {
+  "pos": 10933103,
+  "off": 1059448,
+  "size": 4475,
+  "uncomp": 12236,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tm.tcl",
+  "end": 10933134
+ },
+ {
+  "pos": 10933151,
+  "off": 1063923,
+  "size": 138,
+  "uncomp": 147,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Abidjan",
+  "end": 10933197
+ },
+ {
+  "pos": 10933215,
+  "off": 1064061,
+  "size": 140,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Accra",
+  "end": 10933259
+ },
+ {
+  "pos": 10933263,
+  "off": 1064201,
+  "size": 145,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Addis_Ababa",
+  "end": 10933313
+ },
+ {
+  "pos": 10933327,
+  "off": 1064346,
+  "size": 351,
+  "uncomp": 1080,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Algiers",
+  "end": 10933373
+ },
+ {
+  "pos": 10933391,
+  "off": 1064697,
+  "size": 142,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Asmara",
+  "end": 10933436
+ },
+ {
+  "pos": 10933455,
+  "off": 1064839,
+  "size": 142,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Asmera",
+  "end": 10933500
+ },
+ {
+  "pos": 10933519,
+  "off": 1064981,
+  "size": 142,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Bamako",
+  "end": 10933564
+ },
+ {
+  "pos": 10933583,
+  "off": 1065123,
+  "size": 141,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Bangui",
+  "end": 10933628
+ },
+ {
+  "pos": 10933647,
+  "off": 1065264,
+  "size": 143,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Banjul",
+  "end": 10933692
+ },
+ {
+  "pos": 10933711,
+  "off": 1065407,
+  "size": 152,
+  "uncomp": 175,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Bissau",
+  "end": 10933756
+ },
+ {
+  "pos": 10933775,
+  "off": 1065559,
+  "size": 144,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Blantyre",
+  "end": 10933822
+ },
+ {
+  "pos": 10933839,
+  "off": 1065703,
+  "size": 145,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Brazzaville",
+  "end": 10933889
+ },
+ {
+  "pos": 10933903,
+  "off": 1065848,
+  "size": 146,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Bujumbura",
+  "end": 10933951
+ },
+ {
+  "pos": 10933967,
+  "off": 1065994,
+  "size": 1630,
+  "uncomp": 8472,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Cairo",
+  "end": 10934011
+ },
+ {
+  "pos": 10934015,
+  "off": 1067624,
+  "size": 1174,
+  "uncomp": 5335,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Casablanca",
+  "end": 10934064
+ },
+ {
+  "pos": 10934079,
+  "off": 1068798,
+  "size": 1542,
+  "uncomp": 7536,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Ceuta",
+  "end": 10934123
+ },
+ {
+  "pos": 10934127,
+  "off": 1070340,
+  "size": 143,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Conakry",
+  "end": 10934173
+ },
+ {
+  "pos": 10934191,
+  "off": 1070483,
+  "size": 141,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Dakar",
+  "end": 10934235
+ },
+ {
+  "pos": 10934239,
+  "off": 1070624,
+  "size": 148,
+  "uncomp": 191,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Dar_es_Salaam",
+  "end": 10934291
+ },
+ {
+  "pos": 10934303,
+  "off": 1070772,
+  "size": 143,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Djibouti",
+  "end": 10934350
+ },
+ {
+  "pos": 10934367,
+  "off": 1070915,
+  "size": 140,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Douala",
+  "end": 10934412
+ },
+ {
+  "pos": 10934431,
+  "off": 1071055,
+  "size": 1118,
+  "uncomp": 5049,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\El_Aaiun",
+  "end": 10934478
+ },
+ {
+  "pos": 10934495,
+  "off": 1072173,
+  "size": 143,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Freetown",
+  "end": 10934542
+ },
+ {
+  "pos": 10934559,
+  "off": 1072316,
+  "size": 142,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Gaborone",
+  "end": 10934606
+ },
+ {
+  "pos": 10934623,
+  "off": 1072458,
+  "size": 141,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Harare",
+  "end": 10934668
+ },
+ {
+  "pos": 10934687,
+  "off": 1072599,
+  "size": 185,
+  "uncomp": 309,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Johannesburg",
+  "end": 10934738
+ },
+ {
+  "pos": 10934751,
+  "off": 1072784,
+  "size": 335,
+  "uncomp": 1127,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Juba",
+  "end": 10934794
+ },
+ {
+  "pos": 10934799,
+  "off": 1073119,
+  "size": 143,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Kampala",
+  "end": 10934845
+ },
+ {
+  "pos": 10934863,
+  "off": 1073262,
+  "size": 337,
+  "uncomp": 1131,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Khartoum",
+  "end": 10934910
+ },
+ {
+  "pos": 10934927,
+  "off": 1073599,
+  "size": 141,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Kigali",
+  "end": 10934972
+ },
+ {
+  "pos": 10934991,
+  "off": 1073740,
+  "size": 141,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Kinshasa",
+  "end": 10935038
+ },
+ {
+  "pos": 10935055,
+  "off": 1073881,
+  "size": 172,
+  "uncomp": 232,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Lagos",
+  "end": 10935099
+ },
+ {
+  "pos": 10935103,
+  "off": 1074053,
+  "size": 142,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Libreville",
+  "end": 10935152
+ },
+ {
+  "pos": 10935167,
+  "off": 1074195,
+  "size": 140,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Lome",
+  "end": 10935210
+ },
+ {
+  "pos": 10935215,
+  "off": 1074335,
+  "size": 139,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Luanda",
+  "end": 10935260
+ },
+ {
+  "pos": 10935279,
+  "off": 1074474,
+  "size": 145,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Lubumbashi",
+  "end": 10935328
+ },
+ {
+  "pos": 10935343,
+  "off": 1074619,
+  "size": 142,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Lusaka",
+  "end": 10935388
+ },
+ {
+  "pos": 10935407,
+  "off": 1074761,
+  "size": 140,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Malabo",
+  "end": 10935452
+ },
+ {
+  "pos": 10935471,
+  "off": 1074901,
+  "size": 139,
+  "uncomp": 149,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Maputo",
+  "end": 10935516
+ },
+ {
+  "pos": 10935535,
+  "off": 1075040,
+  "size": 147,
+  "uncomp": 199,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Maseru",
+  "end": 10935580
+ },
+ {
+  "pos": 10935599,
+  "off": 1075187,
+  "size": 148,
+  "uncomp": 200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Mbabane",
+  "end": 10935645
+ },
+ {
+  "pos": 10935663,
+  "off": 1075335,
+  "size": 145,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Mogadishu",
+  "end": 10935711
+ },
+ {
+  "pos": 10935727,
+  "off": 1075480,
+  "size": 160,
+  "uncomp": 208,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Monrovia",
+  "end": 10935774
+ },
+ {
+  "pos": 10935791,
+  "off": 1075640,
+  "size": 179,
+  "uncomp": 268,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Nairobi",
+  "end": 10935837
+ },
+ {
+  "pos": 10935855,
+  "off": 1075819,
+  "size": 164,
+  "uncomp": 208,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Ndjamena",
+  "end": 10935902
+ },
+ {
+  "pos": 10935919,
+  "off": 1075983,
+  "size": 141,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Niamey",
+  "end": 10935964
+ },
+ {
+  "pos": 10935983,
+  "off": 1076124,
+  "size": 146,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Nouakchott",
+  "end": 10936032
+ },
+ {
+  "pos": 10936047,
+  "off": 1076270,
+  "size": 147,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Ouagadougou",
+  "end": 10936097
+ },
+ {
+  "pos": 10936111,
+  "off": 1076417,
+  "size": 145,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Porto-Novo",
+  "end": 10936160
+ },
+ {
+  "pos": 10936175,
+  "off": 1076562,
+  "size": 173,
+  "uncomp": 234,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Sao_Tome",
+  "end": 10936222
+ },
+ {
+  "pos": 10936239,
+  "off": 1076735,
+  "size": 144,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Timbuktu",
+  "end": 10936286
+ },
+ {
+  "pos": 10936303,
+  "off": 1076879,
+  "size": 316,
+  "uncomp": 954,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Tripoli",
+  "end": 10936349
+ },
+ {
+  "pos": 10936367,
+  "off": 1077195,
+  "size": 338,
+  "uncomp": 1111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Tunis",
+  "end": 10936411
+ },
+ {
+  "pos": 10936415,
+  "off": 1077533,
+  "size": 455,
+  "uncomp": 1646,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Africa\\Windhoek",
+  "end": 10936462
+ },
+ {
+  "pos": 10936479,
+  "off": 1077988,
+  "size": 1659,
+  "uncomp": 8447,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Adak",
+  "end": 10936523
+ },
+ {
+  "pos": 10936527,
+  "off": 1079647,
+  "size": 1672,
+  "uncomp": 8685,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Anchorage",
+  "end": 10936576
+ },
+ {
+  "pos": 10936591,
+  "off": 1081319,
+  "size": 149,
+  "uncomp": 202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Anguilla",
+  "end": 10936639
+ },
+ {
+  "pos": 10936655,
+  "off": 1081468,
+  "size": 148,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Antigua",
+  "end": 10936702
+ },
+ {
+  "pos": 10936719,
+  "off": 1081616,
+  "size": 445,
+  "uncomp": 1727,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Araguaina",
+  "end": 10936768
+ },
+ {
+  "pos": 10936783,
+  "off": 1082061,
+  "size": 512,
+  "uncomp": 1987,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Buenos_Aires",
+  "end": 10936845
+ },
+ {
+  "pos": 10936863,
+  "off": 1082573,
+  "size": 517,
+  "uncomp": 2015,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Catamarca",
+  "end": 10936922
+ },
+ {
+  "pos": 10936927,
+  "off": 1083090,
+  "size": 156,
+  "uncomp": 242,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\ComodRivadavia",
+  "end": 10936991
+ },
+ {
+  "pos": 10937007,
+  "off": 1083246,
+  "size": 509,
+  "uncomp": 1982,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Cordoba",
+  "end": 10937064
+ },
+ {
+  "pos": 10937071,
+  "off": 1083755,
+  "size": 510,
+  "uncomp": 1980,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Jujuy",
+  "end": 10937126
+ },
+ {
+  "pos": 10937135,
+  "off": 1084265,
+  "size": 519,
+  "uncomp": 2043,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\La_Rioja",
+  "end": 10937193
+ },
+ {
+  "pos": 10937199,
+  "off": 1084784,
+  "size": 516,
+  "uncomp": 2015,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Mendoza",
+  "end": 10937256
+ },
+ {
+  "pos": 10937263,
+  "off": 1085300,
+  "size": 518,
+  "uncomp": 2018,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Rio_Gallegos",
+  "end": 10937325
+ },
+ {
+  "pos": 10937343,
+  "off": 1085818,
+  "size": 504,
+  "uncomp": 1951,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Salta",
+  "end": 10937398
+ },
+ {
+  "pos": 10937407,
+  "off": 1086322,
+  "size": 522,
+  "uncomp": 2043,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\San_Juan",
+  "end": 10937465
+ },
+ {
+  "pos": 10937471,
+  "off": 1086844,
+  "size": 523,
+  "uncomp": 2019,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\San_Luis",
+  "end": 10937529
+ },
+ {
+  "pos": 10937535,
+  "off": 1087367,
+  "size": 525,
+  "uncomp": 2042,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Tucuman",
+  "end": 10937592
+ },
+ {
+  "pos": 10937599,
+  "off": 1087892,
+  "size": 514,
+  "uncomp": 2013,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Argentina\\Ushuaia",
+  "end": 10937656
+ },
+ {
+  "pos": 10937663,
+  "off": 1088406,
+  "size": 147,
+  "uncomp": 199,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Aruba",
+  "end": 10937708
+ },
+ {
+  "pos": 10937727,
+  "off": 1088553,
+  "size": 1502,
+  "uncomp": 7691,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Asuncion",
+  "end": 10937775
+ },
+ {
+  "pos": 10937791,
+  "off": 1090055,
+  "size": 143,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Atikokan",
+  "end": 10937839
+ },
+ {
+  "pos": 10937855,
+  "off": 1090198,
+  "size": 138,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Atka",
+  "end": 10937899
+ },
+ {
+  "pos": 10937903,
+  "off": 1090336,
+  "size": 483,
+  "uncomp": 1949,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Bahia",
+  "end": 10937948
+ },
+ {
+  "pos": 10937967,
+  "off": 1090819,
+  "size": 514,
+  "uncomp": 2042,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Bahia_Banderas",
+  "end": 10938021
+ },
+ {
+  "pos": 10938031,
+  "off": 1091333,
+  "size": 262,
+  "uncomp": 648,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Barbados",
+  "end": 10938079
+ },
+ {
+  "pos": 10938095,
+  "off": 1091595,
+  "size": 307,
+  "uncomp": 1001,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Belem",
+  "end": 10938140
+ },
+ {
+  "pos": 10938159,
+  "off": 1091902,
+  "size": 705,
+  "uncomp": 3284,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Belize",
+  "end": 10938205
+ },
+ {
+  "pos": 10938223,
+  "off": 1092607,
+  "size": 152,
+  "uncomp": 206,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Blanc-Sablon",
+  "end": 10938275
+ },
+ {
+  "pos": 10938287,
+  "off": 1092759,
+  "size": 341,
+  "uncomp": 1164,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Boa_Vista",
+  "end": 10938336
+ },
+ {
+  "pos": 10938351,
+  "off": 1093100,
+  "size": 174,
+  "uncomp": 243,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Bogota",
+  "end": 10938397
+ },
+ {
+  "pos": 10938415,
+  "off": 1093274,
+  "size": 1668,
+  "uncomp": 8605,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Boise",
+  "end": 10938460
+ },
+ {
+  "pos": 10938479,
+  "off": 1094942,
+  "size": 150,
+  "uncomp": 239,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Buenos_Aires",
+  "end": 10938531
+ },
+ {
+  "pos": 10938543,
+  "off": 1095092,
+  "size": 1604,
+  "uncomp": 8154,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cambridge_Bay",
+  "end": 10938596
+ },
+ {
+  "pos": 10938607,
+  "off": 1096696,
+  "size": 629,
+  "uncomp": 2827,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Campo_Grande",
+  "end": 10938659
+ },
+ {
+  "pos": 10938671,
+  "off": 1097325,
+  "size": 406,
+  "uncomp": 1442,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cancun",
+  "end": 10938717
+ },
+ {
+  "pos": 10938735,
+  "off": 1097731,
+  "size": 181,
+  "uncomp": 276,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Caracas",
+  "end": 10938782
+ },
+ {
+  "pos": 10938799,
+  "off": 1097912,
+  "size": 146,
+  "uncomp": 227,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Catamarca",
+  "end": 10938848
+ },
+ {
+  "pos": 10938863,
+  "off": 1098058,
+  "size": 153,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cayenne",
+  "end": 10938910
+ },
+ {
+  "pos": 10938927,
+  "off": 1098211,
+  "size": 142,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cayman",
+  "end": 10938973
+ },
+ {
+  "pos": 10938991,
+  "off": 1098353,
+  "size": 2085,
+  "uncomp": 11372,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Chicago",
+  "end": 10939038
+ },
+ {
+  "pos": 10939055,
+  "off": 1100438,
+  "size": 511,
+  "uncomp": 2040,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Chihuahua",
+  "end": 10939104
+ },
+ {
+  "pos": 10939119,
+  "off": 1100949,
+  "size": 1354,
+  "uncomp": 6657,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Ciudad_Juarez",
+  "end": 10939172
+ },
+ {
+  "pos": 10939183,
+  "off": 1102303,
+  "size": 148,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Coral_Harbour",
+  "end": 10939236
+ },
+ {
+  "pos": 10939247,
+  "off": 1102451,
+  "size": 146,
+  "uncomp": 219,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cordoba",
+  "end": 10939294
+ },
+ {
+  "pos": 10939311,
+  "off": 1102597,
+  "size": 221,
+  "uncomp": 431,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Costa_Rica",
+  "end": 10939361
+ },
+ {
+  "pos": 10939375,
+  "off": 1102818,
+  "size": 143,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Creston",
+  "end": 10939422
+ },
+ {
+  "pos": 10939439,
+  "off": 1102961,
+  "size": 621,
+  "uncomp": 2821,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Cuiaba",
+  "end": 10939485
+ },
+ {
+  "pos": 10939503,
+  "off": 1103582,
+  "size": 148,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Curacao",
+  "end": 10939550
+ },
+ {
+  "pos": 10939567,
+  "off": 1103730,
+  "size": 350,
+  "uncomp": 1095,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Danmarkshavn",
+  "end": 10939619
+ },
+ {
+  "pos": 10939631,
+  "off": 1104080,
+  "size": 695,
+  "uncomp": 3028,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Dawson",
+  "end": 10939677
+ },
+ {
+  "pos": 10939695,
+  "off": 1104775,
+  "size": 484,
+  "uncomp": 1940,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Dawson_Creek",
+  "end": 10939747
+ },
+ {
+  "pos": 10939759,
+  "off": 1105259,
+  "size": 1685,
+  "uncomp": 8920,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Denver",
+  "end": 10939805
+ },
+ {
+  "pos": 10939823,
+  "off": 1106944,
+  "size": 1639,
+  "uncomp": 8430,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Detroit",
+  "end": 10939870
+ },
+ {
+  "pos": 10939887,
+  "off": 1108583,
+  "size": 148,
+  "uncomp": 202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Dominica",
+  "end": 10939935
+ },
+ {
+  "pos": 10939951,
+  "off": 1108731,
+  "size": 1648,
+  "uncomp": 8600,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Edmonton",
+  "end": 10939999
+ },
+ {
+  "pos": 10940015,
+  "off": 1110379,
+  "size": 351,
+  "uncomp": 1194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Eirunepe",
+  "end": 10940063
+ },
+ {
+  "pos": 10940079,
+  "off": 1110730,
+  "size": 183,
+  "uncomp": 279,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\El_Salvador",
+  "end": 10940130
+ },
+ {
+  "pos": 10940143,
+  "off": 1110913,
+  "size": 143,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Ensenada",
+  "end": 10940191
+ },
+ {
+  "pos": 10940207,
+  "off": 1111056,
+  "size": 927,
+  "uncomp": 4578,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Fort_Nelson",
+  "end": 10940258
+ },
+ {
+  "pos": 10940271,
+  "off": 1111983,
+  "size": 152,
+  "uncomp": 231,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Fort_Wayne",
+  "end": 10940321
+ },
+ {
+  "pos": 10940335,
+  "off": 1112135,
+  "size": 376,
+  "uncomp": 1380,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Fortaleza",
+  "end": 10940384
+ },
+ {
+  "pos": 10940399,
+  "off": 1112511,
+  "size": 1603,
+  "uncomp": 8372,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Glace_Bay",
+  "end": 10940448
+ },
+ {
+  "pos": 10940463,
+  "off": 1114114,
+  "size": 142,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Godthab",
+  "end": 10940510
+ },
+ {
+  "pos": 10940527,
+  "off": 1114256,
+  "size": 2005,
+  "uncomp": 10353,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Goose_Bay",
+  "end": 10940576
+ },
+ {
+  "pos": 10940591,
+  "off": 1116261,
+  "size": 1471,
+  "uncomp": 7522,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Grand_Turk",
+  "end": 10940641
+ },
+ {
+  "pos": 10940655,
+  "off": 1117732,
+  "size": 147,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Grenada",
+  "end": 10940702
+ },
+ {
+  "pos": 10940719,
+  "off": 1117879,
+  "size": 150,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Guadeloupe",
+  "end": 10940769
+ },
+ {
+  "pos": 10940783,
+  "off": 1118029,
+  "size": 211,
+  "uncomp": 399,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Guatemala",
+  "end": 10940832
+ },
+ {
+  "pos": 10940847,
+  "off": 1118240,
+  "size": 179,
+  "uncomp": 246,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Guayaquil",
+  "end": 10940896
+ },
+ {
+  "pos": 10940911,
+  "off": 1118419,
+  "size": 174,
+  "uncomp": 242,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Guyana",
+  "end": 10940957
+ },
+ {
+  "pos": 10940975,
+  "off": 1118593,
+  "size": 2027,
+  "uncomp": 11124,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Halifax",
+  "end": 10941022
+ },
+ {
+  "pos": 10941039,
+  "off": 1120620,
+  "size": 1645,
+  "uncomp": 8729,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Havana",
+  "end": 10941085
+ },
+ {
+  "pos": 10941103,
+  "off": 1122265,
+  "size": 245,
+  "uncomp": 589,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Hermosillo",
+  "end": 10941153
+ },
+ {
+  "pos": 10941167,
+  "off": 1122510,
+  "size": 1432,
+  "uncomp": 7230,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Indianapolis",
+  "end": 10941227
+ },
+ {
+  "pos": 10941231,
+  "off": 1123942,
+  "size": 1665,
+  "uncomp": 8755,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Knox",
+  "end": 10941283
+ },
+ {
+  "pos": 10941295,
+  "off": 1125607,
+  "size": 1432,
+  "uncomp": 7273,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Marengo",
+  "end": 10941350
+ },
+ {
+  "pos": 10941359,
+  "off": 1127039,
+  "size": 1499,
+  "uncomp": 7611,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Petersburg",
+  "end": 10941417
+ },
+ {
+  "pos": 10941423,
+  "off": 1128538,
+  "size": 1404,
+  "uncomp": 7100,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Tell_City",
+  "end": 10941480
+ },
+ {
+  "pos": 10941487,
+  "off": 1129942,
+  "size": 1306,
+  "uncomp": 6563,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Vevay",
+  "end": 10941540
+ },
+ {
+  "pos": 10941551,
+  "off": 1131248,
+  "size": 1433,
+  "uncomp": 7226,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Vincennes",
+  "end": 10941608
+ },
+ {
+  "pos": 10941615,
+  "off": 1132681,
+  "size": 1471,
+  "uncomp": 7410,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indiana\\Winamac",
+  "end": 10941670
+ },
+ {
+  "pos": 10941679,
+  "off": 1134152,
+  "size": 145,
+  "uncomp": 233,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Indianapolis",
+  "end": 10941731
+ },
+ {
+  "pos": 10941743,
+  "off": 1134297,
+  "size": 1575,
+  "uncomp": 8053,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Inuvik",
+  "end": 10941789
+ },
+ {
+  "pos": 10941807,
+  "off": 1135872,
+  "size": 1556,
+  "uncomp": 8086,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Iqaluit",
+  "end": 10941854
+ },
+ {
+  "pos": 10941871,
+  "off": 1137428,
+  "size": 283,
+  "uncomp": 847,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Jamaica",
+  "end": 10941918
+ },
+ {
+  "pos": 10941935,
+  "off": 1137711,
+  "size": 147,
+  "uncomp": 211,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Jujuy",
+  "end": 10941980
+ },
+ {
+  "pos": 10941999,
+  "off": 1137858,
+  "size": 1677,
+  "uncomp": 8682,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Juneau",
+  "end": 10942045
+ },
+ {
+  "pos": 10942063,
+  "off": 1139535,
+  "size": 1867,
+  "uncomp": 9553,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Kentucky\\Louisville",
+  "end": 10942122
+ },
+ {
+  "pos": 10942127,
+  "off": 1141402,
+  "size": 1681,
+  "uncomp": 8558,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Kentucky\\Monticello",
+  "end": 10942186
+ },
+ {
+  "pos": 10942191,
+  "off": 1143083,
+  "size": 147,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Knox_IN",
+  "end": 10942238
+ },
+ {
+  "pos": 10942255,
+  "off": 1143230,
+  "size": 151,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Kralendijk",
+  "end": 10942305
+ },
+ {
+  "pos": 10942319,
+  "off": 1143381,
+  "size": 170,
+  "uncomp": 217,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\La_Paz",
+  "end": 10942365
+ },
+ {
+  "pos": 10942383,
+  "off": 1143551,
+  "size": 215,
+  "uncomp": 450,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Lima",
+  "end": 10942427
+ },
+ {
+  "pos": 10942431,
+  "off": 1143766,
+  "size": 1817,
+  "uncomp": 9726,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Los_Angeles",
+  "end": 10942482
+ },
+ {
+  "pos": 10942495,
+  "off": 1145583,
+  "size": 149,
+  "uncomp": 228,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Louisville",
+  "end": 10942545
+ },
+ {
+  "pos": 10942559,
+  "off": 1145732,
+  "size": 152,
+  "uncomp": 207,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Lower_Princes",
+  "end": 10942612
+ },
+ {
+  "pos": 10942623,
+  "off": 1145884,
+  "size": 396,
+  "uncomp": 1492,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Maceio",
+  "end": 10942669
+ },
+ {
+  "pos": 10942687,
+  "off": 1146280,
+  "size": 255,
+  "uncomp": 611,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Managua",
+  "end": 10942734
+ },
+ {
+  "pos": 10942751,
+  "off": 1146535,
+  "size": 334,
+  "uncomp": 1132,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Manaus",
+  "end": 10942797
+ },
+ {
+  "pos": 10942815,
+  "off": 1146869,
+  "size": 148,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Marigot",
+  "end": 10942862
+ },
+ {
+  "pos": 10942879,
+  "off": 1147017,
+  "size": 179,
+  "uncomp": 251,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Martinique",
+  "end": 10942929
+ },
+ {
+  "pos": 10942943,
+  "off": 1147196,
+  "size": 1310,
+  "uncomp": 6745,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Matamoros",
+  "end": 10942992
+ },
+ {
+  "pos": 10943007,
+  "off": 1148506,
+  "size": 495,
+  "uncomp": 2036,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Mazatlan",
+  "end": 10943055
+ },
+ {
+  "pos": 10943071,
+  "off": 1149001,
+  "size": 147,
+  "uncomp": 219,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Mendoza",
+  "end": 10943118
+ },
+ {
+  "pos": 10943135,
+  "off": 1149148,
+  "size": 1608,
+  "uncomp": 8410,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Menominee",
+  "end": 10943184
+ },
+ {
+  "pos": 10943199,
+  "off": 1150756,
+  "size": 466,
+  "uncomp": 1877,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Merida",
+  "end": 10943245
+ },
+ {
+  "pos": 10943263,
+  "off": 1151222,
+  "size": 1332,
+  "uncomp": 6705,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Metlakatla",
+  "end": 10943313
+ },
+ {
+  "pos": 10943327,
+  "off": 1152554,
+  "size": 548,
+  "uncomp": 2261,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Mexico_City",
+  "end": 10943378
+ },
+ {
+  "pos": 10943391,
+  "off": 1153102,
+  "size": 1396,
+  "uncomp": 6852,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Miquelon",
+  "end": 10943439
+ },
+ {
+  "pos": 10943455,
+  "off": 1154498,
+  "size": 1974,
+  "uncomp": 10507,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Moncton",
+  "end": 10943502
+ },
+ {
+  "pos": 10943519,
+  "off": 1156472,
+  "size": 518,
+  "uncomp": 2100,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Monterrey",
+  "end": 10943568
+ },
+ {
+  "pos": 10943583,
+  "off": 1156990,
+  "size": 651,
+  "uncomp": 2800,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Montevideo",
+  "end": 10943633
+ },
+ {
+  "pos": 10943647,
+  "off": 1157641,
+  "size": 142,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Montreal",
+  "end": 10943695
+ },
+ {
+  "pos": 10943711,
+  "off": 1157783,
+  "size": 149,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Montserrat",
+  "end": 10943761
+ },
+ {
+  "pos": 10943775,
+  "off": 1157932,
+  "size": 141,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Nassau",
+  "end": 10943821
+ },
+ {
+  "pos": 10943839,
+  "off": 1158073,
+  "size": 2079,
+  "uncomp": 11373,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\New_York",
+  "end": 10943887
+ },
+ {
+  "pos": 10943903,
+  "off": 1160152,
+  "size": 142,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Nipigon",
+  "end": 10943950
+ },
+ {
+  "pos": 10943967,
+  "off": 1160294,
+  "size": 1678,
+  "uncomp": 8680,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Nome",
+  "end": 10944011
+ },
+ {
+  "pos": 10944015,
+  "off": 1161972,
+  "size": 371,
+  "uncomp": 1354,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Noronha",
+  "end": 10944062
+ },
+ {
+  "pos": 10944079,
+  "off": 1162343,
+  "size": 1678,
+  "uncomp": 8557,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\North_Dakota\\Beulah",
+  "end": 10944138
+ },
+ {
+  "pos": 10944143,
+  "off": 1164021,
+  "size": 1673,
+  "uncomp": 8557,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\North_Dakota\\Center",
+  "end": 10944202
+ },
+ {
+  "pos": 10944207,
+  "off": 1165694,
+  "size": 1679,
+  "uncomp": 8560,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\North_Dakota\\New_Salem",
+  "end": 10944269
+ },
+ {
+  "pos": 10944287,
+  "off": 1167373,
+  "size": 1483,
+  "uncomp": 7111,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Nuuk",
+  "end": 10944331
+ },
+ {
+  "pos": 10944335,
+  "off": 1168856,
+  "size": 1366,
+  "uncomp": 6874,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Ojinaga",
+  "end": 10944382
+ },
+ {
+  "pos": 10944399,
+  "off": 1170222,
+  "size": 159,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Panama",
+  "end": 10944445
+ },
+ {
+  "pos": 10944463,
+  "off": 1170381,
+  "size": 147,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Pangnirtung",
+  "end": 10944514
+ },
+ {
+  "pos": 10944527,
+  "off": 1170528,
+  "size": 182,
+  "uncomp": 249,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Paramaribo",
+  "end": 10944577
+ },
+ {
+  "pos": 10944591,
+  "off": 1170710,
+  "size": 226,
+  "uncomp": 496,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Phoenix",
+  "end": 10944638
+ },
+ {
+  "pos": 10944655,
+  "off": 1170936,
+  "size": 1305,
+  "uncomp": 6613,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Port-au-Prince",
+  "end": 10944709
+ },
+ {
+  "pos": 10944719,
+  "off": 1172241,
+  "size": 151,
+  "uncomp": 207,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Port_of_Spain",
+  "end": 10944772
+ },
+ {
+  "pos": 10944783,
+  "off": 1172392,
+  "size": 149,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Porto_Acre",
+  "end": 10944833
+ },
+ {
+  "pos": 10944847,
+  "off": 1172541,
+  "size": 320,
+  "uncomp": 1021,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Porto_Velho",
+  "end": 10944898
+ },
+ {
+  "pos": 10944911,
+  "off": 1172861,
+  "size": 187,
+  "uncomp": 283,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Puerto_Rico",
+  "end": 10944962
+ },
+ {
+  "pos": 10944975,
+  "off": 1173048,
+  "size": 807,
+  "uncomp": 3614,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Punta_Arenas",
+  "end": 10945027
+ },
+ {
+  "pos": 10945039,
+  "off": 1173855,
+  "size": 148,
+  "uncomp": 196,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Rainy_River",
+  "end": 10945090
+ },
+ {
+  "pos": 10945103,
+  "off": 1174003,
+  "size": 1544,
+  "uncomp": 8029,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Rankin_Inlet",
+  "end": 10945155
+ },
+ {
+  "pos": 10945167,
+  "off": 1175547,
+  "size": 377,
+  "uncomp": 1377,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Recife",
+  "end": 10945213
+ },
+ {
+  "pos": 10945231,
+  "off": 1175924,
+  "size": 449,
+  "uncomp": 1781,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Regina",
+  "end": 10945277
+ },
+ {
+  "pos": 10945295,
+  "off": 1176373,
+  "size": 1546,
+  "uncomp": 8025,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Resolute",
+  "end": 10945343
+ },
+ {
+  "pos": 10945359,
+  "off": 1177919,
+  "size": 331,
+  "uncomp": 1080,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Rio_Branco",
+  "end": 10945409
+ },
+ {
+  "pos": 10945423,
+  "off": 1178250,
+  "size": 150,
+  "uncomp": 219,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Rosario",
+  "end": 10945470
+ },
+ {
+  "pos": 10945487,
+  "off": 1178400,
+  "size": 146,
+  "uncomp": 194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Santa_Isabel",
+  "end": 10945539
+ },
+ {
+  "pos": 10945551,
+  "off": 1178546,
+  "size": 323,
+  "uncomp": 1048,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Santarem",
+  "end": 10945599
+ },
+ {
+  "pos": 10945615,
+  "off": 1178869,
+  "size": 1672,
+  "uncomp": 8590,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Santiago",
+  "end": 10945663
+ },
+ {
+  "pos": 10945679,
+  "off": 1180541,
+  "size": 265,
+  "uncomp": 616,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Santo_Domingo",
+  "end": 10945732
+ },
+ {
+  "pos": 10945743,
+  "off": 1180806,
+  "size": 635,
+  "uncomp": 2808,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Sao_Paulo",
+  "end": 10945792
+ },
+ {
+  "pos": 10945807,
+  "off": 1181441,
+  "size": 1507,
+  "uncomp": 6902,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Scoresbysund",
+  "end": 10945859
+ },
+ {
+  "pos": 10945871,
+  "off": 1182948,
+  "size": 144,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Shiprock",
+  "end": 10945919
+ },
+ {
+  "pos": 10945935,
+  "off": 1183092,
+  "size": 1658,
+  "uncomp": 8651,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Sitka",
+  "end": 10945980
+ },
+ {
+  "pos": 10945999,
+  "off": 1184750,
+  "size": 153,
+  "uncomp": 207,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Barthelemy",
+  "end": 10946052
+ },
+ {
+  "pos": 10946063,
+  "off": 1184903,
+  "size": 2161,
+  "uncomp": 11289,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Johns",
+  "end": 10946111
+ },
+ {
+  "pos": 10946127,
+  "off": 1187064,
+  "size": 148,
+  "uncomp": 202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Kitts",
+  "end": 10946175
+ },
+ {
+  "pos": 10946191,
+  "off": 1187212,
+  "size": 149,
+  "uncomp": 202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Lucia",
+  "end": 10946239
+ },
+ {
+  "pos": 10946255,
+  "off": 1187361,
+  "size": 150,
+  "uncomp": 203,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Thomas",
+  "end": 10946304
+ },
+ {
+  "pos": 10946319,
+  "off": 1187511,
+  "size": 150,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\St_Vincent",
+  "end": 10946369
+ },
+ {
+  "pos": 10946383,
+  "off": 1187661,
+  "size": 304,
+  "uncomp": 874,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Swift_Current",
+  "end": 10946436
+ },
+ {
+  "pos": 10946447,
+  "off": 1187965,
+  "size": 193,
+  "uncomp": 341,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Tegucigalpa",
+  "end": 10946498
+ },
+ {
+  "pos": 10946511,
+  "off": 1188158,
+  "size": 1330,
+  "uncomp": 6890,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Thule",
+  "end": 10946556
+ },
+ {
+  "pos": 10946575,
+  "off": 1189488,
+  "size": 146,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Thunder_Bay",
+  "end": 10946626
+ },
+ {
+  "pos": 10946639,
+  "off": 1189634,
+  "size": 1695,
+  "uncomp": 8941,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Tijuana",
+  "end": 10946686
+ },
+ {
+  "pos": 10946703,
+  "off": 1191329,
+  "size": 2067,
+  "uncomp": 11248,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Toronto",
+  "end": 10946750
+ },
+ {
+  "pos": 10946767,
+  "off": 1193396,
+  "size": 147,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Tortola",
+  "end": 10946814
+ },
+ {
+  "pos": 10946831,
+  "off": 1193543,
+  "size": 1830,
+  "uncomp": 9815,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Vancouver",
+  "end": 10946880
+ },
+ {
+  "pos": 10946895,
+  "off": 1195373,
+  "size": 148,
+  "uncomp": 200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Virgin",
+  "end": 10946941
+ },
+ {
+  "pos": 10946959,
+  "off": 1195521,
+  "size": 697,
+  "uncomp": 3033,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Whitehorse",
+  "end": 10947009
+ },
+ {
+  "pos": 10947023,
+  "off": 1196218,
+  "size": 1810,
+  "uncomp": 9695,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Winnipeg",
+  "end": 10947071
+ },
+ {
+  "pos": 10947087,
+  "off": 1198028,
+  "size": 1657,
+  "uncomp": 8683,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Yakutat",
+  "end": 10947134
+ },
+ {
+  "pos": 10947151,
+  "off": 1199685,
+  "size": 147,
+  "uncomp": 196,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\America\\Yellowknife",
+  "end": 10947202
+ },
+ {
+  "pos": 10947215,
+  "off": 1199832,
+  "size": 238,
+  "uncomp": 611,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Casey",
+  "end": 10947263
+ },
+ {
+  "pos": 10947279,
+  "off": 1200070,
+  "size": 182,
+  "uncomp": 318,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Davis",
+  "end": 10947327
+ },
+ {
+  "pos": 10947343,
+  "off": 1200252,
+  "size": 158,
+  "uncomp": 214,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\DumontDUrville",
+  "end": 10947400
+ },
+ {
+  "pos": 10947407,
+  "off": 1200410,
+  "size": 1605,
+  "uncomp": 8447,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Macquarie",
+  "end": 10947459
+ },
+ {
+  "pos": 10947471,
+  "off": 1202015,
+  "size": 151,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Mawson",
+  "end": 10947520
+ },
+ {
+  "pos": 10947535,
+  "off": 1202166,
+  "size": 150,
+  "uncomp": 195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\McMurdo",
+  "end": 10947585
+ },
+ {
+  "pos": 10947599,
+  "off": 1202316,
+  "size": 578,
+  "uncomp": 2531,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Palmer",
+  "end": 10947648
+ },
+ {
+  "pos": 10947663,
+  "off": 1202894,
+  "size": 140,
+  "uncomp": 150,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Rothera",
+  "end": 10947713
+ },
+ {
+  "pos": 10947727,
+  "off": 1203034,
+  "size": 153,
+  "uncomp": 198,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\South_Pole",
+  "end": 10947780
+ },
+ {
+  "pos": 10947791,
+  "off": 1203187,
+  "size": 144,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Syowa",
+  "end": 10947839
+ },
+ {
+  "pos": 10947855,
+  "off": 1203331,
+  "size": 1183,
+  "uncomp": 5370,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Troll",
+  "end": 10947903
+ },
+ {
+  "pos": 10947919,
+  "off": 1204514,
+  "size": 166,
+  "uncomp": 231,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Antarctica\\Vostok",
+  "end": 10947968
+ },
+ {
+  "pos": 10947983,
+  "off": 1204680,
+  "size": 148,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Arctic\\Longyearbyen",
+  "end": 10948034
+ },
+ {
+  "pos": 10948047,
+  "off": 1204828,
+  "size": 138,
+  "uncomp": 171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Aden",
+  "end": 10948088
+ },
+ {
+  "pos": 10948095,
+  "off": 1204966,
+  "size": 446,
+  "uncomp": 1614,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Almaty",
+  "end": 10948138
+ },
+ {
+  "pos": 10948143,
+  "off": 1205412,
+  "size": 618,
+  "uncomp": 2681,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Amman",
+  "end": 10948185
+ },
+ {
+  "pos": 10948191,
+  "off": 1206030,
+  "size": 541,
+  "uncomp": 2019,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Anadyr",
+  "end": 10948234
+ },
+ {
+  "pos": 10948239,
+  "off": 1206571,
+  "size": 454,
+  "uncomp": 1612,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Aqtau",
+  "end": 10948281
+ },
+ {
+  "pos": 10948287,
+  "off": 1207025,
+  "size": 450,
+  "uncomp": 1613,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Aqtobe",
+  "end": 10948330
+ },
+ {
+  "pos": 10948335,
+  "off": 1207475,
+  "size": 303,
+  "uncomp": 852,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ashgabat",
+  "end": 10948380
+ },
+ {
+  "pos": 10948399,
+  "off": 1207778,
+  "size": 140,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ashkhabad",
+  "end": 10948445
+ },
+ {
+  "pos": 10948463,
+  "off": 1207918,
+  "size": 455,
+  "uncomp": 1613,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Atyrau",
+  "end": 10948506
+ },
+ {
+  "pos": 10948511,
+  "off": 1208373,
+  "size": 437,
+  "uncomp": 1649,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Baghdad",
+  "end": 10948555
+ },
+ {
+  "pos": 10948559,
+  "off": 1208810,
+  "size": 138,
+  "uncomp": 171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Bahrain",
+  "end": 10948603
+ },
+ {
+  "pos": 10948607,
+  "off": 1208948,
+  "size": 533,
+  "uncomp": 2080,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Baku",
+  "end": 10948648
+ },
+ {
+  "pos": 10948655,
+  "off": 1209481,
+  "size": 151,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Bangkok",
+  "end": 10948699
+ },
+ {
+  "pos": 10948703,
+  "off": 1209632,
+  "size": 534,
+  "uncomp": 2049,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Barnaul",
+  "end": 10948747
+ },
+ {
+  "pos": 10948751,
+  "off": 1210166,
+  "size": 1559,
+  "uncomp": 8024,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Beirut",
+  "end": 10948794
+ },
+ {
+  "pos": 10948799,
+  "off": 1211725,
+  "size": 452,
+  "uncomp": 1616,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Bishkek",
+  "end": 10948843
+ },
+ {
+  "pos": 10948847,
+  "off": 1212177,
+  "size": 141,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Brunei",
+  "end": 10948890
+ },
+ {
+  "pos": 10948895,
+  "off": 1212318,
+  "size": 140,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Calcutta",
+  "end": 10948940
+ },
+ {
+  "pos": 10948959,
+  "off": 1212458,
+  "size": 526,
+  "uncomp": 2019,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Chita",
+  "end": 10949001
+ },
+ {
+  "pos": 10949007,
+  "off": 1212984,
+  "size": 145,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Choibalsan",
+  "end": 10949054
+ },
+ {
+  "pos": 10949071,
+  "off": 1213129,
+  "size": 143,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Chongqing",
+  "end": 10949117
+ },
+ {
+  "pos": 10949135,
+  "off": 1213272,
+  "size": 144,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Chungking",
+  "end": 10949181
+ },
+ {
+  "pos": 10949199,
+  "off": 1213416,
+  "size": 205,
+  "uncomp": 352,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Colombo",
+  "end": 10949243
+ },
+ {
+  "pos": 10949247,
+  "off": 1213621,
+  "size": 137,
+  "uncomp": 169,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Dacca",
+  "end": 10949289
+ },
+ {
+  "pos": 10949295,
+  "off": 1213758,
+  "size": 772,
+  "uncomp": 3691,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Damascus",
+  "end": 10949340
+ },
+ {
+  "pos": 10949359,
+  "off": 1214530,
+  "size": 199,
+  "uncomp": 351,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Dhaka",
+  "end": 10949401
+ },
+ {
+  "pos": 10949407,
+  "off": 1214729,
+  "size": 165,
+  "uncomp": 231,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Dili",
+  "end": 10949448
+ },
+ {
+  "pos": 10949455,
+  "off": 1214894,
+  "size": 140,
+  "uncomp": 147,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Dubai",
+  "end": 10949497
+ },
+ {
+  "pos": 10949503,
+  "off": 1215034,
+  "size": 287,
+  "uncomp": 796,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Dushanbe",
+  "end": 10949548
+ },
+ {
+  "pos": 10949567,
+  "off": 1215321,
+  "size": 1501,
+  "uncomp": 7596,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Famagusta",
+  "end": 10949613
+ },
+ {
+  "pos": 10949631,
+  "off": 1216822,
+  "size": 1947,
+  "uncomp": 10227,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Gaza",
+  "end": 10949672
+ },
+ {
+  "pos": 10949679,
+  "off": 1218769,
+  "size": 141,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Harbin",
+  "end": 10949722
+ },
+ {
+  "pos": 10949727,
+  "off": 1218910,
+  "size": 1935,
+  "uncomp": 10202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Hebron",
+  "end": 10949770
+ },
+ {
+  "pos": 10949775,
+  "off": 1220845,
+  "size": 211,
+  "uncomp": 387,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ho_Chi_Minh",
+  "end": 10949823
+ },
+ {
+  "pos": 10949839,
+  "off": 1221056,
+  "size": 515,
+  "uncomp": 2226,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Hong_Kong",
+  "end": 10949885
+ },
+ {
+  "pos": 10949903,
+  "off": 1221571,
+  "size": 420,
+  "uncomp": 1533,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Hovd",
+  "end": 10949944
+ },
+ {
+  "pos": 10949951,
+  "off": 1221991,
+  "size": 532,
+  "uncomp": 2023,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Irkutsk",
+  "end": 10949995
+ },
+ {
+  "pos": 10949999,
+  "off": 1222523,
+  "size": 141,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Istanbul",
+  "end": 10950044
+ },
+ {
+  "pos": 10950063,
+  "off": 1222664,
+  "size": 204,
+  "uncomp": 356,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Jakarta",
+  "end": 10950107
+ },
+ {
+  "pos": 10950111,
+  "off": 1222868,
+  "size": 166,
+  "uncomp": 209,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Jayapura",
+  "end": 10950156
+ },
+ {
+  "pos": 10950175,
+  "off": 1223034,
+  "size": 1621,
+  "uncomp": 8135,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Jerusalem",
+  "end": 10950221
+ },
+ {
+  "pos": 10950239,
+  "off": 1224655,
+  "size": 149,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kabul",
+  "end": 10950281
+ },
+ {
+  "pos": 10950287,
+  "off": 1224804,
+  "size": 531,
+  "uncomp": 1994,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kamchatka",
+  "end": 10950333
+ },
+ {
+  "pos": 10950351,
+  "off": 1225335,
+  "size": 226,
+  "uncomp": 447,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Karachi",
+  "end": 10950395
+ },
+ {
+  "pos": 10950399,
+  "off": 1225561,
+  "size": 141,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kashgar",
+  "end": 10950443
+ },
+ {
+  "pos": 10950447,
+  "off": 1225702,
+  "size": 152,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kathmandu",
+  "end": 10950493
+ },
+ {
+  "pos": 10950511,
+  "off": 1225854,
+  "size": 139,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Katmandu",
+  "end": 10950556
+ },
+ {
+  "pos": 10950575,
+  "off": 1225993,
+  "size": 546,
+  "uncomp": 2051,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Khandyga",
+  "end": 10950620
+ },
+ {
+  "pos": 10950639,
+  "off": 1226539,
+  "size": 197,
+  "uncomp": 330,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kolkata",
+  "end": 10950683
+ },
+ {
+  "pos": 10950687,
+  "off": 1226736,
+  "size": 528,
+  "uncomp": 1996,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Krasnoyarsk",
+  "end": 10950735
+ },
+ {
+  "pos": 10950751,
+  "off": 1227264,
+  "size": 148,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kuala_Lumpur",
+  "end": 10950800
+ },
+ {
+  "pos": 10950815,
+  "off": 1227412,
+  "size": 251,
+  "uncomp": 649,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kuching",
+  "end": 10950859
+ },
+ {
+  "pos": 10950863,
+  "off": 1227663,
+  "size": 140,
+  "uncomp": 173,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Kuwait",
+  "end": 10950906
+ },
+ {
+  "pos": 10950911,
+  "off": 1227803,
+  "size": 134,
+  "uncomp": 169,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Macao",
+  "end": 10950953
+ },
+ {
+  "pos": 10950959,
+  "off": 1227937,
+  "size": 533,
+  "uncomp": 2212,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Macau",
+  "end": 10951001
+ },
+ {
+  "pos": 10951007,
+  "off": 1228470,
+  "size": 527,
+  "uncomp": 2021,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Magadan",
+  "end": 10951051
+ },
+ {
+  "pos": 10951055,
+  "off": 1228997,
+  "size": 174,
+  "uncomp": 241,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Makassar",
+  "end": 10951100
+ },
+ {
+  "pos": 10951119,
+  "off": 1229171,
+  "size": 214,
+  "uncomp": 421,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Manila",
+  "end": 10951162
+ },
+ {
+  "pos": 10951167,
+  "off": 1229385,
+  "size": 139,
+  "uncomp": 170,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Muscat",
+  "end": 10951210
+ },
+ {
+  "pos": 10951215,
+  "off": 1229524,
+  "size": 1493,
+  "uncomp": 7625,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Nicosia",
+  "end": 10951259
+ },
+ {
+  "pos": 10951263,
+  "off": 1231017,
+  "size": 533,
+  "uncomp": 1997,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Novokuznetsk",
+  "end": 10951312
+ },
+ {
+  "pos": 10951327,
+  "off": 1231550,
+  "size": 541,
+  "uncomp": 2053,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Novosibirsk",
+  "end": 10951375
+ },
+ {
+  "pos": 10951391,
+  "off": 1232091,
+  "size": 521,
+  "uncomp": 1989,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Omsk",
+  "end": 10951432
+ },
+ {
+  "pos": 10951439,
+  "off": 1232612,
+  "size": 452,
+  "uncomp": 1611,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Oral",
+  "end": 10951480
+ },
+ {
+  "pos": 10951487,
+  "off": 1233064,
+  "size": 145,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Phnom_Penh",
+  "end": 10951534
+ },
+ {
+  "pos": 10951551,
+  "off": 1233209,
+  "size": 210,
+  "uncomp": 358,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Pontianak",
+  "end": 10951597
+ },
+ {
+  "pos": 10951615,
+  "off": 1233419,
+  "size": 180,
+  "uncomp": 273,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Pyongyang",
+  "end": 10951661
+ },
+ {
+  "pos": 10951679,
+  "off": 1233599,
+  "size": 149,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Qatar",
+  "end": 10951721
+ },
+ {
+  "pos": 10951727,
+  "off": 1233748,
+  "size": 459,
+  "uncomp": 1644,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Qostanay",
+  "end": 10951772
+ },
+ {
+  "pos": 10951791,
+  "off": 1234207,
+  "size": 454,
+  "uncomp": 1617,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Qyzylorda",
+  "end": 10951837
+ },
+ {
+  "pos": 10951855,
+  "off": 1234661,
+  "size": 139,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Rangoon",
+  "end": 10951899
+ },
+ {
+  "pos": 10951903,
+  "off": 1234800,
+  "size": 139,
+  "uncomp": 147,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Riyadh",
+  "end": 10951946
+ },
+ {
+  "pos": 10951951,
+  "off": 1234939,
+  "size": 145,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Saigon",
+  "end": 10951994
+ },
+ {
+  "pos": 10951999,
+  "off": 1235084,
+  "size": 541,
+  "uncomp": 2049,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Sakhalin",
+  "end": 10952044
+ },
+ {
+  "pos": 10952063,
+  "off": 1235625,
+  "size": 302,
+  "uncomp": 853,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Samarkand",
+  "end": 10952109
+ },
+ {
+  "pos": 10952127,
+  "off": 1235927,
+  "size": 315,
+  "uncomp": 985,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Seoul",
+  "end": 10952169
+ },
+ {
+  "pos": 10952175,
+  "off": 1236242,
+  "size": 306,
+  "uncomp": 981,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Shanghai",
+  "end": 10952220
+ },
+ {
+  "pos": 10952239,
+  "off": 1236548,
+  "size": 207,
+  "uncomp": 357,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Singapore",
+  "end": 10952285
+ },
+ {
+  "pos": 10952303,
+  "off": 1236755,
+  "size": 528,
+  "uncomp": 1998,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Srednekolymsk",
+  "end": 10952353
+ },
+ {
+  "pos": 10952367,
+  "off": 1237283,
+  "size": 366,
+  "uncomp": 1344,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Taipei",
+  "end": 10952410
+ },
+ {
+  "pos": 10952415,
+  "off": 1237649,
+  "size": 299,
+  "uncomp": 852,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tashkent",
+  "end": 10952460
+ },
+ {
+  "pos": 10952479,
+  "off": 1237948,
+  "size": 466,
+  "uncomp": 1675,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tbilisi",
+  "end": 10952523
+ },
+ {
+  "pos": 10952527,
+  "off": 1238414,
+  "size": 513,
+  "uncomp": 2150,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tehran",
+  "end": 10952570
+ },
+ {
+  "pos": 10952575,
+  "off": 1238927,
+  "size": 144,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tel_Aviv",
+  "end": 10952620
+ },
+ {
+  "pos": 10952639,
+  "off": 1239071,
+  "size": 139,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Thimbu",
+  "end": 10952682
+ },
+ {
+  "pos": 10952687,
+  "off": 1239210,
+  "size": 151,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Thimphu",
+  "end": 10952731
+ },
+ {
+  "pos": 10952735,
+  "off": 1239361,
+  "size": 196,
+  "uncomp": 388,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tokyo",
+  "end": 10952777
+ },
+ {
+  "pos": 10952783,
+  "off": 1239557,
+  "size": 535,
+  "uncomp": 2048,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Tomsk",
+  "end": 10952825
+ },
+ {
+  "pos": 10952831,
+  "off": 1240092,
+  "size": 148,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ujung_Pandang",
+  "end": 10952881
+ },
+ {
+  "pos": 10952895,
+  "off": 1240240,
+  "size": 429,
+  "uncomp": 1540,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ulaanbaatar",
+  "end": 10952943
+ },
+ {
+  "pos": 10952959,
+  "off": 1240669,
+  "size": 143,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ulan_Bator",
+  "end": 10953006
+ },
+ {
+  "pos": 10953023,
+  "off": 1240812,
+  "size": 141,
+  "uncomp": 148,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Urumqi",
+  "end": 10953066
+ },
+ {
+  "pos": 10953071,
+  "off": 1240953,
+  "size": 530,
+  "uncomp": 1992,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Ust-Nera",
+  "end": 10953116
+ },
+ {
+  "pos": 10953135,
+  "off": 1241483,
+  "size": 141,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Vientiane",
+  "end": 10953181
+ },
+ {
+  "pos": 10953199,
+  "off": 1241624,
+  "size": 534,
+  "uncomp": 1996,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Vladivostok",
+  "end": 10953247
+ },
+ {
+  "pos": 10953263,
+  "off": 1242158,
+  "size": 523,
+  "uncomp": 1992,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Yakutsk",
+  "end": 10953307
+ },
+ {
+  "pos": 10953311,
+  "off": 1242681,
+  "size": 169,
+  "uncomp": 237,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Yangon",
+  "end": 10953354
+ },
+ {
+  "pos": 10953359,
+  "off": 1242850,
+  "size": 545,
+  "uncomp": 2029,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Yekaterinburg",
+  "end": 10953409
+ },
+ {
+  "pos": 10953423,
+  "off": 1243395,
+  "size": 518,
+  "uncomp": 1964,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Asia\\Yerevan",
+  "end": 10953467
+ },
+ {
+  "pos": 10953471,
+  "off": 1243913,
+  "size": 2055,
+  "uncomp": 9517,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Azores",
+  "end": 10953518
+ },
+ {
+  "pos": 10953535,
+  "off": 1245968,
+  "size": 1678,
+  "uncomp": 8784,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Bermuda",
+  "end": 10953583
+ },
+ {
+  "pos": 10953599,
+  "off": 1247646,
+  "size": 1479,
+  "uncomp": 6855,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Canary",
+  "end": 10953646
+ },
+ {
+  "pos": 10953663,
+  "off": 1249125,
+  "size": 175,
+  "uncomp": 242,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Cape_Verde",
+  "end": 10953714
+ },
+ {
+  "pos": 10953727,
+  "off": 1249300,
+  "size": 138,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Faeroe",
+  "end": 10953774
+ },
+ {
+  "pos": 10953791,
+  "off": 1249438,
+  "size": 1464,
+  "uncomp": 6796,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Faroe",
+  "end": 10953837
+ },
+ {
+  "pos": 10953855,
+  "off": 1250902,
+  "size": 148,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Jan_Mayen",
+  "end": 10953905
+ },
+ {
+  "pos": 10953919,
+  "off": 1251050,
+  "size": 2032,
+  "uncomp": 9510,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Madeira",
+  "end": 10953967
+ },
+ {
+  "pos": 10953983,
+  "off": 1253082,
+  "size": 149,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Reykjavik",
+  "end": 10954033
+ },
+ {
+  "pos": 10954047,
+  "off": 1253231,
+  "size": 149,
+  "uncomp": 159,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\South_Georgia",
+  "end": 10954101
+ },
+ {
+  "pos": 10954111,
+  "off": 1253380,
+  "size": 148,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\St_Helena",
+  "end": 10954161
+ },
+ {
+  "pos": 10954175,
+  "off": 1253528,
+  "size": 545,
+  "uncomp": 2187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Atlantic\\Stanley",
+  "end": 10954223
+ },
+ {
+  "pos": 10954239,
+  "off": 1254073,
+  "size": 142,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\ACT",
+  "end": 10954284
+ },
+ {
+  "pos": 10954303,
+  "off": 1254215,
+  "size": 1586,
+  "uncomp": 8372,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Adelaide",
+  "end": 10954353
+ },
+ {
+  "pos": 10954367,
+  "off": 1255801,
+  "size": 256,
+  "uncomp": 674,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Brisbane",
+  "end": 10954417
+ },
+ {
+  "pos": 10954431,
+  "off": 1256057,
+  "size": 1613,
+  "uncomp": 8437,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Broken_Hill",
+  "end": 10954484
+ },
+ {
+  "pos": 10954495,
+  "off": 1257670,
+  "size": 145,
+  "uncomp": 195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Canberra",
+  "end": 10954545
+ },
+ {
+  "pos": 10954559,
+  "off": 1257815,
+  "size": 143,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Currie",
+  "end": 10954607
+ },
+ {
+  "pos": 10954623,
+  "off": 1257958,
+  "size": 209,
+  "uncomp": 437,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Darwin",
+  "end": 10954671
+ },
+ {
+  "pos": 10954687,
+  "off": 1258167,
+  "size": 264,
+  "uncomp": 699,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Eucla",
+  "end": 10954734
+ },
+ {
+  "pos": 10954751,
+  "off": 1258431,
+  "size": 1630,
+  "uncomp": 8734,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Hobart",
+  "end": 10954799
+ },
+ {
+  "pos": 10954815,
+  "off": 1260061,
+  "size": 144,
+  "uncomp": 199,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\LHI",
+  "end": 10954860
+ },
+ {
+  "pos": 10954879,
+  "off": 1260205,
+  "size": 283,
+  "uncomp": 824,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Lindeman",
+  "end": 10954929
+ },
+ {
+  "pos": 10954943,
+  "off": 1260488,
+  "size": 1459,
+  "uncomp": 7047,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Lord_Howe",
+  "end": 10954994
+ },
+ {
+  "pos": 10955007,
+  "off": 1261947,
+  "size": 1568,
+  "uncomp": 8341,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Melbourne",
+  "end": 10955058
+ },
+ {
+  "pos": 10955071,
+  "off": 1263515,
+  "size": 144,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\NSW",
+  "end": 10955116
+ },
+ {
+  "pos": 10955135,
+  "off": 1263659,
+  "size": 144,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\North",
+  "end": 10955182
+ },
+ {
+  "pos": 10955199,
+  "off": 1263803,
+  "size": 269,
+  "uncomp": 739,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Perth",
+  "end": 10955246
+ },
+ {
+  "pos": 10955263,
+  "off": 1264072,
+  "size": 148,
+  "uncomp": 203,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Queensland",
+  "end": 10955315
+ },
+ {
+  "pos": 10955327,
+  "off": 1264220,
+  "size": 143,
+  "uncomp": 198,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\South",
+  "end": 10955374
+ },
+ {
+  "pos": 10955391,
+  "off": 1264363,
+  "size": 1564,
+  "uncomp": 8338,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Sydney",
+  "end": 10955439
+ },
+ {
+  "pos": 10955455,
+  "off": 1265927,
+  "size": 144,
+  "uncomp": 195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Tasmania",
+  "end": 10955505
+ },
+ {
+  "pos": 10955519,
+  "off": 1266071,
+  "size": 147,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Victoria",
+  "end": 10955569
+ },
+ {
+  "pos": 10955583,
+  "off": 1266218,
+  "size": 143,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\West",
+  "end": 10955629
+ },
+ {
+  "pos": 10955647,
+  "off": 1266361,
+  "size": 151,
+  "uncomp": 212,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Australia\\Yancowinna",
+  "end": 10955699
+ },
+ {
+  "pos": 10955711,
+  "off": 1266512,
+  "size": 147,
+  "uncomp": 194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Brazil\\Acre",
+  "end": 10955754
+ },
+ {
+  "pos": 10955759,
+  "off": 1266659,
+  "size": 144,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Brazil\\DeNoronha",
+  "end": 10955807
+ },
+ {
+  "pos": 10955823,
+  "off": 1266803,
+  "size": 146,
+  "uncomp": 191,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Brazil\\East",
+  "end": 10955866
+ },
+ {
+  "pos": 10955871,
+  "off": 1266949,
+  "size": 144,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Brazil\\West",
+  "end": 10955914
+ },
+ {
+  "pos": 10955919,
+  "off": 1267093,
+  "size": 138,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\CET",
+  "end": 10955954
+ },
+ {
+  "pos": 10955967,
+  "off": 1267231,
+  "size": 143,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\CST6CDT",
+  "end": 10956006
+ },
+ {
+  "pos": 10956015,
+  "off": 1267374,
+  "size": 145,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Atlantic",
+  "end": 10956062
+ },
+ {
+  "pos": 10956079,
+  "off": 1267519,
+  "size": 146,
+  "uncomp": 191,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Central",
+  "end": 10956125
+ },
+ {
+  "pos": 10956143,
+  "off": 1267665,
+  "size": 144,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Eastern",
+  "end": 10956189
+ },
+ {
+  "pos": 10956207,
+  "off": 1267809,
+  "size": 146,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Mountain",
+  "end": 10956254
+ },
+ {
+  "pos": 10956271,
+  "off": 1267955,
+  "size": 151,
+  "uncomp": 196,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Newfoundland",
+  "end": 10956322
+ },
+ {
+  "pos": 10956335,
+  "off": 1268106,
+  "size": 148,
+  "uncomp": 194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Pacific",
+  "end": 10956381
+ },
+ {
+  "pos": 10956399,
+  "off": 1268254,
+  "size": 149,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Saskatchewan",
+  "end": 10956450
+ },
+ {
+  "pos": 10956463,
+  "off": 1268403,
+  "size": 147,
+  "uncomp": 195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Canada\\Yukon",
+  "end": 10956507
+ },
+ {
+  "pos": 10956511,
+  "off": 1268550,
+  "size": 147,
+  "uncomp": 194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Chile\\Continental",
+  "end": 10956560
+ },
+ {
+  "pos": 10956575,
+  "off": 1268697,
+  "size": 145,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Chile\\EasterIsland",
+  "end": 10956625
+ },
+ {
+  "pos": 10956639,
+  "off": 1268842,
+  "size": 138,
+  "uncomp": 175,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Cuba",
+  "end": 10956675
+ },
+ {
+  "pos": 10956687,
+  "off": 1268980,
+  "size": 137,
+  "uncomp": 171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\EET",
+  "end": 10956722
+ },
+ {
+  "pos": 10956735,
+  "off": 1269117,
+  "size": 139,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\EST",
+  "end": 10956770
+ },
+ {
+  "pos": 10956783,
+  "off": 1269256,
+  "size": 146,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\EST5EDT",
+  "end": 10956822
+ },
+ {
+  "pos": 10956831,
+  "off": 1269402,
+  "size": 137,
+  "uncomp": 170,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Egypt",
+  "end": 10956868
+ },
+ {
+  "pos": 10956879,
+  "off": 1269539,
+  "size": 137,
+  "uncomp": 172,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Eire",
+  "end": 10956915
+ },
+ {
+  "pos": 10956927,
+  "off": 1269676,
+  "size": 111,
+  "uncomp": 110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT",
+  "end": 10956966
+ },
+ {
+  "pos": 10956975,
+  "off": 1269787,
+  "size": 132,
+  "uncomp": 159,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+0",
+  "end": 10957016
+ },
+ {
+  "pos": 10957023,
+  "off": 1269919,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+1",
+  "end": 10957064
+ },
+ {
+  "pos": 10957071,
+  "off": 1270037,
+  "size": 120,
+  "uncomp": 117,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+10",
+  "end": 10957113
+ },
+ {
+  "pos": 10957119,
+  "off": 1270157,
+  "size": 120,
+  "uncomp": 117,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+11",
+  "end": 10957161
+ },
+ {
+  "pos": 10957167,
+  "off": 1270277,
+  "size": 120,
+  "uncomp": 117,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+12",
+  "end": 10957209
+ },
+ {
+  "pos": 10957215,
+  "off": 1270397,
+  "size": 117,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+2",
+  "end": 10957256
+ },
+ {
+  "pos": 10957263,
+  "off": 1270514,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+3",
+  "end": 10957304
+ },
+ {
+  "pos": 10957311,
+  "off": 1270633,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+4",
+  "end": 10957352
+ },
+ {
+  "pos": 10957359,
+  "off": 1270752,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+5",
+  "end": 10957400
+ },
+ {
+  "pos": 10957407,
+  "off": 1270871,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+6",
+  "end": 10957448
+ },
+ {
+  "pos": 10957455,
+  "off": 1270990,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+7",
+  "end": 10957496
+ },
+ {
+  "pos": 10957503,
+  "off": 1271109,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+8",
+  "end": 10957544
+ },
+ {
+  "pos": 10957551,
+  "off": 1271228,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT+9",
+  "end": 10957592
+ },
+ {
+  "pos": 10957599,
+  "off": 1271347,
+  "size": 132,
+  "uncomp": 159,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-0",
+  "end": 10957640
+ },
+ {
+  "pos": 10957647,
+  "off": 1271479,
+  "size": 117,
+  "uncomp": 114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-1",
+  "end": 10957688
+ },
+ {
+  "pos": 10957695,
+  "off": 1271596,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-10",
+  "end": 10957737
+ },
+ {
+  "pos": 10957743,
+  "off": 1271715,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-11",
+  "end": 10957785
+ },
+ {
+  "pos": 10957791,
+  "off": 1271834,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-12",
+  "end": 10957833
+ },
+ {
+  "pos": 10957839,
+  "off": 1271953,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-13",
+  "end": 10957881
+ },
+ {
+  "pos": 10957887,
+  "off": 1272072,
+  "size": 119,
+  "uncomp": 116,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-14",
+  "end": 10957929
+ },
+ {
+  "pos": 10957935,
+  "off": 1272191,
+  "size": 116,
+  "uncomp": 114,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-2",
+  "end": 10957976
+ },
+ {
+  "pos": 10957983,
+  "off": 1272307,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-3",
+  "end": 10958024
+ },
+ {
+  "pos": 10958031,
+  "off": 1272425,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-4",
+  "end": 10958072
+ },
+ {
+  "pos": 10958079,
+  "off": 1272543,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-5",
+  "end": 10958120
+ },
+ {
+  "pos": 10958127,
+  "off": 1272661,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-6",
+  "end": 10958168
+ },
+ {
+  "pos": 10958175,
+  "off": 1272779,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-7",
+  "end": 10958216
+ },
+ {
+  "pos": 10958223,
+  "off": 1272897,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-8",
+  "end": 10958264
+ },
+ {
+  "pos": 10958271,
+  "off": 1273015,
+  "size": 118,
+  "uncomp": 115,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT-9",
+  "end": 10958312
+ },
+ {
+  "pos": 10958319,
+  "off": 1273133,
+  "size": 132,
+  "uncomp": 158,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\GMT0",
+  "end": 10958359
+ },
+ {
+  "pos": 10958367,
+  "off": 1273265,
+  "size": 138,
+  "uncomp": 163,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\Greenwich",
+  "end": 10958412
+ },
+ {
+  "pos": 10958431,
+  "off": 1273403,
+  "size": 133,
+  "uncomp": 157,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\UCT",
+  "end": 10958470
+ },
+ {
+  "pos": 10958479,
+  "off": 1273536,
+  "size": 111,
+  "uncomp": 110,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\UTC",
+  "end": 10958518
+ },
+ {
+  "pos": 10958527,
+  "off": 1273647,
+  "size": 137,
+  "uncomp": 163,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\Universal",
+  "end": 10958572
+ },
+ {
+  "pos": 10958591,
+  "off": 1273784,
+  "size": 135,
+  "uncomp": 158,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Etc\\Zulu",
+  "end": 10958631
+ },
+ {
+  "pos": 10958639,
+  "off": 1273919,
+  "size": 145,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Amsterdam",
+  "end": 10958687
+ },
+ {
+  "pos": 10958703,
+  "off": 1274064,
+  "size": 1407,
+  "uncomp": 6927,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Andorra",
+  "end": 10958749
+ },
+ {
+  "pos": 10958767,
+  "off": 1275471,
+  "size": 530,
+  "uncomp": 1997,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Astrakhan",
+  "end": 10958815
+ },
+ {
+  "pos": 10958831,
+  "off": 1276001,
+  "size": 1582,
+  "uncomp": 7954,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Athens",
+  "end": 10958876
+ },
+ {
+  "pos": 10958895,
+  "off": 1277583,
+  "size": 141,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Belfast",
+  "end": 10958941
+ },
+ {
+  "pos": 10958959,
+  "off": 1277724,
+  "size": 1473,
+  "uncomp": 7309,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Belgrade",
+  "end": 10959006
+ },
+ {
+  "pos": 10959023,
+  "off": 1279197,
+  "size": 1608,
+  "uncomp": 8020,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Berlin",
+  "end": 10959068
+ },
+ {
+  "pos": 10959087,
+  "off": 1280805,
+  "size": 145,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Bratislava",
+  "end": 10959136
+ },
+ {
+  "pos": 10959151,
+  "off": 1280950,
+  "size": 1866,
+  "uncomp": 9223,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Brussels",
+  "end": 10959198
+ },
+ {
+  "pos": 10959215,
+  "off": 1282816,
+  "size": 1558,
+  "uncomp": 7974,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Bucharest",
+  "end": 10959263
+ },
+ {
+  "pos": 10959279,
+  "off": 1284374,
+  "size": 1647,
+  "uncomp": 8287,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Budapest",
+  "end": 10959326
+ },
+ {
+  "pos": 10959343,
+  "off": 1286021,
+  "size": 143,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Busingen",
+  "end": 10959390
+ },
+ {
+  "pos": 10959407,
+  "off": 1286164,
+  "size": 1636,
+  "uncomp": 8096,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Chisinau",
+  "end": 10959454
+ },
+ {
+  "pos": 10959471,
+  "off": 1287800,
+  "size": 144,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Copenhagen",
+  "end": 10959520
+ },
+ {
+  "pos": 10959535,
+  "off": 1287944,
+  "size": 2095,
+  "uncomp": 9810,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Dublin",
+  "end": 10959580
+ },
+ {
+  "pos": 10959599,
+  "off": 1290039,
+  "size": 1925,
+  "uncomp": 9509,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Gibraltar",
+  "end": 10959647
+ },
+ {
+  "pos": 10959663,
+  "off": 1291964,
+  "size": 142,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Guernsey",
+  "end": 10959710
+ },
+ {
+  "pos": 10959727,
+  "off": 1292106,
+  "size": 1469,
+  "uncomp": 7368,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Helsinki",
+  "end": 10959774
+ },
+ {
+  "pos": 10959791,
+  "off": 1293575,
+  "size": 145,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Isle_of_Man",
+  "end": 10959841
+ },
+ {
+  "pos": 10959855,
+  "off": 1293720,
+  "size": 814,
+  "uncomp": 3678,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Istanbul",
+  "end": 10959902
+ },
+ {
+  "pos": 10959919,
+  "off": 1294534,
+  "size": 141,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Jersey",
+  "end": 10959964
+ },
+ {
+  "pos": 10959983,
+  "off": 1294675,
+  "size": 636,
+  "uncomp": 2511,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Kaliningrad",
+  "end": 10960033
+ },
+ {
+  "pos": 10960047,
+  "off": 1295311,
+  "size": 138,
+  "uncomp": 173,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Kiev",
+  "end": 10960090
+ },
+ {
+  "pos": 10960095,
+  "off": 1295449,
+  "size": 526,
+  "uncomp": 2010,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Kirov",
+  "end": 10960139
+ },
+ {
+  "pos": 10960143,
+  "off": 1295975,
+  "size": 1518,
+  "uncomp": 7455,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Kyiv",
+  "end": 10960186
+ },
+ {
+  "pos": 10960191,
+  "off": 1297493,
+  "size": 2089,
+  "uncomp": 9958,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Lisbon",
+  "end": 10960236
+ },
+ {
+  "pos": 10960255,
+  "off": 1299582,
+  "size": 146,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Ljubljana",
+  "end": 10960303
+ },
+ {
+  "pos": 10960319,
+  "off": 1299728,
+  "size": 2130,
+  "uncomp": 10211,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\London",
+  "end": 10960364
+ },
+ {
+  "pos": 10960383,
+  "off": 1301858,
+  "size": 146,
+  "uncomp": 191,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Luxembourg",
+  "end": 10960432
+ },
+ {
+  "pos": 10960447,
+  "off": 1302004,
+  "size": 1717,
+  "uncomp": 8517,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Madrid",
+  "end": 10960492
+ },
+ {
+  "pos": 10960511,
+  "off": 1303721,
+  "size": 1705,
+  "uncomp": 8724,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Malta",
+  "end": 10960555
+ },
+ {
+  "pos": 10960559,
+  "off": 1305426,
+  "size": 145,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Mariehamn",
+  "end": 10960607
+ },
+ {
+  "pos": 10960623,
+  "off": 1305571,
+  "size": 578,
+  "uncomp": 2176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Minsk",
+  "end": 10960667
+ },
+ {
+  "pos": 10960671,
+  "off": 1306149,
+  "size": 142,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Monaco",
+  "end": 10960716
+ },
+ {
+  "pos": 10960735,
+  "off": 1306291,
+  "size": 638,
+  "uncomp": 2430,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Moscow",
+  "end": 10960780
+ },
+ {
+  "pos": 10960799,
+  "off": 1306929,
+  "size": 139,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Nicosia",
+  "end": 10960845
+ },
+ {
+  "pos": 10960863,
+  "off": 1307068,
+  "size": 140,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Oslo",
+  "end": 10960906
+ },
+ {
+  "pos": 10960911,
+  "off": 1307208,
+  "size": 1871,
+  "uncomp": 9152,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Paris",
+  "end": 10960955
+ },
+ {
+  "pos": 10960959,
+  "off": 1309079,
+  "size": 146,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Podgorica",
+  "end": 10961007
+ },
+ {
+  "pos": 10961023,
+  "off": 1309225,
+  "size": 1617,
+  "uncomp": 8038,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Prague",
+  "end": 10961068
+ },
+ {
+  "pos": 10961087,
+  "off": 1310842,
+  "size": 1565,
+  "uncomp": 7658,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Riga",
+  "end": 10961130
+ },
+ {
+  "pos": 10961135,
+  "off": 1312407,
+  "size": 1724,
+  "uncomp": 8813,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Rome",
+  "end": 10961178
+ },
+ {
+  "pos": 10961183,
+  "off": 1314131,
+  "size": 538,
+  "uncomp": 2050,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Samara",
+  "end": 10961228
+ },
+ {
+  "pos": 10961247,
+  "off": 1314669,
+  "size": 143,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\San_Marino",
+  "end": 10961296
+ },
+ {
+  "pos": 10961311,
+  "off": 1314812,
+  "size": 145,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Sarajevo",
+  "end": 10961358
+ },
+ {
+  "pos": 10961375,
+  "off": 1314957,
+  "size": 525,
+  "uncomp": 1995,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Saratov",
+  "end": 10961421
+ },
+ {
+  "pos": 10961439,
+  "off": 1315482,
+  "size": 625,
+  "uncomp": 2389,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Simferopol",
+  "end": 10961488
+ },
+ {
+  "pos": 10961503,
+  "off": 1316107,
+  "size": 144,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Skopje",
+  "end": 10961548
+ },
+ {
+  "pos": 10961567,
+  "off": 1316251,
+  "size": 1530,
+  "uncomp": 7654,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Sofia",
+  "end": 10961611
+ },
+ {
+  "pos": 10961615,
+  "off": 1317781,
+  "size": 144,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Stockholm",
+  "end": 10961663
+ },
+ {
+  "pos": 10961679,
+  "off": 1317925,
+  "size": 1542,
+  "uncomp": 7549,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Tallinn",
+  "end": 10961725
+ },
+ {
+  "pos": 10961743,
+  "off": 1319467,
+  "size": 1539,
+  "uncomp": 7675,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Tirane",
+  "end": 10961788
+ },
+ {
+  "pos": 10961807,
+  "off": 1321006,
+  "size": 144,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Tiraspol",
+  "end": 10961854
+ },
+ {
+  "pos": 10961871,
+  "off": 1321150,
+  "size": 546,
+  "uncomp": 2051,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Ulyanovsk",
+  "end": 10961919
+ },
+ {
+  "pos": 10961935,
+  "off": 1321696,
+  "size": 143,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Uzhgorod",
+  "end": 10961982
+ },
+ {
+  "pos": 10961999,
+  "off": 1321839,
+  "size": 142,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Vaduz",
+  "end": 10962043
+ },
+ {
+  "pos": 10962047,
+  "off": 1321981,
+  "size": 141,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Vatican",
+  "end": 10962093
+ },
+ {
+  "pos": 10962111,
+  "off": 1322122,
+  "size": 1579,
+  "uncomp": 7930,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Vienna",
+  "end": 10962156
+ },
+ {
+  "pos": 10962175,
+  "off": 1323701,
+  "size": 1544,
+  "uncomp": 7485,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Vilnius",
+  "end": 10962221
+ },
+ {
+  "pos": 10962239,
+  "off": 1325245,
+  "size": 552,
+  "uncomp": 2104,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Volgograd",
+  "end": 10962287
+ },
+ {
+  "pos": 10962303,
+  "off": 1325797,
+  "size": 1738,
+  "uncomp": 8662,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Warsaw",
+  "end": 10962348
+ },
+ {
+  "pos": 10962367,
+  "off": 1327535,
+  "size": 143,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Zagreb",
+  "end": 10962412
+ },
+ {
+  "pos": 10962431,
+  "off": 1327678,
+  "size": 143,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Zaporozhye",
+  "end": 10962480
+ },
+ {
+  "pos": 10962495,
+  "off": 1327821,
+  "size": 1475,
+  "uncomp": 7305,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Europe\\Zurich",
+  "end": 10962540
+ },
+ {
+  "pos": 10962559,
+  "off": 1329296,
+  "size": 136,
+  "uncomp": 170,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GB",
+  "end": 10962593
+ },
+ {
+  "pos": 10962607,
+  "off": 1329432,
+  "size": 139,
+  "uncomp": 175,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GB-Eire",
+  "end": 10962646
+ },
+ {
+  "pos": 10962655,
+  "off": 1329571,
+  "size": 129,
+  "uncomp": 153,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GMT",
+  "end": 10962690
+ },
+ {
+  "pos": 10962703,
+  "off": 1329700,
+  "size": 132,
+  "uncomp": 155,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GMT+0",
+  "end": 10962740
+ },
+ {
+  "pos": 10962751,
+  "off": 1329832,
+  "size": 132,
+  "uncomp": 155,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GMT-0",
+  "end": 10962788
+ },
+ {
+  "pos": 10962799,
+  "off": 1329964,
+  "size": 131,
+  "uncomp": 154,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\GMT0",
+  "end": 10962835
+ },
+ {
+  "pos": 10962847,
+  "off": 1330095,
+  "size": 136,
+  "uncomp": 159,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Greenwich",
+  "end": 10962888
+ },
+ {
+  "pos": 10962895,
+  "off": 1330231,
+  "size": 139,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\HST",
+  "end": 10962930
+ },
+ {
+  "pos": 10962943,
+  "off": 1330370,
+  "size": 139,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Hongkong",
+  "end": 10962983
+ },
+ {
+  "pos": 10962991,
+  "off": 1330509,
+  "size": 140,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Iceland",
+  "end": 10963030
+ },
+ {
+  "pos": 10963039,
+  "off": 1330649,
+  "size": 148,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Antananarivo",
+  "end": 10963090
+ },
+ {
+  "pos": 10963103,
+  "off": 1330797,
+  "size": 152,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Chagos",
+  "end": 10963148
+ },
+ {
+  "pos": 10963167,
+  "off": 1330949,
+  "size": 145,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Christmas",
+  "end": 10963215
+ },
+ {
+  "pos": 10963231,
+  "off": 1331094,
+  "size": 140,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Cocos",
+  "end": 10963275
+ },
+ {
+  "pos": 10963279,
+  "off": 1331234,
+  "size": 144,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Comoro",
+  "end": 10963324
+ },
+ {
+  "pos": 10963343,
+  "off": 1331378,
+  "size": 144,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Kerguelen",
+  "end": 10963391
+ },
+ {
+  "pos": 10963407,
+  "off": 1331522,
+  "size": 140,
+  "uncomp": 170,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Mahe",
+  "end": 10963450
+ },
+ {
+  "pos": 10963455,
+  "off": 1331662,
+  "size": 152,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Maldives",
+  "end": 10963502
+ },
+ {
+  "pos": 10963519,
+  "off": 1331814,
+  "size": 176,
+  "uncomp": 267,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Mauritius",
+  "end": 10963567
+ },
+ {
+  "pos": 10963583,
+  "off": 1331990,
+  "size": 145,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Mayotte",
+  "end": 10963629
+ },
+ {
+  "pos": 10963647,
+  "off": 1332135,
+  "size": 141,
+  "uncomp": 173,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Indian\\Reunion",
+  "end": 10963693
+ },
+ {
+  "pos": 10963711,
+  "off": 1332276,
+  "size": 134,
+  "uncomp": 166,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Iran",
+  "end": 10963747
+ },
+ {
+  "pos": 10963759,
+  "off": 1332410,
+  "size": 139,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Israel",
+  "end": 10963797
+ },
+ {
+  "pos": 10963807,
+  "off": 1332549,
+  "size": 135,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Jamaica",
+  "end": 10963846
+ },
+ {
+  "pos": 10963855,
+  "off": 1332684,
+  "size": 135,
+  "uncomp": 164,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Japan",
+  "end": 10963892
+ },
+ {
+  "pos": 10963903,
+  "off": 1332819,
+  "size": 139,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Kwajalein",
+  "end": 10963944
+ },
+ {
+  "pos": 10963951,
+  "off": 1332958,
+  "size": 138,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Libya",
+  "end": 10963988
+ },
+ {
+  "pos": 10963999,
+  "off": 1333096,
+  "size": 138,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\MET",
+  "end": 10964034
+ },
+ {
+  "pos": 10964047,
+  "off": 1333234,
+  "size": 139,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\MST",
+  "end": 10964082
+ },
+ {
+  "pos": 10964095,
+  "off": 1333373,
+  "size": 142,
+  "uncomp": 178,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\MST7MDT",
+  "end": 10964134
+ },
+ {
+  "pos": 10964143,
+  "off": 1333515,
+  "size": 148,
+  "uncomp": 190,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Mexico\\BajaNorte",
+  "end": 10964191
+ },
+ {
+  "pos": 10964207,
+  "off": 1333663,
+  "size": 148,
+  "uncomp": 191,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Mexico\\BajaSur",
+  "end": 10964253
+ },
+ {
+  "pos": 10964271,
+  "off": 1333811,
+  "size": 146,
+  "uncomp": 200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Mexico\\General",
+  "end": 10964317
+ },
+ {
+  "pos": 10964335,
+  "off": 1333957,
+  "size": 139,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\NZ",
+  "end": 10964369
+ },
+ {
+  "pos": 10964383,
+  "off": 1334096,
+  "size": 143,
+  "uncomp": 181,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\NZ-CHAT",
+  "end": 10964422
+ },
+ {
+  "pos": 10964431,
+  "off": 1334239,
+  "size": 140,
+  "uncomp": 177,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Navajo",
+  "end": 10964469
+ },
+ {
+  "pos": 10964479,
+  "off": 1334379,
+  "size": 138,
+  "uncomp": 171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\PRC",
+  "end": 10964514
+ },
+ {
+  "pos": 10964527,
+  "off": 1334517,
+  "size": 147,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\PST8PDT",
+  "end": 10964566
+ },
+ {
+  "pos": 10964575,
+  "off": 1334664,
+  "size": 312,
+  "uncomp": 882,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Apia",
+  "end": 10964619
+ },
+ {
+  "pos": 10964623,
+  "off": 1334976,
+  "size": 1663,
+  "uncomp": 8772,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Auckland",
+  "end": 10964671
+ },
+ {
+  "pos": 10964687,
+  "off": 1336639,
+  "size": 189,
+  "uncomp": 276,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Bougainville",
+  "end": 10964739
+ },
+ {
+  "pos": 10964751,
+  "off": 1336828,
+  "size": 1494,
+  "uncomp": 7406,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Chatham",
+  "end": 10964798
+ },
+ {
+  "pos": 10964815,
+  "off": 1338322,
+  "size": 148,
+  "uncomp": 202,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Chuuk",
+  "end": 10964860
+ },
+ {
+  "pos": 10964879,
+  "off": 1338470,
+  "size": 1569,
+  "uncomp": 7941,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Easter",
+  "end": 10964925
+ },
+ {
+  "pos": 10964943,
+  "off": 1340039,
+  "size": 276,
+  "uncomp": 766,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Efate",
+  "end": 10964988
+ },
+ {
+  "pos": 10965007,
+  "off": 1340315,
+  "size": 145,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Enderbury",
+  "end": 10965056
+ },
+ {
+  "pos": 10965071,
+  "off": 1340460,
+  "size": 156,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Fakaofo",
+  "end": 10965118
+ },
+ {
+  "pos": 10965135,
+  "off": 1340616,
+  "size": 308,
+  "uncomp": 957,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Fiji",
+  "end": 10965179
+ },
+ {
+  "pos": 10965183,
+  "off": 1340924,
+  "size": 143,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Funafuti",
+  "end": 10965231
+ },
+ {
+  "pos": 10965247,
+  "off": 1341067,
+  "size": 174,
+  "uncomp": 243,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Galapagos",
+  "end": 10965296
+ },
+ {
+  "pos": 10965311,
+  "off": 1341241,
+  "size": 145,
+  "uncomp": 154,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Gambier",
+  "end": 10965358
+ },
+ {
+  "pos": 10965375,
+  "off": 1341386,
+  "size": 145,
+  "uncomp": 156,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Guadalcanal",
+  "end": 10965426
+ },
+ {
+  "pos": 10965439,
+  "off": 1341531,
+  "size": 285,
+  "uncomp": 732,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Guam",
+  "end": 10965483
+ },
+ {
+  "pos": 10965487,
+  "off": 1341816,
+  "size": 202,
+  "uncomp": 344,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Honolulu",
+  "end": 10965535
+ },
+ {
+  "pos": 10965551,
+  "off": 1342018,
+  "size": 144,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Johnston",
+  "end": 10965599
+ },
+ {
+  "pos": 10965615,
+  "off": 1342162,
+  "size": 158,
+  "uncomp": 205,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Kanton",
+  "end": 10965661
+ },
+ {
+  "pos": 10965679,
+  "off": 1342320,
+  "size": 167,
+  "uncomp": 214,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Kiritimati",
+  "end": 10965729
+ },
+ {
+  "pos": 10965743,
+  "off": 1342487,
+  "size": 214,
+  "uncomp": 386,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Kosrae",
+  "end": 10965789
+ },
+ {
+  "pos": 10965807,
+  "off": 1342701,
+  "size": 188,
+  "uncomp": 298,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Kwajalein",
+  "end": 10965856
+ },
+ {
+  "pos": 10965871,
+  "off": 1342889,
+  "size": 142,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Majuro",
+  "end": 10965917
+ },
+ {
+  "pos": 10965935,
+  "off": 1343031,
+  "size": 146,
+  "uncomp": 156,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Marquesas",
+  "end": 10965984
+ },
+ {
+  "pos": 10965999,
+  "off": 1343177,
+  "size": 144,
+  "uncomp": 194,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Midway",
+  "end": 10966045
+ },
+ {
+  "pos": 10966063,
+  "off": 1343321,
+  "size": 170,
+  "uncomp": 236,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Nauru",
+  "end": 10966108
+ },
+ {
+  "pos": 10966127,
+  "off": 1343491,
+  "size": 153,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Niue",
+  "end": 10966171
+ },
+ {
+  "pos": 10966175,
+  "off": 1343644,
+  "size": 1056,
+  "uncomp": 4964,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Norfolk",
+  "end": 10966222
+ },
+ {
+  "pos": 10966239,
+  "off": 1344700,
+  "size": 185,
+  "uncomp": 319,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Noumea",
+  "end": 10966285
+ },
+ {
+  "pos": 10966303,
+  "off": 1344885,
+  "size": 158,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Pago_Pago",
+  "end": 10966352
+ },
+ {
+  "pos": 10966367,
+  "off": 1345043,
+  "size": 155,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Palau",
+  "end": 10966412
+ },
+ {
+  "pos": 10966431,
+  "off": 1345198,
+  "size": 154,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Pitcairn",
+  "end": 10966479
+ },
+ {
+  "pos": 10966495,
+  "off": 1345352,
+  "size": 146,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Pohnpei",
+  "end": 10966542
+ },
+ {
+  "pos": 10966559,
+  "off": 1345498,
+  "size": 145,
+  "uncomp": 200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Ponape",
+  "end": 10966605
+ },
+ {
+  "pos": 10966623,
+  "off": 1345643,
+  "size": 162,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Port_Moresby",
+  "end": 10966675
+ },
+ {
+  "pos": 10966687,
+  "off": 1345805,
+  "size": 313,
+  "uncomp": 940,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Rarotonga",
+  "end": 10966736
+ },
+ {
+  "pos": 10966751,
+  "off": 1346118,
+  "size": 140,
+  "uncomp": 179,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Saipan",
+  "end": 10966797
+ },
+ {
+  "pos": 10966815,
+  "off": 1346258,
+  "size": 143,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Samoa",
+  "end": 10966860
+ },
+ {
+  "pos": 10966879,
+  "off": 1346401,
+  "size": 143,
+  "uncomp": 153,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Tahiti",
+  "end": 10966925
+ },
+ {
+  "pos": 10966943,
+  "off": 1346544,
+  "size": 141,
+  "uncomp": 151,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Tarawa",
+  "end": 10966989
+ },
+ {
+  "pos": 10967007,
+  "off": 1346685,
+  "size": 221,
+  "uncomp": 438,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Tongatapu",
+  "end": 10967056
+ },
+ {
+  "pos": 10967071,
+  "off": 1346906,
+  "size": 146,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Truk",
+  "end": 10967115
+ },
+ {
+  "pos": 10967119,
+  "off": 1347052,
+  "size": 141,
+  "uncomp": 183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Wake",
+  "end": 10967163
+ },
+ {
+  "pos": 10967167,
+  "off": 1347193,
+  "size": 142,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Wallis",
+  "end": 10967213
+ },
+ {
+  "pos": 10967231,
+  "off": 1347335,
+  "size": 146,
+  "uncomp": 200,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Pacific\\Yap",
+  "end": 10967274
+ },
+ {
+  "pos": 10967279,
+  "off": 1347481,
+  "size": 140,
+  "uncomp": 174,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Poland",
+  "end": 10967317
+ },
+ {
+  "pos": 10967327,
+  "off": 1347621,
+  "size": 141,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Portugal",
+  "end": 10967367
+ },
+ {
+  "pos": 10967375,
+  "off": 1347762,
+  "size": 135,
+  "uncomp": 165,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\ROC",
+  "end": 10967410
+ },
+ {
+  "pos": 10967423,
+  "off": 1347897,
+  "size": 136,
+  "uncomp": 162,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\ROK",
+  "end": 10967458
+ },
+ {
+  "pos": 10967471,
+  "off": 1348033,
+  "size": 137,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Singapore",
+  "end": 10967512
+ },
+ {
+  "pos": 10967519,
+  "off": 1348170,
+  "size": 154,
+  "uncomp": 201,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\AST4",
+  "end": 10967563
+ },
+ {
+  "pos": 10967567,
+  "off": 1348324,
+  "size": 152,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\AST4ADT",
+  "end": 10967614
+ },
+ {
+  "pos": 10967631,
+  "off": 1348476,
+  "size": 149,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\CST6",
+  "end": 10967675
+ },
+ {
+  "pos": 10967679,
+  "off": 1348625,
+  "size": 152,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\CST6CDT",
+  "end": 10967726
+ },
+ {
+  "pos": 10967743,
+  "off": 1348777,
+  "size": 154,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\EST5",
+  "end": 10967787
+ },
+ {
+  "pos": 10967791,
+  "off": 1348931,
+  "size": 156,
+  "uncomp": 195,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\EST5EDT",
+  "end": 10967838
+ },
+ {
+  "pos": 10967855,
+  "off": 1349087,
+  "size": 152,
+  "uncomp": 193,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\HST10",
+  "end": 10967900
+ },
+ {
+  "pos": 10967919,
+  "off": 1349239,
+  "size": 150,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\MST7",
+  "end": 10967963
+ },
+ {
+  "pos": 10967967,
+  "off": 1349389,
+  "size": 152,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\MST7MDT",
+  "end": 10968014
+ },
+ {
+  "pos": 10968031,
+  "off": 1349541,
+  "size": 149,
+  "uncomp": 192,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\PST8",
+  "end": 10968075
+ },
+ {
+  "pos": 10968079,
+  "off": 1349690,
+  "size": 156,
+  "uncomp": 204,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\PST8PDT",
+  "end": 10968126
+ },
+ {
+  "pos": 10968143,
+  "off": 1349846,
+  "size": 149,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\YST9",
+  "end": 10968187
+ },
+ {
+  "pos": 10968191,
+  "off": 1349995,
+  "size": 153,
+  "uncomp": 198,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\SystemV\\YST9YDT",
+  "end": 10968238
+ },
+ {
+  "pos": 10968255,
+  "off": 1350148,
+  "size": 140,
+  "uncomp": 180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Turkey",
+  "end": 10968293
+ },
+ {
+  "pos": 10968303,
+  "off": 1350288,
+  "size": 131,
+  "uncomp": 153,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\UCT",
+  "end": 10968338
+ },
+ {
+  "pos": 10968351,
+  "off": 1350419,
+  "size": 145,
+  "uncomp": 189,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Alaska",
+  "end": 10968392
+ },
+ {
+  "pos": 10968399,
+  "off": 1350564,
+  "size": 142,
+  "uncomp": 176,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Aleutian",
+  "end": 10968442
+ },
+ {
+  "pos": 10968447,
+  "off": 1350706,
+  "size": 144,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Arizona",
+  "end": 10968489
+ },
+ {
+  "pos": 10968495,
+  "off": 1350850,
+  "size": 143,
+  "uncomp": 184,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Central",
+  "end": 10968537
+ },
+ {
+  "pos": 10968543,
+  "off": 1350993,
+  "size": 149,
+  "uncomp": 228,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\East-Indiana",
+  "end": 10968590
+ },
+ {
+  "pos": 10968607,
+  "off": 1351142,
+  "size": 147,
+  "uncomp": 187,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Eastern",
+  "end": 10968649
+ },
+ {
+  "pos": 10968655,
+  "off": 1351289,
+  "size": 144,
+  "uncomp": 186,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Hawaii",
+  "end": 10968696
+ },
+ {
+  "pos": 10968703,
+  "off": 1351433,
+  "size": 148,
+  "uncomp": 206,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Indiana-Starke",
+  "end": 10968752
+ },
+ {
+  "pos": 10968767,
+  "off": 1351581,
+  "size": 145,
+  "uncomp": 185,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Michigan",
+  "end": 10968810
+ },
+ {
+  "pos": 10968815,
+  "off": 1351726,
+  "size": 144,
+  "uncomp": 182,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Mountain",
+  "end": 10968858
+ },
+ {
+  "pos": 10968863,
+  "off": 1351870,
+  "size": 148,
+  "uncomp": 196,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Pacific",
+  "end": 10968905
+ },
+ {
+  "pos": 10968911,
+  "off": 1352018,
+  "size": 143,
+  "uncomp": 188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\US\\Samoa",
+  "end": 10968951
+ },
+ {
+  "pos": 10968959,
+  "off": 1352161,
+  "size": 129,
+  "uncomp": 153,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\UTC",
+  "end": 10968994
+ },
+ {
+  "pos": 10969007,
+  "off": 1352290,
+  "size": 135,
+  "uncomp": 159,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Universal",
+  "end": 10969048
+ },
+ {
+  "pos": 10969055,
+  "off": 1352425,
+  "size": 139,
+  "uncomp": 172,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\W-SU",
+  "end": 10969091
+ },
+ {
+  "pos": 10969103,
+  "off": 1352564,
+  "size": 137,
+  "uncomp": 171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\WET",
+  "end": 10969138
+ },
+ {
+  "pos": 10969151,
+  "off": 1352701,
+  "size": 132,
+  "uncomp": 154,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\tzdata\\Zulu",
+  "end": 10969187
+ },
+ {
+  "pos": 10969199,
+  "off": 1352833,
+  "size": 1347,
+  "uncomp": 5051,
+  "comp": 1,
+  "type": "b",
+  "name": "_tcl_data\\word.tcl",
+  "end": 10969232
+ },
+ {
+  "pos": 10969247,
+  "off": 1354180,
+  "size": 3270,
+  "uncomp": 8806,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\bgerror.tcl",
+  "end": 10969282
+ },
+ {
+  "pos": 10969295,
+  "off": 1357450,
+  "size": 3218,
+  "uncomp": 21612,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\button.tcl",
+  "end": 10969329
+ },
+ {
+  "pos": 10969343,
+  "off": 1360668,
+  "size": 3103,
+  "uncomp": 10009,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\choosedir.tcl",
+  "end": 10969380
+ },
+ {
+  "pos": 10969391,
+  "off": 1363771,
+  "size": 5952,
+  "uncomp": 22039,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\clrpick.tcl",
+  "end": 10969426
+ },
+ {
+  "pos": 10969439,
+  "off": 1369723,
+  "size": 2892,
+  "uncomp": 8690,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\comdlg.tcl",
+  "end": 10969473
+ },
+ {
+  "pos": 10969487,
+  "off": 1372615,
+  "size": 8965,
+  "uncomp": 33364,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\console.tcl",
+  "end": 10969522
+ },
+ {
+  "pos": 10969535,
+  "off": 1381580,
+  "size": 2394,
+  "uncomp": 5988,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\dialog.tcl",
+  "end": 10969569
+ },
+ {
+  "pos": 10969583,
+  "off": 1383974,
+  "size": 4747,
+  "uncomp": 18942,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\entry.tcl",
+  "end": 10969616
+ },
+ {
+  "pos": 10969631,
+  "off": 1388721,
+  "size": 1678,
+  "uncomp": 5035,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\focus.tcl",
+  "end": 10969664
+ },
+ {
+  "pos": 10969679,
+  "off": 1390399,
+  "size": 4454,
+  "uncomp": 18292,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\fontchooser.tcl",
+  "end": 10969718
+ },
+ {
+  "pos": 10969727,
+  "off": 1394853,
+  "size": 4877,
+  "uncomp": 17456,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\iconlist.tcl",
+  "end": 10969763
+ },
+ {
+  "pos": 10969775,
+  "off": 1399730,
+  "size": 7795,
+  "uncomp": 11037,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\icons.tcl",
+  "end": 10969808
+ },
+ {
+  "pos": 10969823,
+  "off": 1407525,
+  "size": 206,
+  "uncomp": 329,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\README",
+  "end": 10969860
+ },
+ {
+  "pos": 10969871,
+  "off": 1407731,
+  "size": 10511,
+  "uncomp": 34991,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\logo.eps",
+  "end": 10969910
+ },
+ {
+  "pos": 10969919,
+  "off": 1418242,
+  "size": 2083,
+  "uncomp": 2341,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\logo100.gif",
+  "end": 10969961
+ },
+ {
+  "pos": 10969967,
+  "off": 1420325,
+  "size": 1385,
+  "uncomp": 1670,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\logo64.gif",
+  "end": 10970008
+ },
+ {
+  "pos": 10970015,
+  "off": 1421710,
+  "size": 10804,
+  "uncomp": 11000,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\logoLarge.gif",
+  "end": 10970059
+ },
+ {
+  "pos": 10970063,
+  "off": 1432514,
+  "size": 3532,
+  "uncomp": 3889,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\logoMed.gif",
+  "end": 10970105
+ },
+ {
+  "pos": 10970111,
+  "off": 1436046,
+  "size": 9042,
+  "uncomp": 29706,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo.eps",
+  "end": 10970154
+ },
+ {
+  "pos": 10970159,
+  "off": 1445088,
+  "size": 1560,
+  "uncomp": 1615,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo100.gif",
+  "end": 10970205
+ },
+ {
+  "pos": 10970223,
+  "off": 1446648,
+  "size": 2440,
+  "uncomp": 2489,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo150.gif",
+  "end": 10970269
+ },
+ {
+  "pos": 10970287,
+  "off": 1449088,
+  "size": 2932,
+  "uncomp": 2981,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo175.gif",
+  "end": 10970333
+ },
+ {
+  "pos": 10970351,
+  "off": 1452020,
+  "size": 3438,
+  "uncomp": 3491,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo200.gif",
+  "end": 10970397
+ },
+ {
+  "pos": 10970415,
+  "off": 1455458,
+  "size": 1126,
+  "uncomp": 1171,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\pwrdLogo75.gif",
+  "end": 10970460
+ },
+ {
+  "pos": 10970479,
+  "off": 1456584,
+  "size": 5400,
+  "uncomp": 5473,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\images\\tai-ku.gif",
+  "end": 10970520
+ },
+ {
+  "pos": 10970527,
+  "off": 1461984,
+  "size": 1209,
+  "uncomp": 2307,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\license.terms",
+  "end": 10970564
+ },
+ {
+  "pos": 10970575,
+  "off": 1463193,
+  "size": 3697,
+  "uncomp": 15255,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\listbox.tcl",
+  "end": 10970610
+ },
+ {
+  "pos": 10970623,
+  "off": 1466890,
+  "size": 3082,
+  "uncomp": 9862,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\megawidget.tcl",
+  "end": 10970661
+ },
+ {
+  "pos": 10970671,
+  "off": 1469972,
+  "size": 10466,
+  "uncomp": 40215,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\menu.tcl",
+  "end": 10970703
+ },
+ {
+  "pos": 10970719,
+  "off": 1480438,
+  "size": 10662,
+  "uncomp": 30840,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\mkpsenc.tcl",
+  "end": 10970754
+ },
+ {
+  "pos": 10970767,
+  "off": 1491100,
+  "size": 4211,
+  "uncomp": 16786,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgbox.tcl",
+  "end": 10970801
+ },
+ {
+  "pos": 10970815,
+  "off": 1495311,
+  "size": 1137,
+  "uncomp": 4235,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\cs.msg",
+  "end": 10970850
+ },
+ {
+  "pos": 10970863,
+  "off": 1496448,
+  "size": 1034,
+  "uncomp": 3987,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\da.msg",
+  "end": 10970898
+ },
+ {
+  "pos": 10970911,
+  "off": 1497482,
+  "size": 1289,
+  "uncomp": 4914,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\de.msg",
+  "end": 10970946
+ },
+ {
+  "pos": 10970959,
+  "off": 1498771,
+  "size": 1559,
+  "uncomp": 8784,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\el.msg",
+  "end": 10970994
+ },
+ {
+  "pos": 10971007,
+  "off": 1500330,
+  "size": 653,
+  "uncomp": 3377,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\en.msg",
+  "end": 10971042
+ },
+ {
+  "pos": 10971055,
+  "off": 1500983,
+  "size": 67,
+  "uncomp": 66,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\en_gb.msg",
+  "end": 10971093
+ },
+ {
+  "pos": 10971103,
+  "off": 1501050,
+  "size": 1081,
+  "uncomp": 4035,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\eo.msg",
+  "end": 10971138
+ },
+ {
+  "pos": 10971151,
+  "off": 1502131,
+  "size": 1038,
+  "uncomp": 4024,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\es.msg",
+  "end": 10971186
+ },
+ {
+  "pos": 10971199,
+  "off": 1503169,
+  "size": 1212,
+  "uncomp": 4693,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\fi.msg",
+  "end": 10971234
+ },
+ {
+  "pos": 10971247,
+  "off": 1504381,
+  "size": 992,
+  "uncomp": 3877,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\fr.msg",
+  "end": 10971282
+ },
+ {
+  "pos": 10971295,
+  "off": 1505373,
+  "size": 1186,
+  "uncomp": 4678,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\hu.msg",
+  "end": 10971330
+ },
+ {
+  "pos": 10971343,
+  "off": 1506559,
+  "size": 976,
+  "uncomp": 3765,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\it.msg",
+  "end": 10971378
+ },
+ {
+  "pos": 10971391,
+  "off": 1507535,
+  "size": 1159,
+  "uncomp": 4557,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\nl.msg",
+  "end": 10971426
+ },
+ {
+  "pos": 10971439,
+  "off": 1508694,
+  "size": 1337,
+  "uncomp": 4932,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\pl.msg",
+  "end": 10971474
+ },
+ {
+  "pos": 10971487,
+  "off": 1510031,
+  "size": 1044,
+  "uncomp": 3987,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\pt.msg",
+  "end": 10971522
+ },
+ {
+  "pos": 10971535,
+  "off": 1511075,
+  "size": 1604,
+  "uncomp": 8620,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\ru.msg",
+  "end": 10971570
+ },
+ {
+  "pos": 10971583,
+  "off": 1512679,
+  "size": 1009,
+  "uncomp": 3908,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\sv.msg",
+  "end": 10971618
+ },
+ {
+  "pos": 10971631,
+  "off": 1513688,
+  "size": 1398,
+  "uncomp": 4948,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\msgs\\zh_cn.msg",
+  "end": 10971669
+ },
+ {
+  "pos": 10971679,
+  "off": 1515086,
+  "size": 1685,
+  "uncomp": 5772,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\obsolete.tcl",
+  "end": 10971715
+ },
+ {
+  "pos": 10971727,
+  "off": 1516771,
+  "size": 794,
+  "uncomp": 1629,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\optMenu.tcl",
+  "end": 10971762
+ },
+ {
+  "pos": 10971775,
+  "off": 1517565,
+  "size": 2992,
+  "uncomp": 8418,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\palette.tcl",
+  "end": 10971810
+ },
+ {
+  "pos": 10971823,
+  "off": 1520557,
+  "size": 1446,
+  "uncomp": 5370,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\panedwindow.tcl",
+  "end": 10971862
+ },
+ {
+  "pos": 10971871,
+  "off": 1522003,
+  "size": 231,
+  "uncomp": 376,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\pkgIndex.tcl",
+  "end": 10971907
+ },
+ {
+  "pos": 10971919,
+  "off": 1522234,
+  "size": 2807,
+  "uncomp": 7632,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\safetk.tcl",
+  "end": 10971953
+ },
+ {
+  "pos": 10971967,
+  "off": 1525041,
+  "size": 2433,
+  "uncomp": 8693,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\scale.tcl",
+  "end": 10972000
+ },
+ {
+  "pos": 10972015,
+  "off": 1527474,
+  "size": 3210,
+  "uncomp": 13188,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\scrlbar.tcl",
+  "end": 10972050
+ },
+ {
+  "pos": 10972063,
+  "off": 1530684,
+  "size": 4181,
+  "uncomp": 16543,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\spinbox.tcl",
+  "end": 10972098
+ },
+ {
+  "pos": 10972111,
+  "off": 1534865,
+  "size": 2134,
+  "uncomp": 24443,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\tclIndex",
+  "end": 10972143
+ },
+ {
+  "pos": 10972159,
+  "off": 1536999,
+  "size": 1815,
+  "uncomp": 4625,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\tearoff.tcl",
+  "end": 10972194
+ },
+ {
+  "pos": 10972207,
+  "off": 1538814,
+  "size": 8493,
+  "uncomp": 35183,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\text.tcl",
+  "end": 10972239
+ },
+ {
+  "pos": 10972255,
+  "off": 1547307,
+  "size": 6861,
+  "uncomp": 24322,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\tk.tcl",
+  "end": 10972285
+ },
+ {
+  "pos": 10972303,
+  "off": 1554168,
+  "size": 12510,
+  "uncomp": 39606,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\tkfbox.tcl",
+  "end": 10972337
+ },
+ {
+  "pos": 10972351,
+  "off": 1566678,
+  "size": 1199,
+  "uncomp": 4901,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\altTheme.tcl",
+  "end": 10972391
+ },
+ {
+  "pos": 10972399,
+  "off": 1567877,
+  "size": 1082,
+  "uncomp": 3809,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\aquaTheme.tcl",
+  "end": 10972440
+ },
+ {
+  "pos": 10972447,
+  "off": 1568959,
+  "size": 1251,
+  "uncomp": 3014,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\button.tcl",
+  "end": 10972485
+ },
+ {
+  "pos": 10972495,
+  "off": 1570210,
+  "size": 1314,
+  "uncomp": 5858,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\clamTheme.tcl",
+  "end": 10972536
+ },
+ {
+  "pos": 10972543,
+  "off": 1571524,
+  "size": 1166,
+  "uncomp": 4354,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\classicTheme.tcl",
+  "end": 10972587
+ },
+ {
+  "pos": 10972591,
+  "off": 1572690,
+  "size": 4099,
+  "uncomp": 12708,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\combobox.tcl",
+  "end": 10972631
+ },
+ {
+  "pos": 10972639,
+  "off": 1576789,
+  "size": 1847,
+  "uncomp": 4674,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\cursors.tcl",
+  "end": 10972678
+ },
+ {
+  "pos": 10972687,
+  "off": 1578636,
+  "size": 1121,
+  "uncomp": 5004,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\defaults.tcl",
+  "end": 10972727
+ },
+ {
+  "pos": 10972735,
+  "off": 1579757,
+  "size": 5359,
+  "uncomp": 18006,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\entry.tcl",
+  "end": 10972772
+ },
+ {
+  "pos": 10972783,
+  "off": 1585116,
+  "size": 1713,
+  "uncomp": 5639,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\fonts.tcl",
+  "end": 10972820
+ },
+ {
+  "pos": 10972831,
+  "off": 1586829,
+  "size": 2116,
+  "uncomp": 6408,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\menubutton.tcl",
+  "end": 10972873
+ },
+ {
+  "pos": 10972879,
+  "off": 1588945,
+  "size": 1875,
+  "uncomp": 5863,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\notebook.tcl",
+  "end": 10972919
+ },
+ {
+  "pos": 10972927,
+  "off": 1590820,
+  "size": 649,
+  "uncomp": 2161,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\panedwindow.tcl",
+  "end": 10972970
+ },
+ {
+  "pos": 10972975,
+  "off": 1591469,
+  "size": 445,
+  "uncomp": 1138,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\progress.tcl",
+  "end": 10973015
+ },
+ {
+  "pos": 10973023,
+  "off": 1591914,
+  "size": 763,
+  "uncomp": 2787,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\scale.tcl",
+  "end": 10973060
+ },
+ {
+  "pos": 10973071,
+  "off": 1592677,
+  "size": 1096,
+  "uncomp": 3284,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\scrollbar.tcl",
+  "end": 10973112
+ },
+ {
+  "pos": 10973119,
+  "off": 1593773,
+  "size": 941,
+  "uncomp": 2502,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\sizegrip.tcl",
+  "end": 10973159
+ },
+ {
+  "pos": 10973167,
+  "off": 1594714,
+  "size": 1646,
+  "uncomp": 5003,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\spinbox.tcl",
+  "end": 10973206
+ },
+ {
+  "pos": 10973215,
+  "off": 1596360,
+  "size": 2848,
+  "uncomp": 10180,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\treeview.tcl",
+  "end": 10973255
+ },
+ {
+  "pos": 10973263,
+  "off": 1599208,
+  "size": 1896,
+  "uncomp": 5509,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\ttk.tcl",
+  "end": 10973298
+ },
+ {
+  "pos": 10973311,
+  "off": 1601104,
+  "size": 2946,
+  "uncomp": 8621,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\utils.tcl",
+  "end": 10973348
+ },
+ {
+  "pos": 10973359,
+  "off": 1604050,
+  "size": 2042,
+  "uncomp": 10692,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\vistaTheme.tcl",
+  "end": 10973401
+ },
+ {
+  "pos": 10973407,
+  "off": 1606092,
+  "size": 1015,
+  "uncomp": 3848,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\winTheme.tcl",
+  "end": 10973447
+ },
+ {
+  "pos": 10973455,
+  "off": 1607107,
+  "size": 821,
+  "uncomp": 3090,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\ttk\\xpTheme.tcl",
+  "end": 10973494
+ },
+ {
+  "pos": 10973503,
+  "off": 1607928,
+  "size": 2547,
+  "uncomp": 10521,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\unsupported.tcl",
+  "end": 10973542
+ },
+ {
+  "pos": 10973551,
+  "off": 1610475,
+  "size": 6954,
+  "uncomp": 26991,
+  "comp": 1,
+  "type": "b",
+  "name": "_tk_data\\xmfbox.tcl",
+  "end": 10973585
+ },
+ {
+  "pos": 10973599,
+  "off": 1617429,
+  "size": 34403,
+  "uncomp": 68600,
+  "comp": 1,
+  "type": "b",
+  "name": "_tkinter.pyd",
+  "end": 10973626
+ },
+ {
+  "pos": 10973631,
+  "off": 1651832,
+  "size": 396387,
+  "uncomp": 1333717,
+  "comp": 1,
+  "type": "b",
+  "name": "base_library.zip",
+  "end": 10973662
+ },
+ {
+  "pos": 10973679,
+  "off": 2048219,
+  "size": 1856009,
+  "uncomp": 5231472,
+  "comp": 1,
+  "type": "b",
+  "name": "libcrypto-3.dll",
+  "end": 10973709
+ },
+ {
+  "pos": 10973727,
+  "off": 3904228,
+  "size": 283342,
+  "uncomp": 794992,
+  "comp": 1,
+  "type": "b",
+  "name": "libssl-3.dll",
+  "end": 10973754
+ },
+ {
+  "pos": 10973759,
+  "off": 4187570,
+  "size": 2548450,
+  "uncomp": 6945272,
+  "comp": 1,
+  "type": "b",
+  "name": "python312.dll",
+  "end": 10973787
+ },
+ {
+  "pos": 10973791,
+  "off": 6736020,
+  "size": 18849,
+  "uncomp": 33136,
+  "comp": 1,
+  "type": "b",
+  "name": "select.pyd",
+  "end": 10973816
+ },
+ {
+  "pos": 10973823,
+  "off": 6754869,
+  "size": 892320,
+  "uncomp": 1841896,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl86t.dll",
+  "end": 10973848
+ },
+ {
+  "pos": 10973855,
+  "off": 7647189,
+  "size": 3744,
+  "uncomp": 11708,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl8\\8.4\\platform-1.0.19.tm",
+  "end": 10973897
+ },
+ {
+  "pos": 10973903,
+  "off": 7650933,
+  "size": 2083,
+  "uncomp": 6242,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl8\\8.4\\platform\\shell-1.1.4.tm",
+  "end": 10973950
+ },
+ {
+  "pos": 10973967,
+  "off": 7653016,
+  "size": 10028,
+  "uncomp": 35120,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl8\\8.5\\msgcat-1.6.1.tm",
+  "end": 10974006
+ },
+ {
+  "pos": 10974015,
+  "off": 7663044,
+  "size": 28040,
+  "uncomp": 105163,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl8\\8.5\\tcltest-2.5.8.tm",
+  "end": 10974055
+ },
+ {
+  "pos": 10974063,
+  "off": 7691084,
+  "size": 31036,
+  "uncomp": 118283,
+  "comp": 1,
+  "type": "b",
+  "name": "tcl8\\8.6\\http-2.9.8.tm",
+  "end": 10974100
+ },
+ {
+  "pos": 10974111,
+  "off": 7722120,
+  "size": 726962,
+  "uncomp": 1590776,
+  "comp": 1,
+  "type": "b",
+  "name": "tk86t.dll",
+  "end": 10974135
+ },
+ {
+  "pos": 10974143,
+  "off": 8449082,
+  "size": 419262,
+  "uncomp": 1140592,
+  "comp": 1,
+  "type": "b",
+  "name": "unicodedata.pyd",
+  "end": 10974173
+ },
+ {
+  "pos": 10974191,
+  "off": 8868344,
+  "size": 80996,
+  "uncomp": 148336,
+  "comp": 1,
+  "type": "b",
+  "name": "zlib1.dll",
+  "end": 10974215
+ },
+ {
+  "pos": 10974223,
+  "off": 8949340,
+  "size": 0,
+  "uncomp": 0,
+  "comp": 0,
+  "type": "o",
+  "name": "pyi-contents-directory _internal",
+  "end": 10974270
+ },
+ {
+  "pos": 10974287,
+  "off": 8949340,
+  "size": 1629295,
+  "uncomp": 1629295,
+  "comp": 0,
+  "type": "z",
+  "name": "PYZ.pyz",
+  "end": 10974309
+ }
+]

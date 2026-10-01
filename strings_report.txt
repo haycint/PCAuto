@@ -1,0 +1,150 @@
+﻿Scanning sections: ['.rdata', '.data']
+
+Total ASCII strings: 763
+Total UTF-16 strings: 440
+
+===== jira/atlassian: 0 hits =====
+
+===== http/url: 0 hits =====
+
+===== auth: 2 hits =====
+  0x0003FF74: OpenProcessToken
+  0x0003FF88: GetTokenInformation
+
+===== export: 0 hits =====
+
+===== query/jql: 0 hits =====
+
+===== ui: 26 hits =====
+  0x0002E128: Tk_GetNumMainWindows
+  0x0002E980: pyi-disable-windowed-traceback
+  0x00032A98: invalid window size
+  0x00036230: bad message
+  0x00036340: message size
+  0x00036398: no message available
+  0x000363B8: no message
+  0x0003FA52: SendMessageW
+  0x0003FA62: CreateWindowExW
+  0x0003FA74: MoveWindow
+  0x0003FA82: DialogBoxIndirectParamW
+  0x0003FA9C: EndDialog
+  0x0003FAA8: GetDialogBaseUnits
+  0x0003FB00: GetWindowLongPtrW
+  0x0003FB14: SetWindowLongPtrW
+  0x0003FB4E: MessageBoxA
+  0x0003FB5C: MessageBoxW
+  0x0003FB6A: GetMessageW
+  0x0003FB78: PostMessageW
+  0x0003FB88: TranslateMessage
+  0x0003FB9C: DispatchMessageW
+  0x0003FBB0: PeekMessageW
+  0x0003FBC0: DefWindowProcW
+  0x0003FBE4: DestroyWindow
+  0x0003FBF4: ShowWindow
+  0x0003FCB4: FormatMessageW
+
+===== error: 113 hits =====
+  0x0002D0F0: Failed to extract %s: inflateInit() failed with return code %d!
+  0x0002D140: Failed to extract %s: failed to allocate temporary input buffer!
+  0x0002D190: Failed to extract %s: failed to allocate temporary output buffer!
+  0x0002D1E0: Failed to extract %s: decompression resulted in return code %d!
+  0x0002D228: Failed to extract %s: failed to allocate temporary buffer!
+  0x0002D268: Failed to extract %s: failed to read data chunk!
+  0x0002D2A8: Failed to extract %s: failed to write data chunk!
+  0x0002D2E8: Failed to extract %s: failed to open archive file!
+  0x0002D320: Failed to extract %s: failed to seek to the entry's data!
+  0x0002D370: Failed to extract %s: failed to allocate data buffer (%u bytes)!
+  0x0002D3B8: Failed to create symbolic link %s!
+  0x0002D3E0: Failed to extract %s: failed to open target file!
+  0x0002D420: Failed to seek to cookie position!
+  0x0002D448: Failed to read cookie!
+  0x0002D4E8: Error on file.
+  0x0002D888: PyInitConfig_GetError
+  0x0002D968: Py_ExitStatusException
+  0x0002D9A0: PyErr_NormalizeException
+  0x0002DB50: PyStatus_Exception
+  0x0002E2F8: [PYI-%d:ERROR] 
+  0x0002E3A8: ERROR
+  0x0002E3B0: Error [ANSI Fallback]
+  0x0002E460: Failed to create parent directory structure.
+  0x0002E490: Failed to extract entry: %s.
+  0x0002E4C0: format_exception
+  0x0002E538: Failed to extract script from archive!
+  0x0002E5B0: Failed to unmarshal code object for %s
+  0x0002E6D0: Invalid value in _PYI_PARENT_PROCESS_LEVEL: %s
+  0x0002E700: Invalid parent process level: %d
+  0x0002E728: Failed to set _PYI_PARENT_PROCESS_LEVEL environment variable!
+  0x0002E790: Failed to initialize security descriptor for temporary directory!
+  0x0002E800: Failed to set application home directory via environment variable!
+  0x0002E908: Failed to convert DLL search path!
+  0x0002E9A0: Failed to load splash screen resources!
+  0x0002E9D0: Failed to unpack splash screen dependencies from PKG archive!
+  0x0002EA10: Failed to load Tcl/Tk shared libraries for splash screen!
+  0x0002EA50: Failed to start splash screen!
+  0x0002EA70: Failed to remove temporary directory: %s
+  0x0002ECA0: Failed to open archive %s!
+  0x0002ECE0: Failed to copy file %s from %s!
+  0x0002ED58: Failed to open referenced dependency archive %s.
+  0x0002EDD0: Failed to extract %s from referenced dependency archive %s.
+  0x0002EEB8: Failed to set program name: %s
+  0x0002EEE0: Failed to set python home path: %s
+  0x0002EF10: Failed to copy path to application home directory - path is too long!
+  0x0002EF60: Failed to construct path to base_library.zip - path is too long!
+  0x0002EFB0: Failed to construct path to lib-dynload directory - path is too long!
+  0x0002F010: Failed to set module search paths: %s
+  0x0002F040: Failed to set sys.argv: %s
+  0x0002F070: Failed to set 'site_import': %s
+  0x0002F0A8: Failed to set 'write_bytecode': %s
+  0x0002F0E8: Failed to set 'configure_c_stdio': %s
+  0x0002F128: Failed to set 'optimization_level': %s
+  0x0002F160: Failed to set 'buffered_stdio': %s
+  0x0002F188: Failed to set 'verbose': %s
+  0x0002F1B8: Failed to set 'use_hash_seed': %s
+  0x0002F1E0: Failed to set 'hash_seed': %s
+  0x0002F210: Failed to set 'dev_mode': %s
+  0x0002F248: Failed to set 'install_signal_handlers': %s
+  0x0002F288: Failed to set 'warnoptions': %s
+  0x0002F2C0: Failed to set 'xoptions': %s
+  0x0002F2E0: Failed to parse run-time options!
+  0x0002F308: Failed to pre-initialize embedded python interpreter!
+  0x0002F340: Failed to allocate PyInitConfig structure!
+  0x0002F370: Failed to set program name!
+  0x0002F390: Failed to set python home path!
+  0x0002F3B8: Failed to set module search paths!
+  0x0002F3E0: Failed to set sys.argv!
+  0x0002F400: Failed to set run-time options!
+  0x0002F430: Failed to allocate PyConfig structure! Unsupported python version?
+  0x0002F478: Failed to start embedded python interpreter: %s
+  0x0002F4B0: Failed to start embedded python interpreter!
+  0x0002F4F0: Failed to get _MEIPASS as PyObject.
+  0x0002F528: Failed to unmarshal code object for module %s!
+  0x0002F5C8: Failed to format PYZ archive path and offset
+  0x0002F5F8: Failed to store path to PYZ archive into sys.%s!
+  0x0002F890: SPLASH: failed to create parent directory structure.
+  0x0002F8F8: SPLASH: failed to load Tcl/Tk shared libraries!
+  0x000329E0: invalid distance too far back
+  0x00032A00: invalid distance code
+
+===== encoding: 9 hits =====
+  0x0002DA58: PyMarshal_ReadObjectFromString
+  0x0002DB88: PyUnicode_AsUTF8
+  0x0002E5B0: Failed to unmarshal code object for %s
+  0x0002EA10: Failed to load Tcl/Tk shared libraries for splash screen!
+  0x0002F4E8: utf-8
+  0x0002F528: Failed to unmarshal code object for module %s!
+  0x0002F630: SPLASH: length of Tcl shared library path exceeds maximum path length!
+  0x0002F680: SPLASH: length of Tk shared library path exceeds maximum path length!
+  0x0002F8F8: SPLASH: failed to load Tcl/Tk shared libraries!
+
+===== UTF-16 hits (jira/http/auth/export) =====
+python : Traceback (most recent call last):
+所在位置 行:1 字符: 1
++ python "C:\Users\TianYifan\.doubao\lark-chats\2026-10-01\new-chat\re_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\TianYifan\.doubao\lark-chats\2026-10-01\new-chat\re_work\strings_extract.py", line 63, in <module>
+    for off, s in u16_strings:
+        ^^^^^^
+ValueError: too many values to unpack (expected 2)

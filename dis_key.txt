@@ -1,0 +1,423 @@
+######################################################################
+### DISASSEMBLY: JiraHtmlClient.login
+######################################################################
+ 263            BINARY_OP                0 (+)
+                POP_JUMP_IF_TRUE         2 (to L1)
+                CACHE
+
+ 266            POP_JUMP_IF_TRUE         1 (to L2)
+                STORE_ATTR               1 (urllib.request)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                CACHE
+
+ 270            CACHE
+                SET_FUNCTION_ATTRIBUTE   8 (closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  11 (defaults, kwdefaults, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE   8 (closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  13 (defaults, annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CALL                     1
+                CACHE
+
+ 273            CACHE
+                SET_FUNCTION_ATTRIBUTE  14 (kwdefaults, annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                BINARY_OP                0 (+)
+                BINARY_SUBSCR
+
+ 277            CACHE
+                SET_FUNCTION_ATTRIBUTE  16
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 278            CACHE
+                SET_FUNCTION_ATTRIBUTE  18 (kwdefaults)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 279            POP_JUMP_IF_TRUE         4 (to L3)
+
+ 281            POP_JUMP_IF_TRUE         4 (to L4)
+
+ 276            POP_JUMP_IF_TRUE         6 (to L5)
+        L3:     CACHE
+
+ 286            CACHE
+        L4:     SET_FUNCTION_ATTRIBUTE  20 (annotations)
+                CACHE
+                CACHE
+                CACHE
+        L5:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  23 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                SET_FUNCTION_ATTRIBUTE  25 (defaults, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         7 (to L6)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 287            CACHE
+                SET_FUNCTION_ATTRIBUTE   8 (closure)
+                CACHE
+        L6:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  27 (defaults, kwdefaults, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         8 (to L7)
+                CALL                     3
+                CACHE
+
+ 288            CACHE
+                SET_FUNCTION_ATTRIBUTE  29 (defaults, annotations, closure)
+                CACHE
+        L7:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE        10 (to L9)
+                CALL                     2
+                BEFORE_ASYNC_WITH
+
+ 290            DELETE_SUBSCR
+
+ 291    L8:     CACHE
+                SET_FUNCTION_ATTRIBUTE  31 (defaults, kwdefaults, annotations, closure)
+                CACHE
+                CACHE
+        L9:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE        12 (to L11)
+                CALL                     2
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+       L11:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                SET_FUNCTION_ATTRIBUTE  35 (defaults, kwdefaults)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         7 (to L12)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 294            POP_JUMP_IF_TRUE        14 (to L13)
+                YIELD_VALUE              0
+       L12:     SWAP                    37
+                POP_JUMP_IF_TRUE        15 (to L14)
+                SET_FUNCTION_ATTRIBUTE  37 (defaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+       L13:     CALL                     0
+                YIELD_VALUE              0
+       L14:     SWAP                    19
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  39 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                CACHE
+                SET_UPDATE              55
+                CACHE
+                STORE_NAME              17 (decode)
+
+ 295            CACHE
+                CACHE
+                MAP_ADD                 20
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 296            DELETE_SUBSCR
+
+ 291   L15:     POP_JUMP_IF_TRUE         2 (to L16)
+                POP_JUMP_IF_TRUE         2 (to L17)
+       L16:     CACHE
+                CACHE
+       L17:     CACHE
+                BEFORE_ASYNC_WITH
+       L18:     CACHE
+
+ 298   L19:     POP_JUMP_IF_TRUE        17 (to L20)
+                SET_FUNCTION_ATTRIBUTE  39 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                SET_FUNCTION_ATTRIBUTE  37 (defaults, annotations)
+                CACHE
+                CACHE
+       L20:     CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                YIELD_VALUE              0
+                STORE_NAME              17 (decode)
+
+ 299            CACHE
+                CACHE
+                MAP_ADD                 20
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+ 300            DELETE_SUBSCR
+
+ 291   L21:     POP_JUMP_IF_TRUE         2 (to L22)
+                POP_JUMP_IF_TRUE         2 (to L23)
+       L22:     CACHE
+                CACHE
+       L23:     CACHE
+                BEFORE_ASYNC_WITH
+       L24:     CACHE
+
+ 301   L25:     DELETE_SUBSCR
+
+ 291   L26:     POP_JUMP_IF_TRUE         2 (to L27)
+                POP_JUMP_IF_TRUE         2 (to L28)
+       L27:     CACHE
+                CACHE
+       L28:     CACHE
+                BEFORE_ASYNC_WITH
+       L29:     CACHE
+       L30:     RETURN_GENERATOR
+                BUILD_SET                0
+                SWAP                     1
+                CACHE
+                BEFORE_ASYNC_WITH
+       L31:     LOAD_FROM_DICT_OR_DEREF  0 (self)
+                BEFORE_ASYNC_WITH
+                BEFORE_ASYNC_WITH
+       L32:     CACHE
+
+  --   L33:     CACHE
+                LOAD_FROM_DICT_OR_DEREF  0 (self)
+                CACHE
+       L34:     RETURN_GENERATOR
+
+ 302            UNPACK_EX               42
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RETURN_VALUE
+                STORE_NAME              10 (parse)
+                CACHE
+
+ 303   L35:     LOAD_FROM_DICT_OR_DEREF  0 (self)
+                POP_JUMP_IF_TRUE         2 (to L36)
+                CACHE
+                CACHE
+
+  --   L36:     POP_JUMP_IF_TRUE         2 (to L37)
+                CACHE
+                CACHE
+
+ 302   L37:     CACHE
+
+  --   L38:     CACHE
+                LOAD_FROM_DICT_OR_DEREF  0 (self)
+                CACHE
+ExceptionTable:
+  L8 to L10 -> L34 [0]
+  L10 to L15 -> L30 [1] lasti
+  L15 to L18 -> L34 [0]
+  L19 to L21 -> L30 [1] lasti
+  L21 to L24 -> L34 [0]
+  L25 to L26 -> L30 [1] lasti
+  L26 to L29 -> L34 [0]
+  L30 to L31 -> L33 [3] lasti
+  L31 to L32 -> L34 [0]
+  L33 to L34 -> L34 [0]
+  L34 to L35 -> L38 [1] lasti
+  L36 to L38 -> L38 [1] lasti
+
+######################################################################
+### DISASSEMBLY: JiraHtmlClient.fetch_filter_html
+######################################################################
+  DIS ERROR: IndexError('tuple index out of range')
+######################################################################
+### DISASSEMBLY: SyncManager.parse_feishu_url
+######################################################################
+  DIS ERROR: IndexError('tuple index out of range')
+######################################################################
+### DISASSEMBLY: SyncManager.parse_jira_filter_url
+######################################################################
+  DIS ERROR: IndexError('tuple index out of range')
+######################################################################
+### DISASSEMBLY: SyncManager.sync_incremental
+######################################################################
+  DIS ERROR: IndexError('tuple index out of range')
+######################################################################
+### DISASSEMBLY: JiraFeishuSyncApp._do_sync
+######################################################################
+  DIS ERROR: IndexError('tuple index out of range')

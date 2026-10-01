@@ -1,0 +1,531 @@
+﻿TOP: <module> jira_feishu_sync.py 1
+TOTAL CODES: 102
+
+===== FUNCTIONS / CLASSES =====
+<module>() @line 1  args=()  varnames=()
+  _get_base_dir() @line 31  args=()  varnames=()
+  ConfigManager() @line 45  args=()  varnames=()
+    load() @line 48  args=()  varnames=('f',)
+    save() @line 58  args=('config',)  varnames=('config', 'f')
+  FeishuBitableClient() @line 64  args=()  varnames=()
+    __init__() @line 67  args=('self', 'app_id', 'app_secret')  varnames=('self', 'app_id', 'app_secret')
+    _request() @line 72  args=('self', 'method', 'url', 'data', 'headers')  varnames=('self', 'method', 'url', 'data', 'headers', 'req_headers', 'body', 'req', 'resp', 'result', 'e', 'error_body', 'error_data')
+    get_access_token() @line 98  args=('self',)  varnames=('self', 'data', 'result')
+    list_tables() @line 107  args=('self', 'app_token')  varnames=('self', 'app_token', 'url', 'result', 'tables')
+    create_table() @line 116  args=('self', 'app_token', 'table_name', 'description')  varnames=('self', 'app_token', 'table_name', 'description', 'url', 'data', 'result')
+    list_fields() @line 130  args=('self', 'app_token', 'table_id')  varnames=('self', 'app_token', 'table_id', 'url', 'result', 'fields')
+    add_field() @line 139  args=('self', 'app_token', 'table_id', 'field_name', 'field_type')  varnames=('self', 'app_token', 'table_id', 'field_name', 'field_type', 'url', 'data', 'result')
+    delete_field() @line 151  args=('self', 'app_token', 'table_id', 'field_id')  varnames=('self', 'app_token', 'table_id', 'field_id', 'url', 'result')
+    rename_field() @line 159  args=('self', 'app_token', 'table_id', 'field_id', 'new_name')  varnames=('self', 'app_token', 'table_id', 'field_id', 'new_name', 'url', 'data', 'result')
+    list_records() @line 171  args=('self', 'app_token', 'table_id', 'page_size', 'page_token')  varnames=('self', 'app_token', 'table_id', 'page_size', 'page_token', 'url', 'result', 'items', 'next_token')
+    get_all_records() @line 184  args=('self', 'app_token', 'table_id')  varnames=('self', 'app_token', 'table_id', 'all_records', 'page_token', 'url', 'result', 'items', 'has_more')
+    create_record() @line 208  args=('self', 'app_token', 'table_id', 'fields')  varnames=('self', 'app_token', 'table_id', 'fields', 'url', 'data', 'result')
+    batch_create_records() @line 217  args=('self', 'app_token', 'table_id', 'records')  varnames=('self', 'app_token', 'table_id', 'records', 'url', 'data', 'result')
+    batch_delete_records() @line 226  args=('self', 'app_token', 'table_id', 'record_ids')  varnames=('self', 'app_token', 'table_id', 'record_ids', 'url', 'data', 'result')
+    update_record() @line 235  args=('self', 'app_token', 'table_id', 'record_id', 'fields')  varnames=('self', 'app_token', 'table_id', 'record_id', 'fields', 'url', 'data', 'result')
+    batch_update_records() @line 244  args=('self', 'app_token', 'table_id', 'records')  varnames=('self', 'app_token', 'table_id', 'records', 'url', 'data', 'result')
+  JiraHtmlClient() @line 254  args=()  varnames=()
+    __init__() @line 257  args=('self', 'base_url', 'username', 'password')  varnames=('self', 'base_url', 'username', 'password')
+    login() @line 263  args=('self',)  varnames=('self', 'http', 'urllib', 'cookie_jar', 'opener', 'login_url', 'login_data', 'data_encoded', 'req', 'resp', 'html', 'e')
+    fetch_filter_html() @line 305  args=('self', 'filter_url')  varnames=('self', 'filter_url', 'req', 'resp', 'e')
+    parse_html() @line 317  args=('html_content',)  varnames=('html_content', 'headers', 'thead_pattern', 'thead_match', 'thead_html', 'th_pattern', 'ths', 'th', 'text', 'first_row_pattern', 'first_row_match', 'row_html', 'rows', 'row_pattern', 'row_matches', 'td_pattern', 'tds', 'row_data', 'td', 'html_module')
+    parse_html_alternative() @line 382  args=('html_content',)  varnames=('html_content', 'headers', 'rows', 'table_pattern', 'table_match', 'table_html', 'thead_pattern', 'thead_match', 'ths', 'th', 'text', 'tr_pattern', 'tr_matches', 'tr_html', 'tds', 'row_data', 'td', 'html_module')
+  SyncManager() @line 431  args=()  varnames=()
+    parse_feishu_url() @line 434  args=('url',)  varnames=('url', 'pattern', 'match', 'app_token', 'parsed', 'query_params', 'table_id', 'decoded_url')
+    parse_jira_filter_url() @line 469  args=('url',)  varnames=('url', 'match')
+    rebuild_table_fields() @line 480  args=('feishu_client', 'app_token', 'table_id', 'column_names', 'log_callback')  varnames=('feishu_client', 'app_token', 'table_id', 'column_names', 'log_callback', 'success', 'existing_fields', 'existing_names', 'primary_field', 'field', 'name', 'target_names', 'primary_need_rename', 'need_rebuild', 'field_id', 'col_name', 'result')
+    clear_all_records() @line 554  args=('feishu_client', 'app_token', 'table_id', 'log_callback')  varnames=('feishu_client', 'app_token', 'table_id', 'log_callback', 'success', 'records', 'record', 'record_ids', 'batch_size', 'i', 'batch')
+    sync_incremental() @line 583  args=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback')  varnames=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback', 'success', 'feishu_records', 'feishu_map', 'record', 'record_id', 'fields', 'key_value', 'jira_map', 'row', 'stats', 'feishu_record', 'feishu_fields', 'has_diff', 'i', 'header', 'jira_value', 'feishu_value', 'batch_size', 'batch', 'records', 'j', 'result', 'item')
+    write_records() @line 730  args=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback')  varnames=('feishu_client', 'app_token', 'table_id', 'headers', 'rows', 'log_callback', 'batch_size', 'total_success', 'i', 'batch', 'records', 'row', 'fields', 'j', 'header', 'success', 'result', 'idx', 'record')
+  JiraFeishuSyncApp() @line 781  args=()  varnames=()
+    __init__() @line 784  args=('self',)  varnames=('self',)
+    _build_ui() @line 802  args=('self',)  varnames=('self', 'main_frame', 'feishu_frame', 'jira_frame', 'btn_frame', 'status_frame', 'log_frame', 'scrollbar')
+    _log() @line 880  args=('self', 'message')  varnames=('self', 'message', 'timestamp', 'log_message')
+    _save_config() @line 890  args=('self',)  varnames=('self', 'config')
+    _get_config_values() @line 905  args=('self',)  varnames=('self',)
+    _sync_once() @line 916  args=('self',)  varnames=('self', 'config')
+    _do_sync() @line 929  args=('self', 'config')  varnames=('self', 'config', 'feishu_client', 'success', 'jira_table', 'table', 'jira_client', 'login_success', 'e', 'traceback')
+      <lambda>() @line 932  args=()  varnames=()
+      <lambda>() @line 933  args=()  varnames=()
+      <lambda>() @line 934  args=()  varnames=()
+      <lambda>() @line 935  args=()  varnames=()
+      <lambda>() @line 938  args=()  varnames=()
+      <lambda>() @line 941  args=()  varnames=()
+      <lambda>() @line 942  args=()  varnames=()
+      <lambda>() @line 1082  args=()  varnames=()
+      <lambda>() @line 945  args=()  varnames=()
+      <lambda>() @line 950  args=()  varnames=()
+      <lambda>() @line 951  args=()  varnames=()
+      <lambda>() @line 954  args=()  varnames=()
+      <lambda>() @line 960  args=()  varnames=()
+      <lambda>() @line 961  args=()  varnames=()
+      <lambda>() @line 964  args=()  varnames=()
+      <lambda>() @line 969  args=()  varnames=()
+      <lambda>() @line 970  args=()  varnames=()
+      <lambda>() @line 981  args=()  varnames=()
+      <lambda>() @line 984  args=()  varnames=()
+      <lambda>() @line 985  args=()  varnames=()
+      <lambda>() @line 988  args=()  varnames=()
+      <lambda>() @line 991  args=()  varnames=()
+      <lambda>() @line 994  args=()  varnames=()
+      <lambda>() @line 1002  args=()  varnames=()
+      <lambda>() @line 1005  args=()  varnames=()
+      <lambda>() @line 1006  args=()  varnames=()
+      <lambda>() @line 1009  args=()  varnames=()
+      <lambda>() @line 1012  args=()  varnames=()
+      <lambda>() @line 1015  args=()  varnames=()
+      <lambda>() @line 1016  args=()  varnames=()
+      <lambda>() @line 1019  args=()  varnames=()
+      <lambda>() @line 1022  args=()  varnames=()
+      <lambda>() @line 1027  args=()  varnames=()
+      <lambda>() @line 1031  args=()  varnames=()
+      <lambda>() @line 1032  args=()  varnames=()
+      <lambda>() @line 1039  args=()  varnames=()
+      <lambda>() @line 1040  args=()  varnames=()
+      <lambda>() @line 1043  args=()  varnames=()
+      <lambda>() @line 1047  args=('msg',)  varnames=('msg',)
+        <lambda>() @line 1047  args=('m',)  varnames=('m',)
+      <lambda>() @line 1050  args=()  varnames=()
+      <lambda>() @line 1051  args=()  varnames=()
+      <lambda>() @line 1057  args=('msg',)  varnames=('msg',)
+        <lambda>() @line 1057  args=('m',)  varnames=('m',)
+      <lambda>() @line 1060  args=()  varnames=()
+      <lambda>() @line 1061  args=()  varnames=()
+      <lambda>() @line 1066  args=('msg',)  varnames=('msg',)
+        <lambda>() @line 1066  args=('m',)  varnames=('m',)
+      <lambda>() @line 1069  args=()  varnames=()
+      <lambda>() @line 1070  args=()  varnames=()
+      <lambda>() @line 1073  args=()  varnames=()
+      <lambda>() @line 1074  args=()  varnames=()
+      <lambda>() @line 1079  args=()  varnames=()
+      <lambda>() @line 1080  args=()  varnames=()
+    _auto_start_sync() @line 1084  args=('self',)  varnames=('self', 'config')
+    _toggle_auto_sync() @line 1103  args=('self',)  varnames=('self',)
+    _start_timer() @line 1126  args=('self',)  varnames=('self', 'timer_loop')
+      timer_loop() @line 1128  args=()  varnames=('i',)
+    run() @line 1145  args=('self',)  varnames=('self',)
+
+===== ALL STRING CONSTANTS (423) =====
+[<module>] '\nJira ↔ 飞书多维表格同步工具（网页抓取版）\n功能：\n  1. Jira网页登录，下载筛选器HTML页面\n  2. 解析HTML提取表格数据（与网页显示的列完全一致）\n  3. 重建飞书多维表格字段（与Jira网页列名一致）\n  4. 写入数据到飞书\n  5. 支持定时自动同步（每10分钟）\n  6. 配置自动保存，下次启动自动填充\n用法：python jira_feishu_sync.py\n打包：pyinstaller --onefile --windowed jira_feishu_sync.py\n'
+[_get_base_dir] '获取程序运行目录（兼容脚本和exe模式）'
+[_get_base_dir] 'frozen'
+[<module>] 'jira_feishu_sync_config.json'
+[<module>] 'https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal'
+[<module>] 'https://open.feishu.cn/open-apis/bitable/v1'
+[ConfigManager] 'ConfigManager'
+[ConfigManager] '配置管理：保存/读取用户配置'
+[load] 'r'
+[load] 'utf-8'
+[save] 'w'
+[save] 'utf-8'
+[<module>] 'ConfigManager'
+[FeishuBitableClient] 'FeishuBitableClient'
+[FeishuBitableClient] '飞书多维表格（Bitable）API客户端'
+[_request] '发送HTTP请求'
+[_request] 'Bearer '
+[_request] 'Authorization'
+[_request] 'application/json; charset=utf-8'
+[_request] 'Content-Type'
+[_request] 'utf-8'
+[_request] 'code'
+[_request] 'msg'
+[get_access_token] '获取 tenant_access_token'
+[get_access_token] 'POST'
+[get_access_token] 'code'
+[get_access_token] 'tenant_access_token'
+[get_access_token] 'msg'
+[get_access_token] '获取token失败'
+[list_tables] '列出多维表格中的所有数据表'
+[list_tables] '/apps/'
+[list_tables] '/tables'
+[list_tables] 'GET'
+[list_tables] 'code'
+[list_tables] 'data'
+[list_tables] 'items'
+[list_tables] 'msg'
+[list_tables] '列出表格失败'
+[create_table] '创建新的数据表（只创建表格，不预定义字段）'
+[create_table] '/apps/'
+[create_table] '/tables'
+[create_table] 'table'
+[create_table] 'POST'
+[create_table] 'code'
+[create_table] 'data'
+[create_table] 'msg'
+[create_table] '创建表格失败'
+[list_fields] '列出数据表中的所有字段'
+[list_fields] '/apps/'
+[list_fields] '/tables/'
+[list_fields] '/fields'
+[list_fields] 'GET'
+[list_fields] 'code'
+[list_fields] 'data'
+[list_fields] 'items'
+[list_fields] 'msg'
+[list_fields] '列出字段失败'
+[add_field] '添加字段到数据表'
+[add_field] '/apps/'
+[add_field] '/tables/'
+[add_field] '/fields'
+[add_field] 'POST'
+[add_field] 'code'
+[add_field] 'data'
+[add_field] 'msg'
+[add_field] '添加字段失败'
+[delete_field] '删除字段'
+[delete_field] '/apps/'
+[delete_field] '/tables/'
+[delete_field] '/fields/'
+[delete_field] 'DELETE'
+[delete_field] 'code'
+[delete_field] 'data'
+[delete_field] 'msg'
+[delete_field] '删除字段失败'
+[rename_field] '重命名字段'
+[rename_field] '/apps/'
+[rename_field] '/tables/'
+[rename_field] '/fields/'
+[rename_field] 'PUT'
+[rename_field] 'code'
+[rename_field] 'data'
+[rename_field] 'msg'
+[rename_field] '重命名字段失败'
+[list_records] '列出数据表中的所有记录'
+[list_records] '/apps/'
+[list_records] '/tables/'
+[list_records] '/records?page_size='
+[list_records] '&page_token='
+[list_records] 'GET'
+[list_records] 'code'
+[list_records] 'data'
+[list_records] 'items'
+[list_records] 'page_token'
+[list_records] 'msg'
+[list_records] '获取记录失败'
+[get_all_records] '获取所有记录（分页）'
+[get_all_records] '/apps/'
+[get_all_records] '/tables/'
+[get_all_records] '/records?page_size=500'
+[get_all_records] '&page_token='
+[get_all_records] 'GET'
+[get_all_records] 'code'
+[get_all_records] 'msg'
+[get_all_records] '获取记录失败'
+[get_all_records] 'data'
+[get_all_records] 'items'
+[get_all_records] 'has_more'
+[get_all_records] 'page_token'
+[create_record] '单条创建记录'
+[create_record] '/apps/'
+[create_record] '/tables/'
+[create_record] '/records'
+[create_record] 'fields'
+[create_record] 'POST'
+[create_record] 'code'
+[create_record] 'data'
+[create_record] 'msg'
+[create_record] '创建记录失败'
+[batch_create_records] '批量创建记录'
+[batch_create_records] '/apps/'
+[batch_create_records] '/tables/'
+[batch_create_records] '/records/batch_create'
+[batch_create_records] 'records'
+[batch_create_records] 'POST'
+[batch_create_records] 'code'
+[batch_create_records] 'data'
+[batch_create_records] 'msg'
+[batch_create_records] '批量创建记录失败'
+[batch_delete_records] '批量删除记录'
+[batch_delete_records] '/apps/'
+[batch_delete_records] '/tables/'
+[batch_delete_records] '/records/batch_delete'
+[batch_delete_records] 'records'
+[batch_delete_records] 'POST'
+[batch_delete_records] 'code'
+[batch_delete_records] 'data'
+[batch_delete_records] 'msg'
+[batch_delete_records] '删除记录失败'
+[update_record] '更新单条记录'
+[update_record] '/apps/'
+[update_record] '/tables/'
+[update_record] '/records/'
+[update_record] 'fields'
+[update_record] 'PUT'
+[update_record] 'code'
+[update_record] 'data'
+[update_record] 'msg'
+[update_record] '更新记录失败'
+[batch_update_records] '批量更新记录'
+[batch_update_records] '/apps/'
+[batch_update_records] '/tables/'
+[batch_update_records] '/records/batch_update'
+[batch_update_records] 'records'
+[batch_update_records] 'PATCH'
+[batch_update_records] 'code'
+[batch_update_records] 'data'
+[batch_update_records] 'msg'
+[batch_update_records] '批量更新记录失败'
+[<module>] 'FeishuBitableClient'
+[JiraHtmlClient] 'JiraHtmlClient'
+[JiraHtmlClient] 'Jira 网页客户端（通过HTML抓取获取数据）'
+[__init__] '/'
+[login] '登录Jira，获取session'
+[login] '/login.jsp'
+[login] ''
+[login] 'Log In'
+[login] 'utf-8'
+[login] 'POST'
+[login] 'Content-Type'
+[login] 'application/x-www-form-urlencoded'
+[login] 'Log Out'
+[login] 'log out'
+[login] 'dashboard'
+[fetch_filter_html] '下载筛选器HTML页面'
+[fetch_filter_html] 'GET'
+[fetch_filter_html] 'utf-8'
+[parse_html] '解析Jira HTML，提取表头和数据行'
+[parse_html] '<thead[^>]*>(.*?)</thead>'
+[parse_html] '<th[^>]*>(.*?)</th>'
+[parse_html] '<[^>]+>'
+[parse_html] ''
+[parse_html] '<tr[^>]*>(.*?)</tr>'
+[parse_html] '<td[^>]*>(.*?)</td>'
+[parse_html] '<tr[^>]*class="[^"]*issuerow[^"]*"[^>]*>(.*?)</tr>'
+[parse_html_alternative] '备用解析方法，尝试从 issue-table 中提取'
+[parse_html_alternative] '<table[^>]*id="issuetable"[^>]*>(.*?)</table>'
+[parse_html_alternative] '<table[^>]*class="[^"]*issue[^"]*"[^>]*>(.*?)</table>'
+[parse_html_alternative] '<thead[^>]*>(.*?)</thead>'
+[parse_html_alternative] '<th[^>]*>(.*?)</th>'
+[parse_html_alternative] '<[^>]+>'
+[parse_html_alternative] ''
+[parse_html_alternative] '<tr[^>]*class="[^"]*issuerow[^"]*"[^>]*>(.*?)</tr>'
+[parse_html_alternative] '<td[^>]*>(.*?)</td>'
+[<module>] 'JiraHtmlClient'
+[SyncManager] 'SyncManager'
+[SyncManager] '同步管理器'
+[parse_feishu_url] '解析飞书多维表格URL，提取app_token和可选的table_id'
+[parse_feishu_url] 'table'
+[parse_jira_filter_url] '解析Jira筛选器URL，提取filter ID'
+[parse_jira_filter_url] '[?&](?:filter|requestId)=(\\d+)'
+[rebuild_table_fields] '重建表格字段，与Jira网页列名保持一致（全量重建，保证顺序）'
+[rebuild_table_fields] '正在检查飞书表格字段...'
+[rebuild_table_fields] '获取现有字段失败: '
+[rebuild_table_fields] 'is_primary'
+[rebuild_table_fields] 'field_name'
+[rebuild_table_fields] ''
+[rebuild_table_fields] 'Issue Key'
+[rebuild_table_fields] '字段无变化，跳过重建'
+[rebuild_table_fields] '字段有变化，执行全量重建...'
+[rebuild_table_fields] 'field_id'
+[rebuild_table_fields] '删除 '
+[rebuild_table_fields] ' 个现有字段...'
+[rebuild_table_fields] '按Jira顺序创建 '
+[rebuild_table_fields] ' 个字段...'
+[rebuild_table_fields] "  创建字段 '"
+[rebuild_table_fields] "' 失败: "
+[rebuild_table_fields] '字段重建完成'
+[clear_all_records] '清空表格中的所有记录'
+[clear_all_records] '正在清空现有记录...'
+[clear_all_records] '获取记录失败: '
+[clear_all_records] '表格为空，无需清理'
+[clear_all_records] 'record_id'
+[clear_all_records] '已删除 '
+[clear_all_records] ' 条记录'
+[sync_incremental] '增量同步：对比差异并更新/新增/删除记录\n        \n        Args:\n            feishu_client: 飞书客户端\n            app_token: 应用token\n            table_id: 表格ID\n            headers: Jira表头列表\n            rows: Jira数据行列表\n            log_callback: 日志回调函数\n        \n        Returns:\n            (success, stats): 成功标志和统计信息字典\n        '
+[sync_incremental] '开始增量同步...'
+[sync_incremental] '获取飞书记录失败: '
+[sync_incremental] 'record_id'
+[sync_incremental] 'fields'
+[sync_incremental] ''
+[sync_incremental] 'to_create'
+[sync_incremental] 'to_update'
+[sync_incremental] 'to_delete'
+[sync_incremental] '差异分析完成: 需新增 '
+[sync_incremental] ' 条, 需更新 '
+[sync_incremental] ' 条, 需删除 '
+[sync_incremental] ' 条'
+[sync_incremental] '正在新增 '
+[sync_incremental] ' 条记录...'
+[sync_incremental] '  批量创建失败: '
+[sync_incremental] '正在更新 '
+[sync_incremental] 'row'
+[sync_incremental] '  批量更新失败: '
+[sync_incremental] '正在删除 '
+[sync_incremental] '增量同步完成！'
+[write_records] '将数据写入飞书表格'
+[write_records] '没有数据需要写入'
+[write_records] '正在写入 '
+[write_records] ' 条记录...'
+[write_records] ''
+[write_records] 'fields'
+[write_records] '  批量创建失败('
+[write_records] ')，尝试逐条创建...'
+[write_records] '  逐条创建失败('
+[write_records] '/'
+[write_records] '): '
+[write_records] '  已写入 '
+[write_records] ' 条'
+[write_records] '写入完成！成功: '
+[<module>] 'SyncManager'
+[JiraFeishuSyncApp] 'JiraFeishuSyncApp'
+[JiraFeishuSyncApp] '主应用'
+[__init__] 'Jira ↔ 飞书多维表格同步工具'
+[__init__] '700x650'
+[_build_ui] '构建UI界面'
+[_build_ui] '20'
+[_build_ui] '飞书多维表格配置'
+[_build_ui] '10'
+[_build_ui] '多维表格地址:'
+[_build_ui] 'w'
+[_build_ui] 'feishu_url'
+[_build_ui] ''
+[_build_ui] 'App ID:'
+[_build_ui] 'app_id'
+[_build_ui] 'App Secret:'
+[_build_ui] '*'
+[_build_ui] 'app_secret'
+[_build_ui] 'Jira 配置'
+[_build_ui] '筛选器地址:'
+[_build_ui] 'jira_filter_url'
+[_build_ui] '用户名:'
+[_build_ui] 'jira_username'
+[_build_ui] '密码:'
+[_build_ui] 'jira_password'
+[_build_ui] '立即同步'
+[_build_ui] '开始定时同步'
+[_build_ui] '保存配置'
+[_build_ui] '就绪'
+[_build_ui] 'gray'
+[_build_ui] 'blue'
+[_build_ui] '同步日志'
+[_build_ui] '5'
+[_log] '添加日志'
+[_log] '%Y-%m-%d %H:%M:%S'
+[_log] '['
+[_log] '] '
+[_log] '\n'
+[_save_config] '保存配置'
+[_save_config] '配置已保存'
+[_save_config] '配置已成功保存！'
+[_get_config_values] '获取当前配置值'
+[_sync_once] '执行一次同步'
+[_sync_once] 'feishu_url'
+[_sync_once] 'app_id'
+[_sync_once] 'app_secret'
+[_sync_once] 'jira_filter_url'
+[_sync_once] 'jira_username'
+[_sync_once] 'jira_password'
+[_sync_once] '错误'
+[_sync_once] '请填写所有必填项！'
+[_do_sync] '执行同步的核心逻辑'
+[<lambda>] '=================================================='
+[<lambda>] '开始同步...'
+[<lambda>] '同步中...'
+[<lambda>] 'orange'
+[<lambda>] '输入的飞书地址: '
+[<lambda>] 'feishu_url'
+[_do_sync] 'feishu_url'
+[<lambda>] '错误: 无法解析飞书多维表格地址'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] '飞书 App Token: '
+[_do_sync] 'jira_filter_url'
+[<lambda>] '错误: 无法解析Jira筛选器地址'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] 'Jira Filter ID: '
+[_do_sync] 'app_id'
+[_do_sync] 'app_secret'
+[<lambda>] '飞书认证失败: '
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] '飞书认证成功'
+[<lambda>] '获取表格列表失败: '
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[_do_sync] 'name'
+[_do_sync] 'jira-tickets'
+[<lambda>] '数据表 "jira-tickets" 不存在，正在创建...'
+[_do_sync] 'Jira Tickets同步'
+[<lambda>] '创建表格失败: '
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[_do_sync] 'table_id'
+[<lambda>] '已创建数据表 "jira-tickets" (ID: '
+[<lambda>] ')'
+[<lambda>] '找到数据表 "jira-tickets" (ID: '
+[<lambda>] ')'
+[<lambda>] '正在连接Jira...'
+[_do_sync] 'http://jira.z-onesoftware.com:8080'
+[_do_sync] 'jira_username'
+[_do_sync] 'jira_password'
+[<lambda>] '正在登录Jira...'
+[<lambda>] 'Jira登录失败'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] 'Jira登录成功'
+[<lambda>] '正在下载筛选器页面...'
+[<lambda>] '下载筛选器页面失败'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] 'HTML页面大小: '
+[<lambda>] ' 字节'
+[<lambda>] '正在解析HTML...'
+[<lambda>] '尝试备用解析方法...'
+[<lambda>] '错误: 无法从HTML中解析出表头'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[_do_sync] 'Issue Key'
+[<lambda>] '解析到 '
+[<lambda>] ' 列: '
+[<lambda>] ', '
+[<lambda>] '解析到 '
+[<lambda>] ' 行数据'
+[<lambda>] '正在检查并重建飞书表格字段...'
+[<lambda>] '重建表格字段失败'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] '清空记录失败'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] '写入记录失败'
+[<lambda>] '同步失败'
+[<lambda>] 'red'
+[<lambda>] '总计: '
+[<lambda>] ' 行数据, '
+[<lambda>] ' 列'
+[<lambda>] '同步完成'
+[<lambda>] 'green'
+[_do_sync] '同步异常: '
+[_do_sync] '\n'
+[<lambda>] '同步异常'
+[<lambda>] 'red'
+[_auto_start_sync] '启动时自动开始定时同步'
+[_auto_start_sync] 'feishu_url'
+[_auto_start_sync] 'app_id'
+[_auto_start_sync] 'app_secret'
+[_auto_start_sync] 'jira_filter_url'
+[_auto_start_sync] 'jira_username'
+[_auto_start_sync] 'jira_password'
+[_auto_start_sync] '配置已加载，自动启动定时同步...'
+[_auto_start_sync] '停止定时同步'
+[_auto_start_sync] '定时同步中'
+[_auto_start_sync] 'blue'
+[_auto_start_sync] '定时同步已启动，每 '
+[_auto_start_sync] ' 分钟同步一次'
+[_auto_start_sync] '配置不完整，请填写所有配置项后手动启动定时同步'
+[_toggle_auto_sync] '切换定时同步状态'
+[_toggle_auto_sync] '开始定时同步'
+[_toggle_auto_sync] '已停止'
+[_toggle_auto_sync] 'gray'
+[_toggle_auto_sync] ''
+[_toggle_auto_sync] '定时同步已停止'
+[_toggle_auto_sync] '停止定时同步'
+[_toggle_auto_sync] '定时同步中'
+[_toggle_auto_sync] 'blue'
+[_toggle_auto_sync] '定时同步已启动，每 '
+[_toggle_auto_sync] ' 分钟同步一次'
+[_start_timer] '启动定时器'
+[run] '运行应用'
+[<module>] 'JiraFeishuSyncApp'
+[<module>] '__main__'
